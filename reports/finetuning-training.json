@@ -1,0 +1,1314 @@
+{
+  "config": {
+    "seed": 20261026,
+    "epochs": 6,
+    "batch_size": 8,
+    "learning_rate": 2e-05,
+    "weight_decay": 0.01,
+    "max_tokens": 128,
+    "torch_threads": 2,
+    "base_repo": "cross-encoder/ms-marco-MiniLM-L6-v2",
+    "base_revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+    "loss": "Cross entropy over eight shared-scalar CrossEncoder candidate scores; original one-logit head retained",
+    "selection": "Highest validation macro F1 after each epoch, exact ties choose earliest; deploy trained only if validation beats base; test never selects parameters"
+  },
+  "dataset": {
+    "rows": {
+      "train": 96,
+      "valid": 32,
+      "test": 48
+    },
+    "classes": [
+      "model",
+      "power_w",
+      "voltage_v",
+      "current_a",
+      "mass_kg",
+      "max_temp_c",
+      "ip_rating",
+      "ignore"
+    ],
+    "files": {
+      "training/label-specs.json": "46776d70393090202c36730907e3f158857f4be05548da3dd998c3f4fcebc4de",
+      "training/config.json": "7941bdca2a61268401483a72aee04e909050c84f693c95ad0b2f69afd4bc994f",
+      "specledger/field_descriptions.json": "c775ffaa97d3ae9405152920c068bfc340eb7a407d5021c6a35c5889a3b57acb",
+      "training/datasets/train.json": "7ad6e5ae1cbeb74109c2455d6c3d76a786c0f5e6005657a67d954ede968b9d6b",
+      "training/datasets/valid.json": "baa91f05d73ad9dbd01627c9e8abddb70d1a0e1c08b2d7abd472f50bdb989347",
+      "training/datasets/test.json": "4abeab51be78fbccf536d1a38385d98c75e8be29e4840948952e42a77e0cda50"
+    },
+    "scope": "Same-author synthetic English field labels, eight closed classes. Exact label strings are disjoint, but vocabulary and schema concepts overlap; no independent annotation or unseen-vendor/OCR generalization claim. Input is label text only, never values or units."
+  },
+  "base_validation": {
+    "rows": 32,
+    "correct": 25,
+    "accuracy": 0.78125,
+    "macro_f1": 0.7536075036075036,
+    "distractor_false_accepts": 3,
+    "distractor_total": 4,
+    "per_class": {
+      "model": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 1,
+        "f1": 0.8571428571428571
+      },
+      "power_w": {
+        "tp": 4,
+        "fp": 1,
+        "fn": 0,
+        "f1": 0.8888888888888888
+      },
+      "voltage_v": {
+        "tp": 4,
+        "fp": 3,
+        "fn": 0,
+        "f1": 0.7272727272727273
+      },
+      "current_a": {
+        "tp": 1,
+        "fp": 1,
+        "fn": 3,
+        "f1": 0.3333333333333333
+      },
+      "mass_kg": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "f1": 1.0
+      },
+      "max_temp_c": {
+        "tp": 4,
+        "fp": 1,
+        "fn": 0,
+        "f1": 0.8888888888888888
+      },
+      "ip_rating": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "f1": 1.0
+      },
+      "ignore": {
+        "tp": 1,
+        "fp": 1,
+        "fn": 3,
+        "f1": 0.3333333333333333
+      }
+    },
+    "records": [
+      {
+        "id": "valid-model-0",
+        "label": "Commercial type reference",
+        "field": "model",
+        "predicted": "ignore",
+        "scores": [
+          -8.642623901367188,
+          -8.908332824707031,
+          -7.708439826965332,
+          -8.679662704467773,
+          -9.52015495300293,
+          -8.887781143188477,
+          -8.317023277282715,
+          -7.013740062713623
+        ],
+        "margin": 0.694699764251709
+      },
+      {
+        "id": "valid-model-1",
+        "label": "Equipment designation code",
+        "field": "model",
+        "predicted": "model",
+        "scores": [
+          -2.17061710357666,
+          -6.285318374633789,
+          -5.162568092346191,
+          -6.5353827476501465,
+          -7.8430094718933105,
+          -8.852415084838867,
+          -3.7738590240478516,
+          -7.577212333679199
+        ],
+        "margin": 1.6032419204711914
+      },
+      {
+        "id": "valid-model-2",
+        "label": "Ordering model reference",
+        "field": "model",
+        "predicted": "model",
+        "scores": [
+          -5.852006435394287,
+          -9.350041389465332,
+          -8.207776069641113,
+          -9.262115478515625,
+          -9.828604698181152,
+          -9.541199684143066,
+          -9.11368179321289,
+          -7.836943626403809
+        ],
+        "margin": 1.9849371910095215
+      },
+      {
+        "id": "valid-model-3",
+        "label": "Product type identifier",
+        "field": "model",
+        "predicted": "model",
+        "scores": [
+          -2.3845906257629395,
+          -9.808124542236328,
+          -8.382465362548828,
+          -9.237398147583008,
+          -10.080240249633789,
+          -9.63541316986084,
+          -7.795820713043213,
+          -7.730717658996582
+        ],
+        "margin": 5.346127033233643
+      },
+      {
+        "id": "valid-power_w-0",
+        "label": "Declared nominal electrical power",
+        "field": "power_w",
+        "predicted": "power_w",
+        "scores": [
+          -10.124334335327148,
+          -0.5438036918640137,
+          -5.246177673339844,
+          -7.488219261169434,
+          -10.54015064239502,
+          -9.393446922302246,
+          -8.561044692993164,
+          -6.662700176239014
+        ],
+        "margin": 4.70237398147583
+      },
+      {
+        "id": "valid-power_w-1",
+        "label": "Equipment nominal power level",
+        "field": "power_w",
+        "predicted": "power_w",
+        "scores": [
+          -6.791251182556152,
+          1.5770485401153564,
+          -3.3034398555755615,
+          -6.125527381896973,
+          -7.864664077758789,
+          -8.592720031738281,
+          -7.2035393714904785,
+          -7.304206371307373
+        ],
+        "margin": 4.880488395690918
+      },
+      {
+        "id": "valid-power_w-2",
+        "label": "Specified continuous wattage",
+        "field": "power_w",
+        "predicted": "power_w",
+        "scores": [
+          -10.1721830368042,
+          -6.335557460784912,
+          -7.509631156921387,
+          -8.543055534362793,
+          -10.27116584777832,
+          -8.983284950256348,
+          -8.889060974121094,
+          -7.9594831466674805
+        ],
+        "margin": 1.1740736961364746
+      },
+      {
+        "id": "valid-power_w-3",
+        "label": "Nominal device power capacity",
+        "field": "power_w",
+        "predicted": "power_w",
+        "scores": [
+          -8.296539306640625,
+          -0.8808337450027466,
+          -5.600621223449707,
+          -7.91359281539917,
+          -9.07992172241211,
+          -9.363266944885254,
+          -9.291769981384277,
+          -7.471991539001465
+        ],
+        "margin": 4.7197874784469604
+      },
+      {
+        "id": "valid-voltage_v-0",
+        "label": "Voltage applied to supply terminals",
+        "field": "voltage_v",
+        "predicted": "voltage_v",
+        "scores": [
+          -9.85331916809082,
+          -8.756032943725586,
+          -1.1013174057006836,
+          -4.360918045043945,
+          -10.199021339416504,
+          -9.624354362487793,
+          -8.963031768798828,
+          -8.085562705993652
+        ],
+        "margin": 3.2596006393432617
+      },
+      {
+        "id": "valid-voltage_v-1",
+        "label": "Electrical supply potential",
+        "field": "voltage_v",
+        "predicted": "voltage_v",
+        "scores": [
+          -9.535966873168945,
+          -7.648615837097168,
+          -2.565584659576416,
+          -3.832615613937378,
+          -9.982572555541992,
+          -9.047613143920898,
+          -7.888215065002441,
+          -7.188670635223389
+        ],
+        "margin": 1.267030954360962
+      },
+      {
+        "id": "valid-voltage_v-2",
+        "label": "Required mains potential",
+        "field": "voltage_v",
+        "predicted": "voltage_v",
+        "scores": [
+          -9.297245979309082,
+          -8.46064281463623,
+          -3.5054931640625,
+          -7.956917762756348,
+          -9.517202377319336,
+          -8.246112823486328,
+          -8.030580520629883,
+          -7.984310626983643
+        ],
+        "margin": 4.451424598693848
+      },
+      {
+        "id": "valid-voltage_v-3",
+        "label": "Rated incoming line voltage",
+        "field": "voltage_v",
+        "predicted": "voltage_v",
+        "scores": [
+          -10.199877738952637,
+          -6.577607154846191,
+          -5.390272617340088,
+          -7.5470685958862305,
+          -10.61410903930664,
+          -9.727655410766602,
+          -9.191459655761719,
+          -7.071628570556641
+        ],
+        "margin": 1.1873345375061035
+      },
+      {
+        "id": "valid-current_a-0",
+        "label": "Amperage taken from the supply",
+        "field": "current_a",
+        "predicted": "voltage_v",
+        "scores": [
+          -9.53207015991211,
+          -8.885505676269531,
+          -4.984255790710449,
+          -5.133514881134033,
+          -9.471672058105469,
+          -9.693044662475586,
+          -8.643697738647461,
+          -8.215851783752441
+        ],
+        "margin": 0.14925909042358398
+      },
+      {
+        "id": "valid-current_a-1",
+        "label": "Nominal current demand",
+        "field": "current_a",
+        "predicted": "power_w",
+        "scores": [
+          -9.82505989074707,
+          -5.773286819458008,
+          -8.346924781799316,
+          -7.392256259918213,
+          -9.909988403320312,
+          -8.842097282409668,
+          -9.152487754821777,
+          -8.220575332641602
+        ],
+        "margin": 1.618969440460205
+      },
+      {
+        "id": "valid-current_a-2",
+        "label": "Current required at power inlet",
+        "field": "current_a",
+        "predicted": "voltage_v",
+        "scores": [
+          -9.984216690063477,
+          -8.048162460327148,
+          -1.9709904193878174,
+          -3.850872039794922,
+          -10.64997673034668,
+          -8.57110595703125,
+          -8.69555950164795,
+          -7.973587512969971
+        ],
+        "margin": 1.8798816204071045
+      },
+      {
+        "id": "valid-current_a-3",
+        "label": "Electrical input current demand",
+        "field": "current_a",
+        "predicted": "current_a",
+        "scores": [
+          -9.65113639831543,
+          -8.123920440673828,
+          -2.7647271156311035,
+          0.045023344457149506,
+          -10.486546516418457,
+          -9.516157150268555,
+          -8.491878509521484,
+          -6.056340217590332
+        ],
+        "margin": 2.809750460088253
+      },
+      {
+        "id": "valid-mass_kg-0",
+        "label": "Equipment mass excluding crate",
+        "field": "mass_kg",
+        "predicted": "mass_kg",
+        "scores": [
+          -6.809595108032227,
+          -8.099740982055664,
+          -7.096107006072998,
+          -8.060479164123535,
+          -0.887424111366272,
+          -9.844247817993164,
+          -8.24394416809082,
+          -8.660528182983398
+        ],
+        "margin": 5.922170996665955
+      },
+      {
+        "id": "valid-mass_kg-1",
+        "label": "Unboxed unit mass",
+        "field": "mass_kg",
+        "predicted": "mass_kg",
+        "scores": [
+          -9.488653182983398,
+          -9.458918571472168,
+          -8.170516014099121,
+          -9.036038398742676,
+          -6.564943790435791,
+          -9.450305938720703,
+          -9.143428802490234,
+          -7.810245513916016
+        ],
+        "margin": 1.2453017234802246
+      },
+      {
+        "id": "valid-mass_kg-2",
+        "label": "Device-only mass",
+        "field": "mass_kg",
+        "predicted": "mass_kg",
+        "scores": [
+          -5.930385589599609,
+          -8.819710731506348,
+          -7.478763580322266,
+          -8.455085754394531,
+          -4.348112106323242,
+          -9.335599899291992,
+          -8.740522384643555,
+          -7.965902328491211
+        ],
+        "margin": 1.5822734832763672
+      },
+      {
+        "id": "valid-mass_kg-3",
+        "label": "Net product mass without packing",
+        "field": "mass_kg",
+        "predicted": "mass_kg",
+        "scores": [
+          -8.344705581665039,
+          -10.384206771850586,
+          -9.480083465576172,
+          -10.270054817199707,
+          -1.9359532594680786,
+          -10.053565979003906,
+          -9.917182922363281,
+          -8.116199493408203
+        ],
+        "margin": 6.1802462339401245
+      },
+      {
+        "id": "valid-max_temp_c-0",
+        "label": "Operating ambient upper bound",
+        "field": "max_temp_c",
+        "predicted": "max_temp_c",
+        "scores": [
+          -9.21038818359375,
+          -8.860669136047363,
+          -7.472201347351074,
+          -7.991562843322754,
+          -9.490466117858887,
+          -2.289184093475342,
+          -7.636540412902832,
+          -8.06229019165039
+        ],
+        "margin": 5.183017253875732
+      },
+      {
+        "id": "valid-max_temp_c-1",
+        "label": "Highest permissible working ambient",
+        "field": "max_temp_c",
+        "predicted": "max_temp_c",
+        "scores": [
+          -9.86351490020752,
+          -9.161782264709473,
+          -8.168176651000977,
+          -9.144622802734375,
+          -10.007640838623047,
+          -1.6795704364776611,
+          -8.324639320373535,
+          -8.12914752960205
+        ],
+        "margin": 6.44957709312439
+      },
+      {
+        "id": "valid-max_temp_c-2",
+        "label": "Upper service ambient temperature",
+        "field": "max_temp_c",
+        "predicted": "max_temp_c",
+        "scores": [
+          -10.222265243530273,
+          -9.751213073730469,
+          -8.53253173828125,
+          -9.528188705444336,
+          -10.290077209472656,
+          -2.67374849319458,
+          -8.935272216796875,
+          -7.506352424621582
+        ],
+        "margin": 4.832603931427002
+      },
+      {
+        "id": "valid-max_temp_c-3",
+        "label": "Thermal ceiling while operating",
+        "field": "max_temp_c",
+        "predicted": "max_temp_c",
+        "scores": [
+          -10.34605884552002,
+          -10.066165924072266,
+          -8.971179008483887,
+          -9.745889663696289,
+          -10.430830001831055,
+          -6.941174507141113,
+          -9.357439041137695,
+          -9.141507148742676
+        ],
+        "margin": 2.0300045013427734
+      },
+      {
+        "id": "valid-ip_rating-0",
+        "label": "Enclosure ingress classification",
+        "field": "ip_rating",
+        "predicted": "ip_rating",
+        "scores": [
+          -9.241558074951172,
+          -9.805634498596191,
+          -8.434552192687988,
+          -9.01672077178955,
+          -9.739261627197266,
+          -8.490720748901367,
+          -4.1621503829956055,
+          -8.1058349609375
+        ],
+        "margin": 3.9436845779418945
+      },
+      {
+        "id": "valid-ip_rating-1",
+        "label": "Rated dust and moisture protection",
+        "field": "ip_rating",
+        "predicted": "ip_rating",
+        "scores": [
+          -10.690338134765625,
+          -9.759721755981445,
+          -9.857856750488281,
+          -10.551971435546875,
+          -10.656587600708008,
+          -9.885342597961426,
+          -2.8152499198913574,
+          -8.775860786437988
+        ],
+        "margin": 5.960610866546631
+      },
+      {
+        "id": "valid-ip_rating-2",
+        "label": "Ingress resistance designation",
+        "field": "ip_rating",
+        "predicted": "ip_rating",
+        "scores": [
+          -9.69967269897461,
+          -9.962039947509766,
+          -8.700552940368652,
+          -9.381622314453125,
+          -10.406023025512695,
+          -9.742709159851074,
+          -3.34824800491333,
+          -8.57577896118164
+        ],
+        "margin": 5.2275309562683105
+      },
+      {
+        "id": "valid-ip_rating-3",
+        "label": "International ingress protection code",
+        "field": "ip_rating",
+        "predicted": "ip_rating",
+        "scores": [
+          -9.00031852722168,
+          -10.002851486206055,
+          -8.827823638916016,
+          -9.612482070922852,
+          -10.25745964050293,
+          -8.788553237915039,
+          -0.32489579916000366,
+          -8.594226837158203
+        ],
+        "margin": 8.2693310379982
+      },
+      {
+        "id": "valid-ignore-0",
+        "label": "Voltage delivered to the load",
+        "field": "ignore",
+        "predicted": "voltage_v",
+        "scores": [
+          -9.86793327331543,
+          -8.088102340698242,
+          -4.256992340087891,
+          -6.2484540939331055,
+          -10.075191497802734,
+          -9.550727844238281,
+          -9.117584228515625,
+          -7.584073066711426
+        ],
+        "margin": 1.9914617538452148
+      },
+      {
+        "id": "valid-ignore-1",
+        "label": "Current available at output",
+        "field": "ignore",
+        "predicted": "current_a",
+        "scores": [
+          -9.287867546081543,
+          -7.962460517883301,
+          -3.6436333656311035,
+          -0.508273184299469,
+          -9.853736877441406,
+          -8.708577156066895,
+          -8.580111503601074,
+          -6.700606346130371
+        ],
+        "margin": 3.1353601813316345
+      },
+      {
+        "id": "valid-ignore-2",
+        "label": "Transport crate gross weight",
+        "field": "ignore",
+        "predicted": "ignore",
+        "scores": [
+          -10.470229148864746,
+          -10.6416015625,
+          -9.520753860473633,
+          -10.23697566986084,
+          -5.637551307678223,
+          -10.479235649108887,
+          -10.273600578308105,
+          -5.414947986602783
+        ],
+        "margin": 0.22260332107543945
+      },
+      {
+        "id": "valid-ignore-3",
+        "label": "Maximum storage ambient",
+        "field": "ignore",
+        "predicted": "max_temp_c",
+        "scores": [
+          -9.994566917419434,
+          -9.600704193115234,
+          -8.634920120239258,
+          -9.44454574584961,
+          -9.206257820129395,
+          1.3532030582427979,
+          -9.005758285522461,
+          -7.231070518493652
+        ],
+        "margin": 8.58427357673645
+      }
+    ],
+    "elapsed_ms": 242.09
+  },
+  "selected_validation": {
+    "rows": 32,
+    "correct": 27,
+    "accuracy": 0.84375,
+    "macro_f1": 0.8015873015873015,
+    "distractor_false_accepts": 4,
+    "distractor_total": 4,
+    "per_class": {
+      "model": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 1,
+        "f1": 0.8571428571428571
+      },
+      "power_w": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "f1": 1.0
+      },
+      "voltage_v": {
+        "tp": 4,
+        "fp": 1,
+        "fn": 0,
+        "f1": 0.8888888888888888
+      },
+      "current_a": {
+        "tp": 4,
+        "fp": 1,
+        "fn": 0,
+        "f1": 0.8888888888888888
+      },
+      "mass_kg": {
+        "tp": 4,
+        "fp": 1,
+        "fn": 0,
+        "f1": 0.8888888888888888
+      },
+      "max_temp_c": {
+        "tp": 4,
+        "fp": 1,
+        "fn": 0,
+        "f1": 0.8888888888888888
+      },
+      "ip_rating": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "f1": 1.0
+      },
+      "ignore": {
+        "tp": 0,
+        "fp": 1,
+        "fn": 4,
+        "f1": 0.0
+      }
+    },
+    "records": [
+      {
+        "id": "valid-model-0",
+        "label": "Commercial type reference",
+        "field": "model",
+        "predicted": "ignore",
+        "scores": [
+          -7.3494415283203125,
+          -9.422801971435547,
+          -9.82244873046875,
+          -10.322969436645508,
+          -10.122218132019043,
+          -10.78901195526123,
+          -9.05945873260498,
+          -6.3915581703186035
+        ],
+        "margin": 0.957883358001709
+      },
+      {
+        "id": "valid-model-1",
+        "label": "Equipment designation code",
+        "field": "model",
+        "predicted": "model",
+        "scores": [
+          1.0675781965255737,
+          -3.082224130630493,
+          -5.2072930335998535,
+          -6.250178813934326,
+          -5.252004623413086,
+          -10.636429786682129,
+          -0.6924538612365723,
+          -6.474803447723389
+        ],
+        "margin": 1.760032057762146
+      },
+      {
+        "id": "valid-model-2",
+        "label": "Ordering model reference",
+        "field": "model",
+        "predicted": "model",
+        "scores": [
+          -3.0113229751586914,
+          -10.354141235351562,
+          -10.451913833618164,
+          -10.679511070251465,
+          -10.381856918334961,
+          -10.987648010253906,
+          -10.777056694030762,
+          -7.153687000274658
+        ],
+        "margin": 4.142364025115967
+      },
+      {
+        "id": "valid-model-3",
+        "label": "Product type identifier",
+        "field": "model",
+        "predicted": "model",
+        "scores": [
+          1.1242035627365112,
+          -10.557109832763672,
+          -10.192770957946777,
+          -10.389596939086914,
+          -10.302090644836426,
+          -11.15432357788086,
+          -7.2530012130737305,
+          -6.351052761077881
+        ],
+        "margin": 7.475256323814392
+      },
+      {
+        "id": "valid-power_w-0",
+        "label": "Declared nominal electrical power",
+        "field": "power_w",
+        "predicted": "power_w",
+        "scores": [
+          -11.008047103881836,
+          2.6238441467285156,
+          -4.687766075134277,
+          -8.337098121643066,
+          -11.100666046142578,
+          -10.96000862121582,
+          -8.873777389526367,
+          -3.845968246459961
+        ],
+        "margin": 6.469812393188477
+      },
+      {
+        "id": "valid-power_w-1",
+        "label": "Equipment nominal power level",
+        "field": "power_w",
+        "predicted": "power_w",
+        "scores": [
+          -7.351523399353027,
+          3.9661686420440674,
+          -3.187041759490967,
+          -7.328551769256592,
+          -6.352371692657471,
+          -10.317105293273926,
+          -7.271965503692627,
+          -4.860773086547852
+        ],
+        "margin": 7.153210401535034
+      },
+      {
+        "id": "valid-power_w-2",
+        "label": "Specified continuous wattage",
+        "field": "power_w",
+        "predicted": "power_w",
+        "scores": [
+          -11.055488586425781,
+          -3.7590086460113525,
+          -9.126436233520508,
+          -9.8167142868042,
+          -11.044721603393555,
+          -10.844520568847656,
+          -10.485674858093262,
+          -7.806999683380127
+        ],
+        "margin": 4.047991037368774
+      },
+      {
+        "id": "valid-power_w-3",
+        "label": "Nominal device power capacity",
+        "field": "power_w",
+        "predicted": "power_w",
+        "scores": [
+          -9.00718879699707,
+          2.481497287750244,
+          -6.149450302124023,
+          -9.724695205688477,
+          -8.969947814941406,
+          -10.95901107788086,
+          -10.69845199584961,
+          -4.888225078582764
+        ],
+        "margin": 7.369722366333008
+      },
+      {
+        "id": "valid-voltage_v-0",
+        "label": "Voltage applied to supply terminals",
+        "field": "voltage_v",
+        "predicted": "voltage_v",
+        "scores": [
+          -10.9923677444458,
+          -9.562055587768555,
+          1.115349292755127,
+          -4.8492231369018555,
+          -10.982877731323242,
+          -11.18486213684082,
+          -10.420172691345215,
+          -7.428181171417236
+        ],
+        "margin": 5.964572429656982
+      },
+      {
+        "id": "valid-voltage_v-1",
+        "label": "Electrical supply potential",
+        "field": "voltage_v",
+        "predicted": "voltage_v",
+        "scores": [
+          -10.853957176208496,
+          -5.104737758636475,
+          -1.383748173713684,
+          -3.0393104553222656,
+          -10.881903648376465,
+          -10.953206062316895,
+          -8.590137481689453,
+          -5.145938396453857
+        ],
+        "margin": 1.6555622816085815
+      },
+      {
+        "id": "valid-voltage_v-2",
+        "label": "Required mains potential",
+        "field": "voltage_v",
+        "predicted": "voltage_v",
+        "scores": [
+          -9.903789520263672,
+          -7.868144512176514,
+          -2.8171799182891846,
+          -9.015490531921387,
+          -10.086520195007324,
+          -9.965139389038086,
+          -8.541778564453125,
+          -8.34170150756836
+        ],
+        "margin": 5.050964593887329
+      },
+      {
+        "id": "valid-voltage_v-3",
+        "label": "Rated incoming line voltage",
+        "field": "voltage_v",
+        "predicted": "voltage_v",
+        "scores": [
+          -11.150525093078613,
+          -7.0615339279174805,
+          -2.5938587188720703,
+          -8.541467666625977,
+          -11.279510498046875,
+          -11.190643310546875,
+          -10.48471450805664,
+          -5.0291924476623535
+        ],
+        "margin": 2.435333728790283
+      },
+      {
+        "id": "valid-current_a-0",
+        "label": "Amperage taken from the supply",
+        "field": "current_a",
+        "predicted": "current_a",
+        "scores": [
+          -10.749760627746582,
+          -9.51638126373291,
+          -5.667662143707275,
+          -4.08993673324585,
+          -9.944559097290039,
+          -11.072870254516602,
+          -10.417341232299805,
+          -8.766664505004883
+        ],
+        "margin": 1.5777254104614258
+      },
+      {
+        "id": "valid-current_a-1",
+        "label": "Nominal current demand",
+        "field": "current_a",
+        "predicted": "current_a",
+        "scores": [
+          -11.021296501159668,
+          -5.80161714553833,
+          -10.620218276977539,
+          -5.723031044006348,
+          -10.86819839477539,
+          -10.740951538085938,
+          -10.929936408996582,
+          -9.099236488342285
+        ],
+        "margin": 0.07858610153198242
+      },
+      {
+        "id": "valid-current_a-2",
+        "label": "Current required at power inlet",
+        "field": "current_a",
+        "predicted": "current_a",
+        "scores": [
+          -10.957119941711426,
+          -5.231378078460693,
+          -2.0955922603607178,
+          -0.8292421698570251,
+          -11.171073913574219,
+          -10.42507553100586,
+          -9.89767074584961,
+          -5.997700214385986
+        ],
+        "margin": 1.2663500905036926
+      },
+      {
+        "id": "valid-current_a-3",
+        "label": "Electrical input current demand",
+        "field": "current_a",
+        "predicted": "current_a",
+        "scores": [
+          -10.8903169631958,
+          -6.936567306518555,
+          -2.976404905319214,
+          1.6848632097244263,
+          -11.204556465148926,
+          -11.136064529418945,
+          -9.537757873535156,
+          -3.1076667308807373
+        ],
+        "margin": 4.66126811504364
+      },
+      {
+        "id": "valid-mass_kg-0",
+        "label": "Equipment mass excluding crate",
+        "field": "mass_kg",
+        "predicted": "mass_kg",
+        "scores": [
+          -6.431946754455566,
+          -7.155368328094482,
+          -8.900569915771484,
+          -9.090792655944824,
+          1.4556890726089478,
+          -11.12060546875,
+          -8.882246017456055,
+          -8.280710220336914
+        ],
+        "margin": 7.887635827064514
+      },
+      {
+        "id": "valid-mass_kg-1",
+        "label": "Unboxed unit mass",
+        "field": "mass_kg",
+        "predicted": "mass_kg",
+        "scores": [
+          -10.419047355651855,
+          -10.217342376708984,
+          -10.29962158203125,
+          -10.52159309387207,
+          -4.056761264801025,
+          -10.971540451049805,
+          -10.885541915893555,
+          -7.317813873291016
+        ],
+        "margin": 3.2610526084899902
+      },
+      {
+        "id": "valid-mass_kg-2",
+        "label": "Device-only mass",
+        "field": "mass_kg",
+        "predicted": "mass_kg",
+        "scores": [
+          -4.1295013427734375,
+          -8.446282386779785,
+          -9.630411148071289,
+          -10.119415283203125,
+          -0.47117406129837036,
+          -10.894737243652344,
+          -10.056132316589355,
+          -7.477312088012695
+        ],
+        "margin": 3.658327281475067
+      },
+      {
+        "id": "valid-mass_kg-3",
+        "label": "Net product mass without packing",
+        "field": "mass_kg",
+        "predicted": "mass_kg",
+        "scores": [
+          -8.313314437866211,
+          -11.008403778076172,
+          -11.099296569824219,
+          -11.186708450317383,
+          1.0710959434509277,
+          -11.101790428161621,
+          -11.077315330505371,
+          -6.987114429473877
+        ],
+        "margin": 8.058210372924805
+      },
+      {
+        "id": "valid-max_temp_c-0",
+        "label": "Operating ambient upper bound",
+        "field": "max_temp_c",
+        "predicted": "max_temp_c",
+        "scores": [
+          -10.445379257202148,
+          -9.61604118347168,
+          -9.20641040802002,
+          -9.08984375,
+          -10.324094772338867,
+          -0.1985137015581131,
+          -8.86224365234375,
+          -8.556108474731445
+        ],
+        "margin": 8.357594773173332
+      },
+      {
+        "id": "valid-max_temp_c-1",
+        "label": "Highest permissible working ambient",
+        "field": "max_temp_c",
+        "predicted": "max_temp_c",
+        "scores": [
+          -10.945638656616211,
+          -9.082283973693848,
+          -10.041359901428223,
+          -10.52144718170166,
+          -10.74090576171875,
+          1.8248316049575806,
+          -8.597169876098633,
+          -8.809611320495605
+        ],
+        "margin": 10.422001481056213
+      },
+      {
+        "id": "valid-max_temp_c-2",
+        "label": "Upper service ambient temperature",
+        "field": "max_temp_c",
+        "predicted": "max_temp_c",
+        "scores": [
+          -11.151264190673828,
+          -10.621103286743164,
+          -10.507801055908203,
+          -10.875839233398438,
+          -11.082964897155762,
+          -1.9377778768539429,
+          -10.477945327758789,
+          -5.784120082855225
+        ],
+        "margin": 3.8463422060012817
+      },
+      {
+        "id": "valid-max_temp_c-3",
+        "label": "Thermal ceiling while operating",
+        "field": "max_temp_c",
+        "predicted": "max_temp_c",
+        "scores": [
+          -11.184294700622559,
+          -10.55449390411377,
+          -10.890199661254883,
+          -11.077263832092285,
+          -11.04934024810791,
+          -5.606436252593994,
+          -10.725180625915527,
+          -9.786541938781738
+        ],
+        "margin": 4.180105686187744
+      },
+      {
+        "id": "valid-ip_rating-0",
+        "label": "Enclosure ingress classification",
+        "field": "ip_rating",
+        "predicted": "ip_rating",
+        "scores": [
+          -9.485145568847656,
+          -10.597274780273438,
+          -10.393170356750488,
+          -10.36172866821289,
+          -10.012956619262695,
+          -10.156038284301758,
+          -0.27471378445625305,
+          -8.02195930480957
+        ],
+        "margin": 7.747245520353317
+      },
+      {
+        "id": "valid-ip_rating-1",
+        "label": "Rated dust and moisture protection",
+        "field": "ip_rating",
+        "predicted": "ip_rating",
+        "scores": [
+          -11.285453796386719,
+          -10.357746124267578,
+          -11.224542617797852,
+          -11.303375244140625,
+          -11.20949935913086,
+          -11.090685844421387,
+          0.6576400995254517,
+          -10.006556510925293
+        ],
+        "margin": 10.664196610450745
+      },
+      {
+        "id": "valid-ip_rating-2",
+        "label": "Ingress resistance designation",
+        "field": "ip_rating",
+        "predicted": "ip_rating",
+        "scores": [
+          -10.20732307434082,
+          -10.685086250305176,
+          -10.33668327331543,
+          -10.837015151977539,
+          -11.043251037597656,
+          -11.139023780822754,
+          0.20734165608882904,
+          -9.368073463439941
+        ],
+        "margin": 9.57541511952877
+      },
+      {
+        "id": "valid-ip_rating-3",
+        "label": "International ingress protection code",
+        "field": "ip_rating",
+        "predicted": "ip_rating",
+        "scores": [
+          -9.837656021118164,
+          -10.99953556060791,
+          -10.814499855041504,
+          -11.035867691040039,
+          -11.067046165466309,
+          -10.672242164611816,
+          2.403287887573242,
+          -9.729280471801758
+        ],
+        "margin": 12.132568359375
+      },
+      {
+        "id": "valid-ignore-0",
+        "label": "Voltage delivered to the load",
+        "field": "ignore",
+        "predicted": "voltage_v",
+        "scores": [
+          -11.079107284545898,
+          -8.418079376220703,
+          -2.4188804626464844,
+          -8.132909774780273,
+          -10.856348037719727,
+          -11.128623008728027,
+          -10.838844299316406,
+          -5.533259391784668
+        ],
+        "margin": 3.1143789291381836
+      },
+      {
+        "id": "valid-ignore-1",
+        "label": "Current available at output",
+        "field": "ignore",
+        "predicted": "current_a",
+        "scores": [
+          -10.238938331604004,
+          -8.43791389465332,
+          -5.158244609832764,
+          1.4716551303863525,
+          -10.611186981201172,
+          -10.580852508544922,
+          -10.32554817199707,
+          -4.18364953994751
+        ],
+        "margin": 5.655304670333862
+      },
+      {
+        "id": "valid-ignore-2",
+        "label": "Transport crate gross weight",
+        "field": "ignore",
+        "predicted": "mass_kg",
+        "scores": [
+          -11.25989818572998,
+          -11.234040260314941,
+          -11.211875915527344,
+          -11.2481689453125,
+          -3.5693001747131348,
+          -11.32733154296875,
+          -11.333588600158691,
+          -3.9209182262420654
+        ],
+        "margin": 0.35161805152893066
+      },
+      {
+        "id": "valid-ignore-3",
+        "label": "Maximum storage ambient",
+        "field": "ignore",
+        "predicted": "max_temp_c",
+        "scores": [
+          -11.096405029296875,
+          -10.550657272338867,
+          -10.852588653564453,
+          -10.927600860595703,
+          -9.972317695617676,
+          0.4840517044067383,
+          -10.680633544921875,
+          -4.514858722686768
+        ],
+        "margin": 4.998910427093506
+      }
+    ],
+    "elapsed_ms": 221.99
+  },
+  "selected": {
+    "epoch": 6,
+    "steps": 72,
+    "loss": 0.456842396253099,
+    "validation_macro_f1": 0.8015873015873015,
+    "validation_accuracy": 0.84375
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "steps": 12,
+      "loss": 0.9743767182032267,
+      "validation_macro_f1": 0.7369047619047618,
+      "validation_accuracy": 0.78125
+    },
+    {
+      "epoch": 2,
+      "steps": 24,
+      "loss": 0.7238290148476759,
+      "validation_macro_f1": 0.7369047619047618,
+      "validation_accuracy": 0.78125
+    },
+    {
+      "epoch": 3,
+      "steps": 36,
+      "loss": 0.7053116460641226,
+      "validation_macro_f1": 0.7703373015873015,
+      "validation_accuracy": 0.8125
+    },
+    {
+      "epoch": 4,
+      "steps": 48,
+      "loss": 0.5006343188385168,
+      "validation_macro_f1": 0.7703373015873015,
+      "validation_accuracy": 0.8125
+    },
+    {
+      "epoch": 5,
+      "steps": 60,
+      "loss": 0.4949904916187127,
+      "validation_macro_f1": 0.7703373015873015,
+      "validation_accuracy": 0.8125
+    },
+    {
+      "epoch": 6,
+      "steps": 72,
+      "loss": 0.456842396253099,
+      "validation_macro_f1": 0.8015873015873015,
+      "validation_accuracy": 0.84375
+    }
+  ],
+  "steps": 72,
+  "parameters": 22713601,
+  "weight_l2_change": 0.737340358640614,
+  "base_weight_sha256": "821d1aa69520101d6e0737f78a042ae25b19e5cb9160701909d10434f4aeb0ae",
+  "selected_weight_sha256": "b7e3f7eda9ac9b09a8dd6b87a2458fd4703bab86a3f603a9885028b056259ceb",
+  "descriptions_sha256": "c775ffaa97d3ae9405152920c068bfc340eb7a407d5021c6a35c5889a3b57acb",
+  "train_source_sha256": "c15d613dda092b93b57823a3b21f9352b840497294874b4c37b883f0ed7dd705",
+  "runtime_source_sha256": "5db5e536b98d59afa2b9ddb330a8ee3b764d8302b5c0a9bee7b846b50b9b791b",
+  "maximum_train_tokens": 34,
+  "elapsed_seconds": 19.6,
+  "deployment_variant": "finetuned",
+  "test_model_outputs_used_for_selection": false
+}

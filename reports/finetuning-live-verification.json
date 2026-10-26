@@ -1,0 +1,96 @@
+{
+  "backend": {
+    "kind": "docling",
+    "pipeline_version": "specledger-fields-v2",
+    "model_manifest": "18814d9c5d2c2e36ea1ed08d9f30da99f8d46f6628abd26b2218f0759cc28346",
+    "models": [
+      {
+        "repo": "docling-project/docling-layout-heron",
+        "revision": "8f39ad3c0b4c58e9c2d2c84a38465abf757272d8"
+      },
+      {
+        "repo": "docling-project/docling-models",
+        "revision": "fc0f2d45e2218ea24bce5045f58a389aed16dc23"
+      }
+    ],
+    "ocr": true,
+    "note": "Docling + RapidOCR \u5b9e\u9645\u672c\u5730\u63a8\u7406\uff0c\u82f1\u6587\u8bbe\u5907\u8868",
+    "field_mapper": {
+      "kind": "minilm-field-label-mapper",
+      "variant": "finetuned",
+      "weight_sha256": "b7e3f7eda9ac9b09a8dd6b87a2458fd4703bab86a3f603a9885028b056259ceb",
+      "descriptions_sha256": "c775ffaa97d3ae9405152920c068bfc340eb7a407d5021c6a35c5889a3b57acb",
+      "input": "field label text only",
+      "generates_values": false,
+      "reject_class": "ignore",
+      "probabilities_calibrated": false,
+      "scope_guard": "equipment-field-scope-v1",
+      "scope_guard_sha256": "69cfa8c1ac75d450e984e1c74ca6c13a08d278db9d1f6920d670ce389f2deafc"
+    }
+  },
+  "legacy": [
+    {
+      "id": "test-01",
+      "correct": 7,
+      "total": 7
+    },
+    {
+      "id": "test-02",
+      "correct": 7,
+      "total": 7
+    },
+    {
+      "id": "test-03",
+      "correct": 7,
+      "total": 7
+    },
+    {
+      "id": "test-04",
+      "correct": 7,
+      "total": 7
+    },
+    {
+      "id": "test-05",
+      "correct": 7,
+      "total": 7
+    },
+    {
+      "id": "test-06",
+      "correct": 7,
+      "total": 7
+    },
+    {
+      "id": "test-07",
+      "correct": 7,
+      "total": 7
+    },
+    {
+      "id": "test-08",
+      "correct": 7,
+      "total": 7
+    }
+  ],
+  "legacy_correct": 56,
+  "legacy_total": 56,
+  "live_documents": [
+    {
+      "id": "d-2ccfb8a0baf715c3b7b85a862769fff8c991cda453af2a84e8b957a3f75ef9d7",
+      "fixture": "valid-00",
+      "fields": 6,
+      "status": "needs_review",
+      "mapped_candidates": 6,
+      "elapsed_ms": 1549.34
+    },
+    {
+      "id": "d-deb449d5d1bf7239da03226bf811cce689972fa0d731b8bfe6e7afd7ba408e16",
+      "fixture": "valid-01",
+      "fields": 7,
+      "status": "ready",
+      "mapped_candidates": 7,
+      "elapsed_ms": 4085.52
+    }
+  ],
+  "pending_query_count": 0,
+  "original_ledger_unchanged": true,
+  "scope": "Actual Docling pass on original 8 test fixtures and two new validation PDFs. Isolated ledger, no automatic approvals, no change to the existing business database."
+}

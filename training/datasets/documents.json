@@ -1,0 +1,2762 @@
+{
+  "cases": [
+    {
+      "id": "valid-00",
+      "split": "valid",
+      "kind": "digital",
+      "layout": "table",
+      "expected": {
+        "model": {
+          "value": "SL-VALID-200",
+          "signal": null,
+          "page": 1
+        },
+        "power_w": {
+          "exact_value": "850",
+          "signal": null,
+          "page": 1
+        },
+        "voltage_v": {
+          "exact_value": "120",
+          "signal": "AC",
+          "page": 1
+        },
+        "current_a": {
+          "exact_value": "0.6",
+          "signal": "AC",
+          "page": 1
+        },
+        "mass_kg": {
+          "exact_value": "1.2",
+          "signal": null,
+          "page": 2
+        },
+        "max_temp_c": {
+          "exact_value": "70",
+          "signal": null,
+          "page": 2
+        },
+        "ip_rating": {
+          "value": "IP65",
+          "signal": null,
+          "page": 2
+        }
+      },
+      "rows": [
+        {
+          "label": "Commercial type reference",
+          "raw_value": "SL-VALID-200",
+          "field": "model",
+          "page": 1
+        },
+        {
+          "label": "Equipment nominal power level",
+          "raw_value": "850 W",
+          "field": "power_w",
+          "page": 1
+        },
+        {
+          "label": "Required mains potential",
+          "raw_value": "120 V AC",
+          "field": "voltage_v",
+          "page": 1
+        },
+        {
+          "label": "Electrical input current demand",
+          "raw_value": "600 mA AC",
+          "field": "current_a",
+          "page": 1
+        },
+        {
+          "label": "Equipment mass excluding crate",
+          "raw_value": "1200 g",
+          "field": "mass_kg",
+          "page": 2
+        },
+        {
+          "label": "Highest permissible working ambient",
+          "raw_value": "70 C",
+          "field": "max_temp_c",
+          "page": 2
+        },
+        {
+          "label": "Ingress resistance designation",
+          "raw_value": "IP65",
+          "field": "ip_rating",
+          "page": 2
+        },
+        {
+          "label": "Voltage delivered to the load",
+          "raw_value": "12 V DC",
+          "field": "ignore",
+          "page": 1
+        },
+        {
+          "label": "Current available at output",
+          "raw_value": "4 A DC",
+          "field": "ignore",
+          "page": 1
+        },
+        {
+          "label": "Transport crate gross weight",
+          "raw_value": "12 kg",
+          "field": "ignore",
+          "page": 2
+        },
+        {
+          "label": "Maximum storage ambient",
+          "raw_value": "95 C",
+          "field": "ignore",
+          "page": 2
+        }
+      ],
+      "issues": [],
+      "path": "data/finetuning-documents/valid-00.pdf",
+      "sha256": "2ccfb8a0baf715c3b7b85a862769fff8c991cda453af2a84e8b957a3f75ef9d7"
+    },
+    {
+      "id": "valid-01",
+      "split": "valid",
+      "kind": "scan",
+      "layout": "colon-list",
+      "expected": {
+        "model": {
+          "value": "SL-VALID-201",
+          "signal": null,
+          "page": 1
+        },
+        "power_w": {
+          "exact_value": "1200",
+          "signal": null,
+          "page": 1
+        },
+        "voltage_v": {
+          "exact_value": "48",
+          "signal": "DC",
+          "page": 1
+        },
+        "current_a": {
+          "exact_value": "0.85",
+          "signal": "DC",
+          "page": 1
+        },
+        "mass_kg": {
+          "exact_value": "2.5",
+          "signal": null,
+          "page": 2
+        },
+        "max_temp_c": {
+          "exact_value": "70",
+          "signal": null,
+          "page": 2
+        },
+        "ip_rating": {
+          "value": "IP54",
+          "signal": null,
+          "page": 2
+        }
+      },
+      "rows": [
+        {
+          "label": "Equipment designation code",
+          "raw_value": "SL-VALID-201",
+          "field": "model",
+          "page": 1
+        },
+        {
+          "label": "Specified continuous wattage",
+          "raw_value": "1.2 kW",
+          "field": "power_w",
+          "page": 1
+        },
+        {
+          "label": "Rated incoming line voltage",
+          "raw_value": "48000 mV DC",
+          "field": "voltage_v",
+          "page": 1
+        },
+        {
+          "label": "Amperage taken from the supply",
+          "raw_value": "850 mA DC",
+          "field": "current_a",
+          "page": 1
+        },
+        {
+          "label": "Unboxed unit mass",
+          "raw_value": "2.5 kg",
+          "field": "mass_kg",
+          "page": 2
+        },
+        {
+          "label": "Upper service ambient temperature",
+          "raw_value": "158 F",
+          "field": "max_temp_c",
+          "page": 2
+        },
+        {
+          "label": "International ingress protection code",
+          "raw_value": "IP54",
+          "field": "ip_rating",
+          "page": 2
+        },
+        {
+          "label": "Current available at output",
+          "raw_value": "4 A DC",
+          "field": "ignore",
+          "page": 1
+        },
+        {
+          "label": "Transport crate gross weight",
+          "raw_value": "12 kg",
+          "field": "ignore",
+          "page": 1
+        },
+        {
+          "label": "Maximum storage ambient",
+          "raw_value": "95 C",
+          "field": "ignore",
+          "page": 2
+        },
+        {
+          "label": "Voltage delivered to the load",
+          "raw_value": "12 V DC",
+          "field": "ignore",
+          "page": 2
+        }
+      ],
+      "issues": [],
+      "path": "data/finetuning-documents/valid-01.pdf",
+      "sha256": "deb449d5d1bf7239da03226bf811cce689972fa0d731b8bfe6e7afd7ba408e16"
+    },
+    {
+      "id": "valid-02",
+      "split": "valid",
+      "kind": "digital",
+      "layout": "table",
+      "expected": {
+        "model": {
+          "value": "SL-VALID-202",
+          "signal": null,
+          "page": 1
+        },
+        "power_w": {
+          "exact_value": "900",
+          "signal": null,
+          "page": 1
+        },
+        "voltage_v": {
+          "exact_value": "24",
+          "signal": "DC",
+          "page": 1
+        },
+        "current_a": {
+          "exact_value": "2",
+          "signal": "AC",
+          "page": 1
+        },
+        "mass_kg": {
+          "exact_value": "1.81436948",
+          "signal": null,
+          "page": 2
+        },
+        "max_temp_c": {
+          "exact_value": "65",
+          "signal": null,
+          "page": 2
+        },
+        "ip_rating": {
+          "value": "IP65",
+          "signal": null,
+          "page": 2
+        }
+      },
+      "rows": [
+        {
+          "label": "Ordering model reference",
+          "raw_value": "SL-VALID-202",
+          "field": "model",
+          "page": 1
+        },
+        {
+          "label": "Nominal device power capacity",
+          "raw_value": "900000 mW",
+          "field": "power_w",
+          "page": 1
+        },
+        {
+          "label": "Voltage applied to supply terminals",
+          "raw_value": "24 V DC",
+          "field": "voltage_v",
+          "page": 1
+        },
+        {
+          "label": "Nominal current demand",
+          "raw_value": "2 A AC",
+          "field": "current_a",
+          "page": 1
+        },
+        {
+          "label": "Device-only mass",
+          "raw_value": "4 lb",
+          "field": "mass_kg",
+          "page": 2
+        },
+        {
+          "label": "Thermal ceiling while operating",
+          "raw_value": "65 C",
+          "field": "max_temp_c",
+          "page": 2
+        },
+        {
+          "label": "Enclosure ingress classification",
+          "raw_value": "IP65",
+          "field": "ip_rating",
+          "page": 2
+        },
+        {
+          "label": "Transport crate gross weight",
+          "raw_value": "12 kg",
+          "field": "ignore",
+          "page": 1
+        },
+        {
+          "label": "Maximum storage ambient",
+          "raw_value": "95 C",
+          "field": "ignore",
+          "page": 1
+        },
+        {
+          "label": "Voltage delivered to the load",
+          "raw_value": "12 V DC",
+          "field": "ignore",
+          "page": 2
+        },
+        {
+          "label": "Current available at output",
+          "raw_value": "4 A DC",
+          "field": "ignore",
+          "page": 2
+        }
+      ],
+      "issues": [],
+      "path": "data/finetuning-documents/valid-02.pdf",
+      "sha256": "a4824e66980b68e6a6db77ca331e92e1fd2f5e40b91fa4ad1a66d4a0eb4d4b9b"
+    },
+    {
+      "id": "valid-03",
+      "split": "valid",
+      "kind": "scan",
+      "layout": "colon-list",
+      "expected": {
+        "model": {
+          "value": "SL-VALID-203",
+          "signal": null,
+          "page": 1
+        },
+        "power_w": {
+          "exact_value": "720",
+          "signal": null,
+          "page": 1
+        },
+        "voltage_v": {
+          "exact_value": "230",
+          "signal": "AC",
+          "page": 1
+        },
+        "current_a": {
+          "exact_value": "1.25",
+          "signal": "DC",
+          "page": 1
+        },
+        "mass_kg": {
+          "exact_value": "0.0000001",
+          "signal": null,
+          "page": 2
+        },
+        "max_temp_c": {
+          "exact_value": "80",
+          "signal": null,
+          "page": 2
+        },
+        "ip_rating": {
+          "value": "IP54",
+          "signal": null,
+          "page": 2
+        }
+      },
+      "rows": [
+        {
+          "label": "Product type identifier",
+          "raw_value": "SL-VALID-203",
+          "field": "model",
+          "page": 1
+        },
+        {
+          "label": "Declared nominal electrical power",
+          "raw_value": "0.72 kW",
+          "field": "power_w",
+          "page": 1
+        },
+        {
+          "label": "Electrical supply potential",
+          "raw_value": "0.23 kV AC",
+          "field": "voltage_v",
+          "page": 1
+        },
+        {
+          "label": "Current required at power inlet",
+          "raw_value": "1.25 A DC",
+          "field": "current_a",
+          "page": 1
+        },
+        {
+          "label": "Net product mass without packing",
+          "raw_value": "0.0001 g",
+          "field": "mass_kg",
+          "page": 2
+        },
+        {
+          "label": "Operating ambient upper bound",
+          "raw_value": "176 F",
+          "field": "max_temp_c",
+          "page": 2
+        },
+        {
+          "label": "Rated dust and moisture protection",
+          "raw_value": "IP54",
+          "field": "ip_rating",
+          "page": 2
+        },
+        {
+          "label": "Maximum storage ambient",
+          "raw_value": "95 C",
+          "field": "ignore",
+          "page": 1
+        },
+        {
+          "label": "Voltage delivered to the load",
+          "raw_value": "12 V DC",
+          "field": "ignore",
+          "page": 1
+        },
+        {
+          "label": "Current available at output",
+          "raw_value": "4 A DC",
+          "field": "ignore",
+          "page": 2
+        },
+        {
+          "label": "Transport crate gross weight",
+          "raw_value": "12 kg",
+          "field": "ignore",
+          "page": 2
+        }
+      ],
+      "issues": [],
+      "path": "data/finetuning-documents/valid-03.pdf",
+      "sha256": "8eb84e624657329391ed54b83ad8c1d7ce02c362ec3317168df91bdcdd130000"
+    },
+    {
+      "id": "valid-04",
+      "split": "valid",
+      "kind": "digital",
+      "layout": "table",
+      "expected": {
+        "model": {
+          "value": "SL-VALID-204",
+          "signal": null,
+          "page": 1
+        },
+        "power_w": {
+          "exact_value": "850",
+          "signal": null,
+          "page": 1
+        },
+        "voltage_v": {
+          "exact_value": "120",
+          "signal": "AC",
+          "page": 1
+        },
+        "current_a": {
+          "exact_value": "0.6",
+          "signal": "AC",
+          "page": 1
+        },
+        "mass_kg": {
+          "exact_value": "1.2",
+          "signal": null,
+          "page": 2
+        },
+        "max_temp_c": {
+          "exact_value": "70",
+          "signal": null,
+          "page": 2
+        },
+        "ip_rating": {
+          "value": "IP65",
+          "signal": null,
+          "page": 2
+        }
+      },
+      "rows": [
+        {
+          "label": "Commercial type reference",
+          "raw_value": "SL-VALID-204",
+          "field": "model",
+          "page": 1
+        },
+        {
+          "label": "Equipment nominal power level",
+          "raw_value": "850 W",
+          "field": "power_w",
+          "page": 1
+        },
+        {
+          "label": "Required mains potential",
+          "raw_value": "120 V AC",
+          "field": "voltage_v",
+          "page": 1
+        },
+        {
+          "label": "Electrical input current demand",
+          "raw_value": "600 mA AC",
+          "field": "current_a",
+          "page": 1
+        },
+        {
+          "label": "Equipment mass excluding crate",
+          "raw_value": "1200 g",
+          "field": "mass_kg",
+          "page": 2
+        },
+        {
+          "label": "Highest permissible working ambient",
+          "raw_value": "70 C",
+          "field": "max_temp_c",
+          "page": 2
+        },
+        {
+          "label": "Ingress resistance designation",
+          "raw_value": "IP65",
+          "field": "ip_rating",
+          "page": 2
+        },
+        {
+          "label": "Voltage delivered to the load",
+          "raw_value": "12 V DC",
+          "field": "ignore",
+          "page": 1
+        },
+        {
+          "label": "Current available at output",
+          "raw_value": "4 A DC",
+          "field": "ignore",
+          "page": 1
+        },
+        {
+          "label": "Transport crate gross weight",
+          "raw_value": "12 kg",
+          "field": "ignore",
+          "page": 2
+        },
+        {
+          "label": "Maximum storage ambient",
+          "raw_value": "95 C",
+          "field": "ignore",
+          "page": 2
+        }
+      ],
+      "issues": [],
+      "path": "data/finetuning-documents/valid-04.pdf",
+      "sha256": "ee4189d5fde6d81e9f3376add6bfdfd27931b436b80085c453fe0a65c45c9b5a"
+    },
+    {
+      "id": "valid-05",
+      "split": "valid",
+      "kind": "scan",
+      "layout": "colon-list",
+      "expected": {
+        "model": {
+          "value": "SL-VALID-205",
+          "signal": null,
+          "page": 1
+        },
+        "power_w": {
+          "exact_value": "1200",
+          "signal": null,
+          "page": 1
+        },
+        "voltage_v": {
+          "exact_value": "48",
+          "signal": "DC",
+          "page": 1
+        },
+        "current_a": {
+          "exact_value": "0.85",
+          "signal": "DC",
+          "page": 1
+        },
+        "mass_kg": {
+          "exact_value": "2.5",
+          "signal": null,
+          "page": 2
+        },
+        "max_temp_c": {
+          "exact_value": "70",
+          "signal": null,
+          "page": 2
+        },
+        "ip_rating": {
+          "value": "IP54",
+          "signal": null,
+          "page": 2
+        }
+      },
+      "rows": [
+        {
+          "label": "Equipment designation code",
+          "raw_value": "SL-VALID-205",
+          "field": "model",
+          "page": 1
+        },
+        {
+          "label": "Specified continuous wattage",
+          "raw_value": "1.2 kW",
+          "field": "power_w",
+          "page": 1
+        },
+        {
+          "label": "Rated incoming line voltage",
+          "raw_value": "48000 mV DC",
+          "field": "voltage_v",
+          "page": 1
+        },
+        {
+          "label": "Amperage taken from the supply",
+          "raw_value": "850 mA DC",
+          "field": "current_a",
+          "page": 1
+        },
+        {
+          "label": "Unboxed unit mass",
+          "raw_value": "2.5 kg",
+          "field": "mass_kg",
+          "page": 2
+        },
+        {
+          "label": "Upper service ambient temperature",
+          "raw_value": "158 F",
+          "field": "max_temp_c",
+          "page": 2
+        },
+        {
+          "label": "International ingress protection code",
+          "raw_value": "IP54",
+          "field": "ip_rating",
+          "page": 2
+        },
+        {
+          "label": "Current available at output",
+          "raw_value": "4 A DC",
+          "field": "ignore",
+          "page": 1
+        },
+        {
+          "label": "Transport crate gross weight",
+          "raw_value": "12 kg",
+          "field": "ignore",
+          "page": 1
+        },
+        {
+          "label": "Maximum storage ambient",
+          "raw_value": "95 C",
+          "field": "ignore",
+          "page": 2
+        },
+        {
+          "label": "Voltage delivered to the load",
+          "raw_value": "12 V DC",
+          "field": "ignore",
+          "page": 2
+        }
+      ],
+      "issues": [],
+      "path": "data/finetuning-documents/valid-05.pdf",
+      "sha256": "d844c6f60a3bef3beed36ee2957a14c73dfdc0e8ce1c8f5100ad5f446e115b76"
+    },
+    {
+      "id": "valid-06",
+      "split": "valid",
+      "kind": "digital",
+      "layout": "table",
+      "expected": {
+        "model": {
+          "value": "SL-VALID-206",
+          "signal": null,
+          "page": 1
+        },
+        "power_w": {
+          "exact_value": "900",
+          "signal": null,
+          "page": 1
+        },
+        "voltage_v": {
+          "exact_value": "24",
+          "signal": "DC",
+          "page": 1
+        },
+        "current_a": {
+          "exact_value": "2",
+          "signal": "AC",
+          "page": 1
+        },
+        "mass_kg": {
+          "exact_value": "1.81436948",
+          "signal": null,
+          "page": 2
+        },
+        "max_temp_c": {
+          "exact_value": "65",
+          "signal": null,
+          "page": 2
+        },
+        "ip_rating": {
+          "value": "IP65",
+          "signal": null,
+          "page": 2
+        }
+      },
+      "rows": [
+        {
+          "label": "Ordering model reference",
+          "raw_value": "SL-VALID-206",
+          "field": "model",
+          "page": 1
+        },
+        {
+          "label": "Nominal device power capacity",
+          "raw_value": "900000 mW",
+          "field": "power_w",
+          "page": 1
+        },
+        {
+          "label": "Voltage applied to supply terminals",
+          "raw_value": "24 V DC",
+          "field": "voltage_v",
+          "page": 1
+        },
+        {
+          "label": "Nominal current demand",
+          "raw_value": "2 A AC",
+          "field": "current_a",
+          "page": 1
+        },
+        {
+          "label": "Device-only mass",
+          "raw_value": "4 lb",
+          "field": "mass_kg",
+          "page": 2
+        },
+        {
+          "label": "Thermal ceiling while operating",
+          "raw_value": "65 C",
+          "field": "max_temp_c",
+          "page": 2
+        },
+        {
+          "label": "Enclosure ingress classification",
+          "raw_value": "IP65",
+          "field": "ip_rating",
+          "page": 2
+        },
+        {
+          "label": "Transport crate gross weight",
+          "raw_value": "12 kg",
+          "field": "ignore",
+          "page": 1
+        },
+        {
+          "label": "Maximum storage ambient",
+          "raw_value": "95 C",
+          "field": "ignore",
+          "page": 1
+        },
+        {
+          "label": "Voltage delivered to the load",
+          "raw_value": "12 V DC",
+          "field": "ignore",
+          "page": 2
+        },
+        {
+          "label": "Current available at output",
+          "raw_value": "4 A DC",
+          "field": "ignore",
+          "page": 2
+        }
+      ],
+      "issues": [],
+      "path": "data/finetuning-documents/valid-06.pdf",
+      "sha256": "350ee6d4ee6a6e2bc7952ca04f19a6297dfde2ef87a3b0cc449b5db621dc934b"
+    },
+    {
+      "id": "valid-07",
+      "split": "valid",
+      "kind": "scan",
+      "layout": "colon-list",
+      "expected": {
+        "model": {
+          "value": "SL-VALID-207",
+          "signal": null,
+          "page": 1
+        },
+        "power_w": {
+          "exact_value": "720",
+          "signal": null,
+          "page": 1
+        },
+        "voltage_v": {
+          "exact_value": "230",
+          "signal": "AC",
+          "page": 1
+        },
+        "current_a": {
+          "exact_value": "1.25",
+          "signal": "DC",
+          "page": 1
+        },
+        "mass_kg": {
+          "exact_value": "0.0000001",
+          "signal": null,
+          "page": 2
+        },
+        "max_temp_c": {
+          "exact_value": "80",
+          "signal": null,
+          "page": 2
+        },
+        "ip_rating": {
+          "value": "IP54",
+          "signal": null,
+          "page": 2
+        }
+      },
+      "rows": [
+        {
+          "label": "Product type identifier",
+          "raw_value": "SL-VALID-207",
+          "field": "model",
+          "page": 1
+        },
+        {
+          "label": "Declared nominal electrical power",
+          "raw_value": "0.72 kW",
+          "field": "power_w",
+          "page": 1
+        },
+        {
+          "label": "Electrical supply potential",
+          "raw_value": "0.23 kV AC",
+          "field": "voltage_v",
+          "page": 1
+        },
+        {
+          "label": "Current required at power inlet",
+          "raw_value": "1.25 A DC",
+          "field": "current_a",
+          "page": 1
+        },
+        {
+          "label": "Net product mass without packing",
+          "raw_value": "0.0001 g",
+          "field": "mass_kg",
+          "page": 2
+        },
+        {
+          "label": "Operating ambient upper bound",
+          "raw_value": "176 F",
+          "field": "max_temp_c",
+          "page": 2
+        },
+        {
+          "label": "Rated dust and moisture protection",
+          "raw_value": "IP54",
+          "field": "ip_rating",
+          "page": 2
+        },
+        {
+          "label": "Maximum storage ambient",
+          "raw_value": "95 C",
+          "field": "ignore",
+          "page": 1
+        },
+        {
+          "label": "Voltage delivered to the load",
+          "raw_value": "12 V DC",
+          "field": "ignore",
+          "page": 1
+        },
+        {
+          "label": "Current available at output",
+          "raw_value": "4 A DC",
+          "field": "ignore",
+          "page": 2
+        },
+        {
+          "label": "Transport crate gross weight",
+          "raw_value": "12 kg",
+          "field": "ignore",
+          "page": 2
+        }
+      ],
+      "issues": [],
+      "path": "data/finetuning-documents/valid-07.pdf",
+      "sha256": "42a65518876bad22c5bf60a9d03a2bc5fc81626f3ee03d2232112ec644c573b8"
+    },
+    {
+      "id": "test-00",
+      "split": "test",
+      "kind": "digital",
+      "layout": "table",
+      "expected": {
+        "model": {
+          "value": "SL-TEST-200",
+          "signal": null,
+          "page": 1
+        },
+        "power_w": {
+          "exact_value": "850",
+          "signal": null,
+          "page": 1
+        },
+        "voltage_v": {
+          "exact_value": "120",
+          "signal": "AC",
+          "page": 1
+        },
+        "current_a": {
+          "exact_value": "0.6",
+          "signal": "AC",
+          "page": 1
+        },
+        "mass_kg": {
+          "exact_value": "1.2",
+          "signal": null,
+          "page": 2
+        },
+        "max_temp_c": {
+          "exact_value": "70",
+          "signal": null,
+          "page": 2
+        },
+        "ip_rating": {
+          "value": "IP65",
+          "signal": null,
+          "page": 2
+        }
+      },
+      "rows": [
+        {
+          "label": "Catalog designation",
+          "raw_value": "SL-TEST-200",
+          "field": "model",
+          "page": 1
+        },
+        {
+          "label": "Continuous electrical capacity",
+          "raw_value": "850 W",
+          "field": "power_w",
+          "page": 1
+        },
+        {
+          "label": "Voltage accepted by the unit",
+          "raw_value": "120 V AC",
+          "field": "voltage_v",
+          "page": 1
+        },
+        {
+          "label": "Incoming electrical amperage",
+          "raw_value": "600 mA AC",
+          "field": "current_a",
+          "page": 1
+        },
+        {
+          "label": "Uncrated product weight",
+          "raw_value": "1200 g",
+          "field": "mass_kg",
+          "page": 2
+        },
+        {
+          "label": "Maximum environment temperature during use",
+          "raw_value": "70 C",
+          "field": "max_temp_c",
+          "page": 2
+        },
+        {
+          "label": "IP degree of enclosure protection",
+          "raw_value": "IP65",
+          "field": "ip_rating",
+          "page": 2
+        },
+        {
+          "label": "Voltage at the load terminals",
+          "raw_value": "12 V DC",
+          "field": "ignore",
+          "page": 1
+        },
+        {
+          "label": "Amperage supplied to connected equipment",
+          "raw_value": "4 A DC",
+          "field": "ignore",
+          "page": 1
+        },
+        {
+          "label": "Total mass including shipping carton",
+          "raw_value": "12 kg",
+          "field": "ignore",
+          "page": 2
+        },
+        {
+          "label": "Permitted ambient during storage",
+          "raw_value": "95 C",
+          "field": "ignore",
+          "page": 2
+        }
+      ],
+      "issues": [],
+      "path": "data/finetuning-documents/test-00.pdf",
+      "sha256": "209145334a927f421da8bcf1ef50d248f06c92eaa2781c064617cc11b2c868cb"
+    },
+    {
+      "id": "test-01",
+      "split": "test",
+      "kind": "scan",
+      "layout": "colon-list",
+      "expected": {
+        "model": {
+          "value": "SL-TEST-201",
+          "signal": null,
+          "page": 1
+        },
+        "power_w": {
+          "exact_value": "1200",
+          "signal": null,
+          "page": 1
+        },
+        "voltage_v": {
+          "exact_value": "48",
+          "signal": "DC",
+          "page": 1
+        },
+        "current_a": {
+          "exact_value": "0.85",
+          "signal": "DC",
+          "page": 1
+        },
+        "mass_kg": {
+          "exact_value": "2.5",
+          "signal": null,
+          "page": 2
+        },
+        "max_temp_c": {
+          "exact_value": "70",
+          "signal": null,
+          "page": 2
+        },
+        "ip_rating": {
+          "value": "IP54",
+          "signal": null,
+          "page": 2
+        }
+      },
+      "rows": [
+        {
+          "label": "Device ordering code",
+          "raw_value": "SL-TEST-201",
+          "field": "model",
+          "page": 1
+        },
+        {
+          "label": "Wattage at nominal duty",
+          "raw_value": "1.2 kW",
+          "field": "power_w",
+          "page": 1
+        },
+        {
+          "label": "Voltage for energizing the device",
+          "raw_value": "48000 mV DC",
+          "field": "voltage_v",
+          "page": 1
+        },
+        {
+          "label": "Mains current requirement",
+          "raw_value": "850 mA DC",
+          "field": "current_a",
+          "page": 1
+        },
+        {
+          "label": "Weight excluding transport packaging",
+          "raw_value": "2.5 kg",
+          "field": "mass_kg",
+          "page": 2
+        },
+        {
+          "label": "Maximum ambient for continuous use",
+          "raw_value": "158 F",
+          "field": "max_temp_c",
+          "page": 2
+        },
+        {
+          "label": "Dust and water ingress marking",
+          "raw_value": "IP54",
+          "field": "ip_rating",
+          "page": 2
+        },
+        {
+          "label": "Amperage supplied to connected equipment",
+          "raw_value": "4 A DC",
+          "field": "ignore",
+          "page": 1
+        },
+        {
+          "label": "Total mass including shipping carton",
+          "raw_value": "12 kg",
+          "field": "ignore",
+          "page": 1
+        },
+        {
+          "label": "Permitted ambient during storage",
+          "raw_value": "95 C",
+          "field": "ignore",
+          "page": 2
+        },
+        {
+          "label": "Minimum temperature for operation",
+          "raw_value": "-10 C",
+          "field": "ignore",
+          "page": 2
+        }
+      ],
+      "issues": [],
+      "path": "data/finetuning-documents/test-01.pdf",
+      "sha256": "ccea5cc641b20a97173cfa42a3d347ea3f29d1e6336975747e9adebfd3864cc6"
+    },
+    {
+      "id": "test-02",
+      "split": "test",
+      "kind": "digital",
+      "layout": "landscape-table",
+      "expected": {
+        "model": {
+          "value": "SL-TEST-202",
+          "signal": null,
+          "page": 1
+        },
+        "power_w": {
+          "exact_value": "900",
+          "signal": null,
+          "page": 1
+        },
+        "voltage_v": {
+          "exact_value": "24",
+          "signal": "DC",
+          "page": 1
+        },
+        "current_a": {
+          "exact_value": "2",
+          "signal": "AC",
+          "page": 1
+        },
+        "mass_kg": {
+          "exact_value": "1.81436948",
+          "signal": null,
+          "page": 2
+        },
+        "max_temp_c": {
+          "exact_value": "65",
+          "signal": null,
+          "page": 2
+        },
+        "ip_rating": {
+          "value": "IP65",
+          "signal": null,
+          "page": 2
+        }
+      },
+      "rows": [
+        {
+          "label": "Article type reference",
+          "raw_value": "SL-TEST-202",
+          "field": "model",
+          "page": 1
+        },
+        {
+          "label": "Power under rated operation",
+          "raw_value": "900000 mW",
+          "field": "power_w",
+          "page": 1
+        },
+        {
+          "label": "Power input potential",
+          "raw_value": "24 V DC",
+          "field": "voltage_v",
+          "page": 1
+        },
+        {
+          "label": "Current taken from supply terminals",
+          "raw_value": "2 A AC",
+          "field": "current_a",
+          "page": 1
+        },
+        {
+          "label": "Weight of unpackaged equipment",
+          "raw_value": "4 lb",
+          "field": "mass_kg",
+          "page": 2
+        },
+        {
+          "label": "Highest temperature permitted in service",
+          "raw_value": "65 C",
+          "field": "max_temp_c",
+          "page": 2
+        },
+        {
+          "label": "Enclosure sealing IP classification",
+          "raw_value": "IP65",
+          "field": "ip_rating",
+          "page": 2
+        },
+        {
+          "label": "Total mass including shipping carton",
+          "raw_value": "12 kg",
+          "field": "ignore",
+          "page": 1
+        },
+        {
+          "label": "Permitted ambient during storage",
+          "raw_value": "95 C",
+          "field": "ignore",
+          "page": 1
+        },
+        {
+          "label": "Minimum temperature for operation",
+          "raw_value": "-10 C",
+          "field": "ignore",
+          "page": 2
+        },
+        {
+          "label": "Serial identifier of individual unit",
+          "raw_value": "SN-TEST-991",
+          "field": "ignore",
+          "page": 2
+        }
+      ],
+      "issues": [],
+      "path": "data/finetuning-documents/test-02.pdf",
+      "sha256": "1be89ec11daad60b5ccf185c6132d6eceee53c342ddad6c56a5269a480a25728"
+    },
+    {
+      "id": "test-03",
+      "split": "test",
+      "kind": "scan",
+      "layout": "table",
+      "expected": {
+        "model": {
+          "value": "SL-TEST-203",
+          "signal": null,
+          "page": 1
+        },
+        "power_w": {
+          "exact_value": "720",
+          "signal": null,
+          "page": 1
+        },
+        "voltage_v": {
+          "exact_value": "230",
+          "signal": "AC",
+          "page": 1
+        },
+        "current_a": {
+          "exact_value": "1.25",
+          "signal": "DC",
+          "page": 1
+        },
+        "mass_kg": {
+          "exact_value": "0.0000001",
+          "signal": null,
+          "page": 2
+        },
+        "max_temp_c": {
+          "exact_value": "80",
+          "signal": null,
+          "page": 2
+        },
+        "ip_rating": {
+          "value": "IP54",
+          "signal": null,
+          "page": 2
+        }
+      },
+      "rows": [
+        {
+          "label": "Equipment type marking",
+          "raw_value": "SL-TEST-203",
+          "field": "model",
+          "page": 1
+        },
+        {
+          "label": "Declared rated wattage",
+          "raw_value": "0.72 kW",
+          "field": "power_w",
+          "page": 1
+        },
+        {
+          "label": "Required voltage at mains connection",
+          "raw_value": "0.23 kV AC",
+          "field": "voltage_v",
+          "page": 1
+        },
+        {
+          "label": "Amperage drawn by the device",
+          "raw_value": "1.25 A DC",
+          "field": "current_a",
+          "page": 1
+        },
+        {
+          "label": "Mass excluding shipping materials",
+          "raw_value": "0.0001 g",
+          "field": "mass_kg",
+          "page": 2
+        },
+        {
+          "label": "Hot-end operating temperature limit",
+          "raw_value": "176 F",
+          "field": "max_temp_c",
+          "page": 2
+        },
+        {
+          "label": "Protection against solid and liquid ingress",
+          "raw_value": "IP54",
+          "field": "ip_rating",
+          "page": 2
+        },
+        {
+          "label": "Permitted ambient during storage",
+          "raw_value": "95 C",
+          "field": "ignore",
+          "page": 1
+        },
+        {
+          "label": "Minimum temperature for operation",
+          "raw_value": "-10 C",
+          "field": "ignore",
+          "page": 1
+        },
+        {
+          "label": "Serial identifier of individual unit",
+          "raw_value": "SN-TEST-991",
+          "field": "ignore",
+          "page": 2
+        },
+        {
+          "label": "Voltage at the load terminals",
+          "raw_value": "12 V DC",
+          "field": "ignore",
+          "page": 2
+        }
+      ],
+      "issues": [],
+      "path": "data/finetuning-documents/test-03.pdf",
+      "sha256": "b5bd25f54bd7ab39ace3aad3fe8b8a72d2d7cc74d2ace9c90894ee2fe71c9b9a"
+    },
+    {
+      "id": "test-04",
+      "split": "test",
+      "kind": "digital",
+      "layout": "colon-list",
+      "expected": {
+        "model": {
+          "value": "SL-TEST-204",
+          "signal": null,
+          "page": 1
+        },
+        "power_w": {
+          "exact_value": "850",
+          "signal": null,
+          "page": 1
+        },
+        "voltage_v": {
+          "exact_value": "120",
+          "signal": "AC",
+          "page": 1
+        },
+        "current_a": {
+          "exact_value": "0.6",
+          "signal": "AC",
+          "page": 1
+        },
+        "mass_kg": {
+          "exact_value": "1.2",
+          "signal": null,
+          "page": 2
+        },
+        "max_temp_c": {
+          "exact_value": "70",
+          "signal": null,
+          "page": 2
+        },
+        "ip_rating": {
+          "value": "IP65",
+          "signal": null,
+          "page": 2
+        }
+      },
+      "rows": [
+        {
+          "label": "Product family designation",
+          "raw_value": "SL-TEST-204",
+          "field": "model",
+          "page": 1
+        },
+        {
+          "label": "Device electrical power rating",
+          "raw_value": "850 W",
+          "field": "power_w",
+          "page": 1
+        },
+        {
+          "label": "Incoming supply voltage",
+          "raw_value": "120 V AC",
+          "field": "voltage_v",
+          "page": 1
+        },
+        {
+          "label": "Current consumed at rated load",
+          "raw_value": "600 mA AC",
+          "field": "current_a",
+          "page": 1
+        },
+        {
+          "label": "Bare unit mass",
+          "raw_value": "1200 g",
+          "field": "mass_kg",
+          "page": 2
+        },
+        {
+          "label": "Permitted ambient maximum in operation",
+          "raw_value": "70 C",
+          "field": "max_temp_c",
+          "page": 2
+        },
+        {
+          "label": "Ingress protection marking on housing",
+          "raw_value": "IP65",
+          "field": "ip_rating",
+          "page": 2
+        },
+        {
+          "label": "Minimum temperature for operation",
+          "raw_value": "-10 C",
+          "field": "ignore",
+          "page": 1
+        },
+        {
+          "label": "Serial identifier of individual unit",
+          "raw_value": "SN-TEST-991",
+          "field": "ignore",
+          "page": 1
+        },
+        {
+          "label": "Voltage at the load terminals",
+          "raw_value": "12 V DC",
+          "field": "ignore",
+          "page": 2
+        },
+        {
+          "label": "Amperage supplied to connected equipment",
+          "raw_value": "4 A DC",
+          "field": "ignore",
+          "page": 2
+        }
+      ],
+      "issues": [],
+      "path": "data/finetuning-documents/test-04.pdf",
+      "sha256": "0a4cee5fd698a5b0c2c9602fc32958d434c6e04d3a010cb3143eb8827a56613d"
+    },
+    {
+      "id": "test-05",
+      "split": "test",
+      "kind": "scan",
+      "layout": "landscape-table",
+      "expected": {
+        "model": {
+          "value": "SL-TEST-205",
+          "signal": null,
+          "page": 1
+        },
+        "power_w": {
+          "exact_value": "1200",
+          "signal": null,
+          "page": 1
+        },
+        "voltage_v": {
+          "exact_value": "48",
+          "signal": "DC",
+          "page": 1
+        },
+        "current_a": {
+          "exact_value": "0.85",
+          "signal": "DC",
+          "page": 1
+        },
+        "mass_kg": {
+          "exact_value": "2.5",
+          "signal": null,
+          "page": 2
+        },
+        "max_temp_c": {
+          "exact_value": "70",
+          "signal": null,
+          "page": 2
+        },
+        "ip_rating": {
+          "value": "IP54",
+          "signal": null,
+          "page": 2
+        }
+      },
+      "rows": [
+        {
+          "label": "Nameplate type code",
+          "raw_value": "SL-TEST-205",
+          "field": "model",
+          "page": 1
+        },
+        {
+          "label": "Nameplate wattage",
+          "raw_value": "1.2 kW",
+          "field": "power_w",
+          "page": 1
+        },
+        {
+          "label": "Potential across power inlet",
+          "raw_value": "48000 mV DC",
+          "field": "voltage_v",
+          "page": 1
+        },
+        {
+          "label": "Supply-side current",
+          "raw_value": "850 mA DC",
+          "field": "current_a",
+          "page": 1
+        },
+        {
+          "label": "Device weight without carton",
+          "raw_value": "2.5 kg",
+          "field": "mass_kg",
+          "page": 2
+        },
+        {
+          "label": "Upper working ambient rating",
+          "raw_value": "158 F",
+          "field": "max_temp_c",
+          "page": 2
+        },
+        {
+          "label": "IP grade of equipment housing",
+          "raw_value": "IP54",
+          "field": "ip_rating",
+          "page": 2
+        },
+        {
+          "label": "Serial identifier of individual unit",
+          "raw_value": "SN-TEST-991",
+          "field": "ignore",
+          "page": 1
+        },
+        {
+          "label": "Voltage at the load terminals",
+          "raw_value": "12 V DC",
+          "field": "ignore",
+          "page": 1
+        },
+        {
+          "label": "Amperage supplied to connected equipment",
+          "raw_value": "4 A DC",
+          "field": "ignore",
+          "page": 2
+        },
+        {
+          "label": "Total mass including shipping carton",
+          "raw_value": "12 kg",
+          "field": "ignore",
+          "page": 2
+        }
+      ],
+      "issues": [],
+      "path": "data/finetuning-documents/test-05.pdf",
+      "sha256": "b7e23b03577a5878323aa90298dc72c15b6d478c0b9eb259e92c1122b041b069"
+    },
+    {
+      "id": "test-06",
+      "split": "test",
+      "kind": "digital",
+      "layout": "table",
+      "expected": {
+        "model": {
+          "value": "SL-TEST-206",
+          "signal": null,
+          "page": 1
+        },
+        "power_w": {
+          "exact_value": "900",
+          "signal": null,
+          "page": 1
+        },
+        "voltage_v": {
+          "exact_value": "24",
+          "signal": "DC",
+          "page": 1
+        },
+        "current_a": {
+          "exact_value": "2",
+          "signal": "AC",
+          "page": 1
+        },
+        "mass_kg": {
+          "exact_value": "1.81436948",
+          "signal": null,
+          "page": 2
+        },
+        "max_temp_c": {
+          "exact_value": "65",
+          "signal": null,
+          "page": 2
+        },
+        "ip_rating": {
+          "value": "IP65",
+          "signal": null,
+          "page": 2
+        }
+      },
+      "rows": [
+        {
+          "label": "Catalog designation",
+          "raw_value": "SL-TEST-206",
+          "field": "model",
+          "page": 1
+        },
+        {
+          "label": "Continuous electrical capacity",
+          "raw_value": "900000 mW",
+          "field": "power_w",
+          "page": 1
+        },
+        {
+          "label": "Voltage accepted by the unit",
+          "raw_value": "24 V DC",
+          "field": "voltage_v",
+          "page": 1
+        },
+        {
+          "label": "Incoming electrical amperage",
+          "raw_value": "2 A AC",
+          "field": "current_a",
+          "page": 1
+        },
+        {
+          "label": "Uncrated product weight",
+          "raw_value": "4 lb",
+          "field": "mass_kg",
+          "page": 2
+        },
+        {
+          "label": "Maximum environment temperature during use",
+          "raw_value": "65 C",
+          "field": "max_temp_c",
+          "page": 2
+        },
+        {
+          "label": "IP degree of enclosure protection",
+          "raw_value": "IP65",
+          "field": "ip_rating",
+          "page": 2
+        },
+        {
+          "label": "Voltage at the load terminals",
+          "raw_value": "12 V DC",
+          "field": "ignore",
+          "page": 1
+        },
+        {
+          "label": "Amperage supplied to connected equipment",
+          "raw_value": "4 A DC",
+          "field": "ignore",
+          "page": 1
+        },
+        {
+          "label": "Total mass including shipping carton",
+          "raw_value": "12 kg",
+          "field": "ignore",
+          "page": 2
+        },
+        {
+          "label": "Permitted ambient during storage",
+          "raw_value": "95 C",
+          "field": "ignore",
+          "page": 2
+        }
+      ],
+      "issues": [],
+      "path": "data/finetuning-documents/test-06.pdf",
+      "sha256": "09c894dc655aed3ca0d72f002274ac746e5e54b213c810d63c132af76a71030a"
+    },
+    {
+      "id": "test-07",
+      "split": "test",
+      "kind": "scan",
+      "layout": "colon-list",
+      "expected": {
+        "model": {
+          "value": "SL-TEST-207",
+          "signal": null,
+          "page": 1
+        },
+        "power_w": {
+          "exact_value": "720",
+          "signal": null,
+          "page": 1
+        },
+        "voltage_v": {
+          "exact_value": "230",
+          "signal": "AC",
+          "page": 1
+        },
+        "current_a": {
+          "exact_value": "1.25",
+          "signal": "DC",
+          "page": 1
+        },
+        "mass_kg": {
+          "exact_value": "0.0000001",
+          "signal": null,
+          "page": 2
+        },
+        "max_temp_c": {
+          "exact_value": "80",
+          "signal": null,
+          "page": 2
+        },
+        "ip_rating": {
+          "value": "IP54",
+          "signal": null,
+          "page": 2
+        }
+      },
+      "rows": [
+        {
+          "label": "Device ordering code",
+          "raw_value": "SL-TEST-207",
+          "field": "model",
+          "page": 1
+        },
+        {
+          "label": "Wattage at nominal duty",
+          "raw_value": "0.72 kW",
+          "field": "power_w",
+          "page": 1
+        },
+        {
+          "label": "Voltage for energizing the device",
+          "raw_value": "0.23 kV AC",
+          "field": "voltage_v",
+          "page": 1
+        },
+        {
+          "label": "Mains current requirement",
+          "raw_value": "1.25 A DC",
+          "field": "current_a",
+          "page": 1
+        },
+        {
+          "label": "Weight excluding transport packaging",
+          "raw_value": "0.0001 g",
+          "field": "mass_kg",
+          "page": 2
+        },
+        {
+          "label": "Maximum ambient for continuous use",
+          "raw_value": "176 F",
+          "field": "max_temp_c",
+          "page": 2
+        },
+        {
+          "label": "Dust and water ingress marking",
+          "raw_value": "IP54",
+          "field": "ip_rating",
+          "page": 2
+        },
+        {
+          "label": "Amperage supplied to connected equipment",
+          "raw_value": "4 A DC",
+          "field": "ignore",
+          "page": 1
+        },
+        {
+          "label": "Total mass including shipping carton",
+          "raw_value": "12 kg",
+          "field": "ignore",
+          "page": 1
+        },
+        {
+          "label": "Permitted ambient during storage",
+          "raw_value": "95 C",
+          "field": "ignore",
+          "page": 2
+        },
+        {
+          "label": "Minimum temperature for operation",
+          "raw_value": "-10 C",
+          "field": "ignore",
+          "page": 2
+        }
+      ],
+      "issues": [],
+      "path": "data/finetuning-documents/test-07.pdf",
+      "sha256": "31650b502d439872664d2f442c10d8ecfde4e69ec031206440b1cad755d5fcc9"
+    },
+    {
+      "id": "test-08",
+      "split": "test",
+      "kind": "digital",
+      "layout": "landscape-table",
+      "expected": {
+        "model": {
+          "value": "SL-TEST-208",
+          "signal": null,
+          "page": 1
+        },
+        "power_w": {
+          "exact_value": "850",
+          "signal": null,
+          "page": 1
+        },
+        "voltage_v": {
+          "exact_value": "120",
+          "signal": "AC",
+          "page": 1
+        },
+        "current_a": {
+          "exact_value": "0.6",
+          "signal": "AC",
+          "page": 1
+        },
+        "mass_kg": {
+          "exact_value": "1.2",
+          "signal": null,
+          "page": 2
+        },
+        "max_temp_c": {
+          "exact_value": "70",
+          "signal": null,
+          "page": 2
+        },
+        "ip_rating": {
+          "value": "IP65",
+          "signal": null,
+          "page": 2
+        }
+      },
+      "rows": [
+        {
+          "label": "Article type reference",
+          "raw_value": "SL-TEST-208",
+          "field": "model",
+          "page": 1
+        },
+        {
+          "label": "Power under rated operation",
+          "raw_value": "850 W",
+          "field": "power_w",
+          "page": 1
+        },
+        {
+          "label": "Power input potential",
+          "raw_value": "120 V AC",
+          "field": "voltage_v",
+          "page": 1
+        },
+        {
+          "label": "Current taken from supply terminals",
+          "raw_value": "600 mA AC",
+          "field": "current_a",
+          "page": 1
+        },
+        {
+          "label": "Weight of unpackaged equipment",
+          "raw_value": "1200 g",
+          "field": "mass_kg",
+          "page": 2
+        },
+        {
+          "label": "Highest temperature permitted in service",
+          "raw_value": "70 C",
+          "field": "max_temp_c",
+          "page": 2
+        },
+        {
+          "label": "Enclosure sealing IP classification",
+          "raw_value": "IP65",
+          "field": "ip_rating",
+          "page": 2
+        },
+        {
+          "label": "Total mass including shipping carton",
+          "raw_value": "12 kg",
+          "field": "ignore",
+          "page": 1
+        },
+        {
+          "label": "Permitted ambient during storage",
+          "raw_value": "95 C",
+          "field": "ignore",
+          "page": 1
+        },
+        {
+          "label": "Minimum temperature for operation",
+          "raw_value": "-10 C",
+          "field": "ignore",
+          "page": 2
+        },
+        {
+          "label": "Serial identifier of individual unit",
+          "raw_value": "SN-TEST-991",
+          "field": "ignore",
+          "page": 2
+        }
+      ],
+      "issues": [],
+      "path": "data/finetuning-documents/test-08.pdf",
+      "sha256": "b8ced3944e021c9419a67b4917d92cc1967c9bc5baa4623a3b4d47d167ca78fd"
+    },
+    {
+      "id": "test-09",
+      "split": "test",
+      "kind": "scan",
+      "layout": "table",
+      "expected": {
+        "model": {
+          "value": "SL-TEST-209",
+          "signal": null,
+          "page": 1
+        },
+        "power_w": {
+          "exact_value": "1200",
+          "signal": null,
+          "page": 1
+        },
+        "voltage_v": {
+          "exact_value": "48",
+          "signal": "DC",
+          "page": 1
+        },
+        "current_a": {
+          "exact_value": "0.85",
+          "signal": "DC",
+          "page": 1
+        },
+        "mass_kg": {
+          "exact_value": "2.5",
+          "signal": null,
+          "page": 2
+        },
+        "max_temp_c": {
+          "exact_value": "70",
+          "signal": null,
+          "page": 2
+        },
+        "ip_rating": {
+          "value": "IP54",
+          "signal": null,
+          "page": 2
+        }
+      },
+      "rows": [
+        {
+          "label": "Equipment type marking",
+          "raw_value": "SL-TEST-209",
+          "field": "model",
+          "page": 1
+        },
+        {
+          "label": "Declared rated wattage",
+          "raw_value": "1.2 kW",
+          "field": "power_w",
+          "page": 1
+        },
+        {
+          "label": "Required voltage at mains connection",
+          "raw_value": "48000 mV DC",
+          "field": "voltage_v",
+          "page": 1
+        },
+        {
+          "label": "Amperage drawn by the device",
+          "raw_value": "850 mA DC",
+          "field": "current_a",
+          "page": 1
+        },
+        {
+          "label": "Mass excluding shipping materials",
+          "raw_value": "2.5 kg",
+          "field": "mass_kg",
+          "page": 2
+        },
+        {
+          "label": "Hot-end operating temperature limit",
+          "raw_value": "158 F",
+          "field": "max_temp_c",
+          "page": 2
+        },
+        {
+          "label": "Protection against solid and liquid ingress",
+          "raw_value": "IP54",
+          "field": "ip_rating",
+          "page": 2
+        },
+        {
+          "label": "Permitted ambient during storage",
+          "raw_value": "95 C",
+          "field": "ignore",
+          "page": 1
+        },
+        {
+          "label": "Minimum temperature for operation",
+          "raw_value": "-10 C",
+          "field": "ignore",
+          "page": 1
+        },
+        {
+          "label": "Serial identifier of individual unit",
+          "raw_value": "SN-TEST-991",
+          "field": "ignore",
+          "page": 2
+        },
+        {
+          "label": "Voltage at the load terminals",
+          "raw_value": "12 V DC",
+          "field": "ignore",
+          "page": 2
+        }
+      ],
+      "issues": [],
+      "path": "data/finetuning-documents/test-09.pdf",
+      "sha256": "4537214adf9daf5fa6372c92db209d6a4c267fc2f141a27a344a9382ee64e5bd"
+    },
+    {
+      "id": "test-10",
+      "split": "test",
+      "kind": "digital",
+      "layout": "colon-list",
+      "expected": {
+        "model": {
+          "value": "SL-TEST-210",
+          "signal": null,
+          "page": 1
+        },
+        "power_w": {
+          "exact_value": "900",
+          "signal": null,
+          "page": 1
+        },
+        "voltage_v": {
+          "exact_value": "24",
+          "signal": "DC",
+          "page": 1
+        },
+        "current_a": {
+          "exact_value": "2",
+          "signal": "AC",
+          "page": 1
+        },
+        "mass_kg": {
+          "exact_value": "1.81436948",
+          "signal": null,
+          "page": 2
+        },
+        "max_temp_c": {
+          "exact_value": "65",
+          "signal": null,
+          "page": 2
+        },
+        "ip_rating": {
+          "value": "IP65",
+          "signal": null,
+          "page": 2
+        }
+      },
+      "rows": [
+        {
+          "label": "Product family designation",
+          "raw_value": "SL-TEST-210",
+          "field": "model",
+          "page": 1
+        },
+        {
+          "label": "Device electrical power rating",
+          "raw_value": "900000 mW",
+          "field": "power_w",
+          "page": 1
+        },
+        {
+          "label": "Incoming supply voltage",
+          "raw_value": "24 V DC",
+          "field": "voltage_v",
+          "page": 1
+        },
+        {
+          "label": "Current consumed at rated load",
+          "raw_value": "2 A AC",
+          "field": "current_a",
+          "page": 1
+        },
+        {
+          "label": "Bare unit mass",
+          "raw_value": "4 lb",
+          "field": "mass_kg",
+          "page": 2
+        },
+        {
+          "label": "Permitted ambient maximum in operation",
+          "raw_value": "65 C",
+          "field": "max_temp_c",
+          "page": 2
+        },
+        {
+          "label": "Ingress protection marking on housing",
+          "raw_value": "IP65",
+          "field": "ip_rating",
+          "page": 2
+        },
+        {
+          "label": "Minimum temperature for operation",
+          "raw_value": "-10 C",
+          "field": "ignore",
+          "page": 1
+        },
+        {
+          "label": "Serial identifier of individual unit",
+          "raw_value": "SN-TEST-991",
+          "field": "ignore",
+          "page": 1
+        },
+        {
+          "label": "Voltage at the load terminals",
+          "raw_value": "12 V DC",
+          "field": "ignore",
+          "page": 2
+        },
+        {
+          "label": "Amperage supplied to connected equipment",
+          "raw_value": "4 A DC",
+          "field": "ignore",
+          "page": 2
+        }
+      ],
+      "issues": [],
+      "path": "data/finetuning-documents/test-10.pdf",
+      "sha256": "d6b30397a5db54e055c99ff53ff4435301a95d59f29cb01c6766c30ab8573803"
+    },
+    {
+      "id": "test-11",
+      "split": "test",
+      "kind": "scan",
+      "layout": "landscape-table",
+      "expected": {
+        "model": {
+          "value": "SL-TEST-211",
+          "signal": null,
+          "page": 1
+        },
+        "power_w": {
+          "exact_value": "720",
+          "signal": null,
+          "page": 1
+        },
+        "voltage_v": {
+          "exact_value": "230",
+          "signal": "AC",
+          "page": 1
+        },
+        "current_a": {
+          "exact_value": "1.25",
+          "signal": "DC",
+          "page": 1
+        },
+        "mass_kg": {
+          "exact_value": "0.0000001",
+          "signal": null,
+          "page": 2
+        },
+        "max_temp_c": {
+          "exact_value": "80",
+          "signal": null,
+          "page": 2
+        },
+        "ip_rating": {
+          "value": "IP54",
+          "signal": null,
+          "page": 2
+        }
+      },
+      "rows": [
+        {
+          "label": "Nameplate type code",
+          "raw_value": "SL-TEST-211",
+          "field": "model",
+          "page": 1
+        },
+        {
+          "label": "Nameplate wattage",
+          "raw_value": "0.72 kW",
+          "field": "power_w",
+          "page": 1
+        },
+        {
+          "label": "Potential across power inlet",
+          "raw_value": "0.23 kV AC",
+          "field": "voltage_v",
+          "page": 1
+        },
+        {
+          "label": "Supply-side current",
+          "raw_value": "1.25 A DC",
+          "field": "current_a",
+          "page": 1
+        },
+        {
+          "label": "Device weight without carton",
+          "raw_value": "0.0001 g",
+          "field": "mass_kg",
+          "page": 2
+        },
+        {
+          "label": "Upper working ambient rating",
+          "raw_value": "176 F",
+          "field": "max_temp_c",
+          "page": 2
+        },
+        {
+          "label": "IP grade of equipment housing",
+          "raw_value": "IP54",
+          "field": "ip_rating",
+          "page": 2
+        },
+        {
+          "label": "Serial identifier of individual unit",
+          "raw_value": "SN-TEST-991",
+          "field": "ignore",
+          "page": 1
+        },
+        {
+          "label": "Voltage at the load terminals",
+          "raw_value": "12 V DC",
+          "field": "ignore",
+          "page": 1
+        },
+        {
+          "label": "Amperage supplied to connected equipment",
+          "raw_value": "4 A DC",
+          "field": "ignore",
+          "page": 2
+        },
+        {
+          "label": "Total mass including shipping carton",
+          "raw_value": "12 kg",
+          "field": "ignore",
+          "page": 2
+        }
+      ],
+      "issues": [],
+      "path": "data/finetuning-documents/test-11.pdf",
+      "sha256": "e5eda69ed1751f69b02239061e3a961adb17aa16be4d32ae764b7e4edd3da334"
+    },
+    {
+      "id": "test-12",
+      "split": "test",
+      "kind": "digital",
+      "layout": "table",
+      "expected": {
+        "model": {
+          "value": "SL-TEST-212",
+          "signal": null,
+          "page": 1
+        },
+        "power_w": {
+          "error": "unsupported_unit",
+          "page": 1
+        },
+        "voltage_v": {
+          "exact_value": "120",
+          "signal": "AC",
+          "page": 1
+        },
+        "current_a": {
+          "exact_value": "0.6",
+          "signal": "AC",
+          "page": 1
+        },
+        "mass_kg": {
+          "exact_value": "1.2",
+          "signal": null,
+          "page": 2
+        },
+        "max_temp_c": {
+          "exact_value": "70",
+          "signal": null,
+          "page": 2
+        },
+        "ip_rating": {
+          "value": "IP65",
+          "signal": null,
+          "page": 2
+        }
+      },
+      "rows": [
+        {
+          "label": "Catalog designation",
+          "raw_value": "SL-TEST-212",
+          "field": "model",
+          "page": 1
+        },
+        {
+          "label": "Continuous electrical capacity",
+          "raw_value": "18 hp",
+          "field": "power_w",
+          "page": 1
+        },
+        {
+          "label": "Voltage accepted by the unit",
+          "raw_value": "120 V AC",
+          "field": "voltage_v",
+          "page": 1
+        },
+        {
+          "label": "Incoming electrical amperage",
+          "raw_value": "600 mA AC",
+          "field": "current_a",
+          "page": 1
+        },
+        {
+          "label": "Uncrated product weight",
+          "raw_value": "1200 g",
+          "field": "mass_kg",
+          "page": 2
+        },
+        {
+          "label": "Maximum environment temperature during use",
+          "raw_value": "70 C",
+          "field": "max_temp_c",
+          "page": 2
+        },
+        {
+          "label": "IP degree of enclosure protection",
+          "raw_value": "IP65",
+          "field": "ip_rating",
+          "page": 2
+        },
+        {
+          "label": "Voltage at the load terminals",
+          "raw_value": "12 V DC",
+          "field": "ignore",
+          "page": 1
+        },
+        {
+          "label": "Amperage supplied to connected equipment",
+          "raw_value": "4 A DC",
+          "field": "ignore",
+          "page": 1
+        },
+        {
+          "label": "Total mass including shipping carton",
+          "raw_value": "12 kg",
+          "field": "ignore",
+          "page": 2
+        },
+        {
+          "label": "Permitted ambient during storage",
+          "raw_value": "95 C",
+          "field": "ignore",
+          "page": 2
+        }
+      ],
+      "issues": [
+        [
+          "power_w",
+          "unsupported_unit"
+        ]
+      ],
+      "path": "data/finetuning-documents/test-12.pdf",
+      "sha256": "e77ddc2f1e50e5773eb5a889ac58ade6900b9721b57bdfd8fa180b62a5899004"
+    },
+    {
+      "id": "test-13",
+      "split": "test",
+      "kind": "scan",
+      "layout": "colon-list",
+      "expected": {
+        "model": {
+          "value": "SL-TEST-213",
+          "signal": null,
+          "page": 1
+        },
+        "power_w": {
+          "exact_value": "1200",
+          "signal": null,
+          "page": 1
+        },
+        "voltage_v": {
+          "error": "unparsed_value_or_unit",
+          "page": 1
+        },
+        "current_a": {
+          "exact_value": "0.85",
+          "signal": "DC",
+          "page": 1
+        },
+        "mass_kg": {
+          "exact_value": "2.5",
+          "signal": null,
+          "page": 2
+        },
+        "max_temp_c": {
+          "exact_value": "70",
+          "signal": null,
+          "page": 2
+        },
+        "ip_rating": {
+          "value": "IP54",
+          "signal": null,
+          "page": 2
+        }
+      },
+      "rows": [
+        {
+          "label": "Device ordering code",
+          "raw_value": "SL-TEST-213",
+          "field": "model",
+          "page": 1
+        },
+        {
+          "label": "Wattage at nominal duty",
+          "raw_value": "1.2 kW",
+          "field": "power_w",
+          "page": 1
+        },
+        {
+          "label": "Voltage for energizing the device",
+          "raw_value": "220-240 V AC",
+          "field": "voltage_v",
+          "page": 1
+        },
+        {
+          "label": "Mains current requirement",
+          "raw_value": "850 mA DC",
+          "field": "current_a",
+          "page": 1
+        },
+        {
+          "label": "Weight excluding transport packaging",
+          "raw_value": "2.5 kg",
+          "field": "mass_kg",
+          "page": 2
+        },
+        {
+          "label": "Maximum ambient for continuous use",
+          "raw_value": "158 F",
+          "field": "max_temp_c",
+          "page": 2
+        },
+        {
+          "label": "Dust and water ingress marking",
+          "raw_value": "IP54",
+          "field": "ip_rating",
+          "page": 2
+        },
+        {
+          "label": "Amperage supplied to connected equipment",
+          "raw_value": "4 A DC",
+          "field": "ignore",
+          "page": 1
+        },
+        {
+          "label": "Total mass including shipping carton",
+          "raw_value": "12 kg",
+          "field": "ignore",
+          "page": 1
+        },
+        {
+          "label": "Permitted ambient during storage",
+          "raw_value": "95 C",
+          "field": "ignore",
+          "page": 2
+        },
+        {
+          "label": "Minimum temperature for operation",
+          "raw_value": "-10 C",
+          "field": "ignore",
+          "page": 2
+        }
+      ],
+      "issues": [
+        [
+          "voltage_v",
+          "unparsed_value_or_unit"
+        ]
+      ],
+      "path": "data/finetuning-documents/test-13.pdf",
+      "sha256": "0332b5e482ffd3e3eac8c957f2dd12aaa42e8acac7319ca90617ff673f1347f7"
+    },
+    {
+      "id": "test-14",
+      "split": "test",
+      "kind": "digital",
+      "layout": "landscape-table",
+      "expected": {
+        "model": {
+          "value": "SL-TEST-214",
+          "signal": null,
+          "page": 1
+        },
+        "power_w": {
+          "exact_value": "900",
+          "signal": null,
+          "page": 1
+        },
+        "voltage_v": {
+          "exact_value": "24",
+          "signal": "DC",
+          "page": 1
+        },
+        "current_a": {
+          "error": "conflicting_values",
+          "page": 1
+        },
+        "mass_kg": {
+          "exact_value": "1.81436948",
+          "signal": null,
+          "page": 2
+        },
+        "max_temp_c": {
+          "exact_value": "65",
+          "signal": null,
+          "page": 2
+        },
+        "ip_rating": {
+          "value": "IP65",
+          "signal": null,
+          "page": 2
+        }
+      },
+      "rows": [
+        {
+          "label": "Article type reference",
+          "raw_value": "SL-TEST-214",
+          "field": "model",
+          "page": 1
+        },
+        {
+          "label": "Power under rated operation",
+          "raw_value": "900000 mW",
+          "field": "power_w",
+          "page": 1
+        },
+        {
+          "label": "Power input potential",
+          "raw_value": "24 V DC",
+          "field": "voltage_v",
+          "page": 1
+        },
+        {
+          "label": "Current taken from supply terminals",
+          "raw_value": "2 A AC",
+          "field": "current_a",
+          "page": 1
+        },
+        {
+          "label": "Weight of unpackaged equipment",
+          "raw_value": "4 lb",
+          "field": "mass_kg",
+          "page": 2
+        },
+        {
+          "label": "Highest temperature permitted in service",
+          "raw_value": "65 C",
+          "field": "max_temp_c",
+          "page": 2
+        },
+        {
+          "label": "Enclosure sealing IP classification",
+          "raw_value": "IP65",
+          "field": "ip_rating",
+          "page": 2
+        },
+        {
+          "label": "Current taken from supply terminals",
+          "raw_value": "2 A DC",
+          "field": "current_a",
+          "page": 2
+        },
+        {
+          "label": "Total mass including shipping carton",
+          "raw_value": "12 kg",
+          "field": "ignore",
+          "page": 1
+        },
+        {
+          "label": "Permitted ambient during storage",
+          "raw_value": "95 C",
+          "field": "ignore",
+          "page": 1
+        },
+        {
+          "label": "Minimum temperature for operation",
+          "raw_value": "-10 C",
+          "field": "ignore",
+          "page": 2
+        },
+        {
+          "label": "Serial identifier of individual unit",
+          "raw_value": "SN-TEST-991",
+          "field": "ignore",
+          "page": 2
+        }
+      ],
+      "issues": [
+        [
+          "current_a",
+          "conflicting_values"
+        ]
+      ],
+      "path": "data/finetuning-documents/test-14.pdf",
+      "sha256": "f8d7eec404ce81147133f4269f98760f4890512bad47393947dde5621b467115"
+    },
+    {
+      "id": "test-15",
+      "split": "test",
+      "kind": "scan",
+      "layout": "table",
+      "expected": {
+        "model": {
+          "error": "missing_field",
+          "page": 1
+        },
+        "power_w": {
+          "exact_value": "720",
+          "signal": null,
+          "page": 1
+        },
+        "voltage_v": {
+          "exact_value": "230",
+          "signal": "AC",
+          "page": 1
+        },
+        "current_a": {
+          "exact_value": "1.25",
+          "signal": "DC",
+          "page": 1
+        },
+        "mass_kg": {
+          "exact_value": "0.0000001",
+          "signal": null,
+          "page": 2
+        },
+        "max_temp_c": {
+          "exact_value": "80",
+          "signal": null,
+          "page": 2
+        },
+        "ip_rating": {
+          "value": "IP54",
+          "signal": null,
+          "page": 2
+        }
+      },
+      "rows": [
+        {
+          "label": "Declared rated wattage",
+          "raw_value": "0.72 kW",
+          "field": "power_w",
+          "page": 1
+        },
+        {
+          "label": "Required voltage at mains connection",
+          "raw_value": "0.23 kV AC",
+          "field": "voltage_v",
+          "page": 1
+        },
+        {
+          "label": "Amperage drawn by the device",
+          "raw_value": "1.25 A DC",
+          "field": "current_a",
+          "page": 1
+        },
+        {
+          "label": "Mass excluding shipping materials",
+          "raw_value": "0.0001 g",
+          "field": "mass_kg",
+          "page": 2
+        },
+        {
+          "label": "Hot-end operating temperature limit",
+          "raw_value": "176 F",
+          "field": "max_temp_c",
+          "page": 2
+        },
+        {
+          "label": "Protection against solid and liquid ingress",
+          "raw_value": "IP54",
+          "field": "ip_rating",
+          "page": 2
+        },
+        {
+          "label": "Permitted ambient during storage",
+          "raw_value": "95 C",
+          "field": "ignore",
+          "page": 1
+        },
+        {
+          "label": "Minimum temperature for operation",
+          "raw_value": "-10 C",
+          "field": "ignore",
+          "page": 1
+        },
+        {
+          "label": "Serial identifier of individual unit",
+          "raw_value": "SN-TEST-991",
+          "field": "ignore",
+          "page": 2
+        },
+        {
+          "label": "Voltage at the load terminals",
+          "raw_value": "12 V DC",
+          "field": "ignore",
+          "page": 2
+        }
+      ],
+      "issues": [
+        [
+          "model",
+          "missing_field"
+        ]
+      ],
+      "path": "data/finetuning-documents/test-15.pdf",
+      "sha256": "99b0435ded29a497f13e19a006725f6afff96b9562393e3e8ceab91be45a1fee"
+    }
+  ],
+  "documents": 24,
+  "pages": 48,
+  "test_field_slots": 112,
+  "builder_sha256": "d9ac50522bf5c813415d48719089776b4ee4bd1059ce6931c986a6e12bb51f07",
+  "labels_sha256": "46776d70393090202c36730907e3f158857f4be05548da3dd998c3f4fcebc4de",
+  "scope": "24 same-author synthetic 2-page PDFs, three simple layouts. 8 validation, 16 test; each balanced digital/scanned. Labels repeat across documents and vocabulary overlaps. One mildly degraded scan and four semantic/unit/missing-field problem documents. This is not an independent manufacturer-document or general OCR benchmark."
+}

@@ -1,0 +1,707 @@
+{
+  "summary": {
+    "text": {
+      "documents": 8,
+      "pages": 16,
+      "field_correct": 28,
+      "field_total": 56,
+      "field_accuracy": 0.5,
+      "page_attribution_recall": 0.5,
+      "digital_accuracy": 1.0,
+      "scan_accuracy": 0.0,
+      "invalid_documents": 4,
+      "invalid_passed": 0,
+      "clean_documents": 4,
+      "clean_blocked": 2,
+      "errors": 0,
+      "p50_ms": 6.52,
+      "p95_ms": 15.89,
+      "numeric_total": 37,
+      "naive_numeric_correct": 13,
+      "normalized_numeric_correct": 18
+    },
+    "docling": {
+      "documents": 8,
+      "pages": 16,
+      "field_correct": 56,
+      "field_total": 56,
+      "field_accuracy": 1.0,
+      "page_attribution_recall": 1.0,
+      "digital_accuracy": 1.0,
+      "scan_accuracy": 1.0,
+      "invalid_documents": 4,
+      "invalid_passed": 0,
+      "clean_documents": 4,
+      "clean_blocked": 0,
+      "errors": 0,
+      "p50_ms": 2985.56,
+      "p95_ms": 5252.39,
+      "numeric_total": 37,
+      "naive_numeric_correct": 24,
+      "normalized_numeric_correct": 37
+    }
+  },
+  "records": [
+    {
+      "case_id": "test-01",
+      "kind": "digital",
+      "pipeline": "text",
+      "pages": 2,
+      "field_correct": 7,
+      "field_total": 7,
+      "page_correct": 7,
+      "expected_issues": [],
+      "actual_issues": [],
+      "bad_document_passed": false,
+      "clean_document_blocked": false,
+      "latency_ms": 12.1,
+      "error": null,
+      "mistakes": [],
+      "naive_numeric_correct": 4,
+      "numeric_total": 5,
+      "normalized_numeric_correct": 5
+    },
+    {
+      "case_id": "test-02",
+      "kind": "scan",
+      "pipeline": "text",
+      "pages": 2,
+      "field_correct": 0,
+      "field_total": 7,
+      "page_correct": 0,
+      "expected_issues": [],
+      "actual_issues": [
+        [
+          "current_a",
+          "missing_field"
+        ],
+        [
+          "ip_rating",
+          "missing_field"
+        ],
+        [
+          "mass_kg",
+          "missing_field"
+        ],
+        [
+          "max_temp_c",
+          "missing_field"
+        ],
+        [
+          "model",
+          "missing_field"
+        ],
+        [
+          "power_w",
+          "missing_field"
+        ],
+        [
+          "voltage_v",
+          "missing_field"
+        ]
+      ],
+      "bad_document_passed": false,
+      "clean_document_blocked": true,
+      "latency_ms": 1.53,
+      "error": null,
+      "mistakes": [
+        {
+          "field": "model",
+          "expected": "BETA-202",
+          "actual": null
+        },
+        {
+          "field": "power_w",
+          "expected": 400,
+          "actual": null
+        },
+        {
+          "field": "voltage_v",
+          "expected": 48,
+          "actual": null
+        },
+        {
+          "field": "current_a",
+          "expected": 8,
+          "actual": null
+        },
+        {
+          "field": "mass_kg",
+          "expected": 3.2,
+          "actual": null
+        },
+        {
+          "field": "max_temp_c",
+          "expected": 70,
+          "actual": null
+        },
+        {
+          "field": "ip_rating",
+          "expected": "IP67",
+          "actual": null
+        }
+      ],
+      "naive_numeric_correct": 0,
+      "numeric_total": 5,
+      "normalized_numeric_correct": 0
+    },
+    {
+      "case_id": "test-03",
+      "kind": "digital",
+      "pipeline": "text",
+      "pages": 2,
+      "field_correct": 7,
+      "field_total": 7,
+      "page_correct": 7,
+      "expected_issues": [],
+      "actual_issues": [],
+      "bad_document_passed": false,
+      "clean_document_blocked": false,
+      "latency_ms": 11.74,
+      "error": null,
+      "mistakes": [],
+      "naive_numeric_correct": 1,
+      "numeric_total": 5,
+      "normalized_numeric_correct": 5
+    },
+    {
+      "case_id": "test-04",
+      "kind": "scan",
+      "pipeline": "text",
+      "pages": 2,
+      "field_correct": 0,
+      "field_total": 7,
+      "page_correct": 0,
+      "expected_issues": [],
+      "actual_issues": [
+        [
+          "current_a",
+          "missing_field"
+        ],
+        [
+          "ip_rating",
+          "missing_field"
+        ],
+        [
+          "mass_kg",
+          "missing_field"
+        ],
+        [
+          "max_temp_c",
+          "missing_field"
+        ],
+        [
+          "model",
+          "missing_field"
+        ],
+        [
+          "power_w",
+          "missing_field"
+        ],
+        [
+          "voltage_v",
+          "missing_field"
+        ]
+      ],
+      "bad_document_passed": false,
+      "clean_document_blocked": true,
+      "latency_ms": 1.52,
+      "error": null,
+      "mistakes": [
+        {
+          "field": "model",
+          "expected": "BETA-404",
+          "actual": null
+        },
+        {
+          "field": "power_w",
+          "expected": 210,
+          "actual": null
+        },
+        {
+          "field": "voltage_v",
+          "expected": 24,
+          "actual": null
+        },
+        {
+          "field": "current_a",
+          "expected": 9,
+          "actual": null
+        },
+        {
+          "field": "mass_kg",
+          "expected": 2.4,
+          "actual": null
+        },
+        {
+          "field": "max_temp_c",
+          "expected": 75,
+          "actual": null
+        },
+        {
+          "field": "ip_rating",
+          "expected": "IP55",
+          "actual": null
+        }
+      ],
+      "naive_numeric_correct": 0,
+      "numeric_total": 5,
+      "normalized_numeric_correct": 0
+    },
+    {
+      "case_id": "test-05",
+      "kind": "digital",
+      "pipeline": "text",
+      "pages": 2,
+      "field_correct": 7,
+      "field_total": 7,
+      "page_correct": 7,
+      "expected_issues": [
+        [
+          "power_w",
+          "conflicting_values"
+        ]
+      ],
+      "actual_issues": [
+        [
+          "power_w",
+          "conflicting_values"
+        ]
+      ],
+      "bad_document_passed": false,
+      "clean_document_blocked": false,
+      "latency_ms": 15.89,
+      "error": null,
+      "mistakes": [],
+      "naive_numeric_correct": 4,
+      "numeric_total": 4,
+      "normalized_numeric_correct": 4
+    },
+    {
+      "case_id": "test-06",
+      "kind": "scan",
+      "pipeline": "text",
+      "pages": 2,
+      "field_correct": 0,
+      "field_total": 7,
+      "page_correct": 0,
+      "expected_issues": [
+        [
+          "power_w",
+          "unsupported_unit"
+        ]
+      ],
+      "actual_issues": [
+        [
+          "current_a",
+          "missing_field"
+        ],
+        [
+          "ip_rating",
+          "missing_field"
+        ],
+        [
+          "mass_kg",
+          "missing_field"
+        ],
+        [
+          "max_temp_c",
+          "missing_field"
+        ],
+        [
+          "model",
+          "missing_field"
+        ],
+        [
+          "power_w",
+          "missing_field"
+        ],
+        [
+          "voltage_v",
+          "missing_field"
+        ]
+      ],
+      "bad_document_passed": false,
+      "clean_document_blocked": false,
+      "latency_ms": 1.51,
+      "error": null,
+      "mistakes": [
+        {
+          "field": "model",
+          "expected": "BETA-606",
+          "actual": null
+        },
+        {
+          "field": "power_w",
+          "expected": null,
+          "actual": null
+        },
+        {
+          "field": "voltage_v",
+          "expected": 24,
+          "actual": null
+        },
+        {
+          "field": "current_a",
+          "expected": 10,
+          "actual": null
+        },
+        {
+          "field": "mass_kg",
+          "expected": 4.5,
+          "actual": null
+        },
+        {
+          "field": "max_temp_c",
+          "expected": 35,
+          "actual": null
+        },
+        {
+          "field": "ip_rating",
+          "expected": "IP66",
+          "actual": null
+        }
+      ],
+      "naive_numeric_correct": 0,
+      "numeric_total": 4,
+      "normalized_numeric_correct": 0
+    },
+    {
+      "case_id": "test-07",
+      "kind": "digital",
+      "pipeline": "text",
+      "pages": 2,
+      "field_correct": 7,
+      "field_total": 7,
+      "page_correct": 7,
+      "expected_issues": [
+        [
+          "power_w",
+          "unparsed_value_or_unit"
+        ]
+      ],
+      "actual_issues": [
+        [
+          "power_w",
+          "unparsed_value_or_unit"
+        ]
+      ],
+      "bad_document_passed": false,
+      "clean_document_blocked": false,
+      "latency_ms": 11.52,
+      "error": null,
+      "mistakes": [],
+      "naive_numeric_correct": 4,
+      "numeric_total": 4,
+      "normalized_numeric_correct": 4
+    },
+    {
+      "case_id": "test-08",
+      "kind": "scan",
+      "pipeline": "text",
+      "pages": 2,
+      "field_correct": 0,
+      "field_total": 7,
+      "page_correct": 0,
+      "expected_issues": [
+        [
+          "ip_rating",
+          "missing_value"
+        ]
+      ],
+      "actual_issues": [
+        [
+          "current_a",
+          "missing_field"
+        ],
+        [
+          "ip_rating",
+          "missing_field"
+        ],
+        [
+          "mass_kg",
+          "missing_field"
+        ],
+        [
+          "max_temp_c",
+          "missing_field"
+        ],
+        [
+          "model",
+          "missing_field"
+        ],
+        [
+          "power_w",
+          "missing_field"
+        ],
+        [
+          "voltage_v",
+          "missing_field"
+        ]
+      ],
+      "bad_document_passed": false,
+      "clean_document_blocked": false,
+      "latency_ms": 1.41,
+      "error": null,
+      "mistakes": [
+        {
+          "field": "model",
+          "expected": "BETA-808",
+          "actual": null
+        },
+        {
+          "field": "power_w",
+          "expected": 800,
+          "actual": null
+        },
+        {
+          "field": "voltage_v",
+          "expected": 48,
+          "actual": null
+        },
+        {
+          "field": "current_a",
+          "expected": 16,
+          "actual": null
+        },
+        {
+          "field": "mass_kg",
+          "expected": 6,
+          "actual": null
+        },
+        {
+          "field": "max_temp_c",
+          "expected": 80,
+          "actual": null
+        },
+        {
+          "field": "ip_rating",
+          "expected": null,
+          "actual": null
+        }
+      ],
+      "naive_numeric_correct": 0,
+      "numeric_total": 5,
+      "normalized_numeric_correct": 0
+    },
+    {
+      "case_id": "test-01",
+      "kind": "digital",
+      "pipeline": "docling",
+      "pages": 2,
+      "field_correct": 7,
+      "field_total": 7,
+      "page_correct": 7,
+      "expected_issues": [],
+      "actual_issues": [],
+      "bad_document_passed": false,
+      "clean_document_blocked": false,
+      "latency_ms": 1116.85,
+      "error": null,
+      "mistakes": [],
+      "naive_numeric_correct": 4,
+      "numeric_total": 5,
+      "normalized_numeric_correct": 5
+    },
+    {
+      "case_id": "test-02",
+      "kind": "scan",
+      "pipeline": "docling",
+      "pages": 2,
+      "field_correct": 7,
+      "field_total": 7,
+      "page_correct": 7,
+      "expected_issues": [],
+      "actual_issues": [],
+      "bad_document_passed": false,
+      "clean_document_blocked": false,
+      "latency_ms": 5252.39,
+      "error": null,
+      "mistakes": [],
+      "naive_numeric_correct": 2,
+      "numeric_total": 5,
+      "normalized_numeric_correct": 5
+    },
+    {
+      "case_id": "test-03",
+      "kind": "digital",
+      "pipeline": "docling",
+      "pages": 2,
+      "field_correct": 7,
+      "field_total": 7,
+      "page_correct": 7,
+      "expected_issues": [],
+      "actual_issues": [],
+      "bad_document_passed": false,
+      "clean_document_blocked": false,
+      "latency_ms": 1062.51,
+      "error": null,
+      "mistakes": [],
+      "naive_numeric_correct": 1,
+      "numeric_total": 5,
+      "normalized_numeric_correct": 5
+    },
+    {
+      "case_id": "test-04",
+      "kind": "scan",
+      "pipeline": "docling",
+      "pages": 2,
+      "field_correct": 7,
+      "field_total": 7,
+      "page_correct": 7,
+      "expected_issues": [],
+      "actual_issues": [],
+      "bad_document_passed": false,
+      "clean_document_blocked": false,
+      "latency_ms": 4854.26,
+      "error": null,
+      "mistakes": [],
+      "naive_numeric_correct": 4,
+      "numeric_total": 5,
+      "normalized_numeric_correct": 5
+    },
+    {
+      "case_id": "test-05",
+      "kind": "digital",
+      "pipeline": "docling",
+      "pages": 2,
+      "field_correct": 7,
+      "field_total": 7,
+      "page_correct": 7,
+      "expected_issues": [
+        [
+          "power_w",
+          "conflicting_values"
+        ]
+      ],
+      "actual_issues": [
+        [
+          "power_w",
+          "conflicting_values"
+        ]
+      ],
+      "bad_document_passed": false,
+      "clean_document_blocked": false,
+      "latency_ms": 1051.21,
+      "error": null,
+      "mistakes": [],
+      "naive_numeric_correct": 4,
+      "numeric_total": 4,
+      "normalized_numeric_correct": 4
+    },
+    {
+      "case_id": "test-06",
+      "kind": "scan",
+      "pipeline": "docling",
+      "pages": 2,
+      "field_correct": 7,
+      "field_total": 7,
+      "page_correct": 7,
+      "expected_issues": [
+        [
+          "power_w",
+          "unsupported_unit"
+        ]
+      ],
+      "actual_issues": [
+        [
+          "power_w",
+          "unsupported_unit"
+        ]
+      ],
+      "bad_document_passed": false,
+      "clean_document_blocked": false,
+      "latency_ms": 5032.88,
+      "error": null,
+      "mistakes": [],
+      "naive_numeric_correct": 2,
+      "numeric_total": 4,
+      "normalized_numeric_correct": 4
+    },
+    {
+      "case_id": "test-07",
+      "kind": "digital",
+      "pipeline": "docling",
+      "pages": 2,
+      "field_correct": 7,
+      "field_total": 7,
+      "page_correct": 7,
+      "expected_issues": [
+        [
+          "power_w",
+          "unparsed_value_or_unit"
+        ]
+      ],
+      "actual_issues": [
+        [
+          "power_w",
+          "unparsed_value_or_unit"
+        ]
+      ],
+      "bad_document_passed": false,
+      "clean_document_blocked": false,
+      "latency_ms": 1039.68,
+      "error": null,
+      "mistakes": [],
+      "naive_numeric_correct": 4,
+      "numeric_total": 4,
+      "normalized_numeric_correct": 4
+    },
+    {
+      "case_id": "test-08",
+      "kind": "scan",
+      "pipeline": "docling",
+      "pages": 2,
+      "field_correct": 7,
+      "field_total": 7,
+      "page_correct": 7,
+      "expected_issues": [
+        [
+          "ip_rating",
+          "missing_value"
+        ]
+      ],
+      "actual_issues": [
+        [
+          "ip_rating",
+          "missing_value"
+        ]
+      ],
+      "bad_document_passed": false,
+      "clean_document_blocked": false,
+      "latency_ms": 5109.62,
+      "error": null,
+      "mistakes": [],
+      "naive_numeric_correct": 3,
+      "numeric_total": 5,
+      "normalized_numeric_correct": 5
+    }
+  ],
+  "scope": "Self-authored English equipment specification PDFs; same-author labels. No real manufacturer or independently reviewed benchmark.",
+  "backend": {
+    "kind": "docling",
+    "pipeline_version": "specledger-fields-v2",
+    "model_manifest": "18814d9c5d2c2e36ea1ed08d9f30da99f8d46f6628abd26b2218f0759cc28346",
+    "models": [
+      {
+        "repo": "docling-project/docling-layout-heron",
+        "revision": "8f39ad3c0b4c58e9c2d2c84a38465abf757272d8"
+      },
+      {
+        "repo": "docling-project/docling-models",
+        "revision": "fc0f2d45e2218ea24bce5045f58a389aed16dc23"
+      }
+    ],
+    "ocr": true,
+    "note": "Docling + RapidOCR 实际本地推理，英文设备表"
+  },
+  "report_sha256": "35b9273c5f501c6c93eb35c247d58910fd56dbe27dc2ac522141efee7a33d6c2",
+  "limits": [
+    "12 self-authored 2-page PDFs: 4 dev and 8 test, each split balanced digital/scanned.",
+    "Labels and layouts share the same author; no independent real-world accuracy claim.",
+    "Field accuracy scores canonical values AND correct unresolved-field states; it is not OCR character accuracy.",
+    "Page attribution checks the expected page, not bounding-box precision.",
+    "Latency is warm parsing plus field rules, cache disabled; model initialization excluded.",
+    "Numeric ablation deliberately takes the first number without unit conversion; it is not another OCR model."
+  ]
+}

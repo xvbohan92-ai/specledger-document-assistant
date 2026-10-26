@@ -1,0 +1,26 @@
+{
+  "rows": {
+    "train": 96,
+    "valid": 32,
+    "test": 48
+  },
+  "classes": [
+    "model",
+    "power_w",
+    "voltage_v",
+    "current_a",
+    "mass_kg",
+    "max_temp_c",
+    "ip_rating",
+    "ignore"
+  ],
+  "files": {
+    "training/label-specs.json": "46776d70393090202c36730907e3f158857f4be05548da3dd998c3f4fcebc4de",
+    "training/config.json": "7941bdca2a61268401483a72aee04e909050c84f693c95ad0b2f69afd4bc994f",
+    "specledger/field_descriptions.json": "c775ffaa97d3ae9405152920c068bfc340eb7a407d5021c6a35c5889a3b57acb",
+    "training/datasets/train.json": "7ad6e5ae1cbeb74109c2455d6c3d76a786c0f5e6005657a67d954ede968b9d6b",
+    "training/datasets/valid.json": "baa91f05d73ad9dbd01627c9e8abddb70d1a0e1c08b2d7abd472f50bdb989347",
+    "training/datasets/test.json": "4abeab51be78fbccf536d1a38385d98c75e8be29e4840948952e42a77e0cda50"
+  },
+  "scope": "Same-author synthetic English field labels, eight closed classes. Exact label strings are disjoint, but vocabulary and schema concepts overlap; no independent annotation or unseen-vendor/OCR generalization claim. Input is label text only, never values or units."
+}

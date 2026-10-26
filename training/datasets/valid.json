@@ -1,0 +1,162 @@
+[
+  {
+    "id": "valid-model-0",
+    "label": "Commercial type reference",
+    "field": "model"
+  },
+  {
+    "id": "valid-model-1",
+    "label": "Equipment designation code",
+    "field": "model"
+  },
+  {
+    "id": "valid-model-2",
+    "label": "Ordering model reference",
+    "field": "model"
+  },
+  {
+    "id": "valid-model-3",
+    "label": "Product type identifier",
+    "field": "model"
+  },
+  {
+    "id": "valid-power_w-0",
+    "label": "Declared nominal electrical power",
+    "field": "power_w"
+  },
+  {
+    "id": "valid-power_w-1",
+    "label": "Equipment nominal power level",
+    "field": "power_w"
+  },
+  {
+    "id": "valid-power_w-2",
+    "label": "Specified continuous wattage",
+    "field": "power_w"
+  },
+  {
+    "id": "valid-power_w-3",
+    "label": "Nominal device power capacity",
+    "field": "power_w"
+  },
+  {
+    "id": "valid-voltage_v-0",
+    "label": "Voltage applied to supply terminals",
+    "field": "voltage_v"
+  },
+  {
+    "id": "valid-voltage_v-1",
+    "label": "Electrical supply potential",
+    "field": "voltage_v"
+  },
+  {
+    "id": "valid-voltage_v-2",
+    "label": "Required mains potential",
+    "field": "voltage_v"
+  },
+  {
+    "id": "valid-voltage_v-3",
+    "label": "Rated incoming line voltage",
+    "field": "voltage_v"
+  },
+  {
+    "id": "valid-current_a-0",
+    "label": "Amperage taken from the supply",
+    "field": "current_a"
+  },
+  {
+    "id": "valid-current_a-1",
+    "label": "Nominal current demand",
+    "field": "current_a"
+  },
+  {
+    "id": "valid-current_a-2",
+    "label": "Current required at power inlet",
+    "field": "current_a"
+  },
+  {
+    "id": "valid-current_a-3",
+    "label": "Electrical input current demand",
+    "field": "current_a"
+  },
+  {
+    "id": "valid-mass_kg-0",
+    "label": "Equipment mass excluding crate",
+    "field": "mass_kg"
+  },
+  {
+    "id": "valid-mass_kg-1",
+    "label": "Unboxed unit mass",
+    "field": "mass_kg"
+  },
+  {
+    "id": "valid-mass_kg-2",
+    "label": "Device-only mass",
+    "field": "mass_kg"
+  },
+  {
+    "id": "valid-mass_kg-3",
+    "label": "Net product mass without packing",
+    "field": "mass_kg"
+  },
+  {
+    "id": "valid-max_temp_c-0",
+    "label": "Operating ambient upper bound",
+    "field": "max_temp_c"
+  },
+  {
+    "id": "valid-max_temp_c-1",
+    "label": "Highest permissible working ambient",
+    "field": "max_temp_c"
+  },
+  {
+    "id": "valid-max_temp_c-2",
+    "label": "Upper service ambient temperature",
+    "field": "max_temp_c"
+  },
+  {
+    "id": "valid-max_temp_c-3",
+    "label": "Thermal ceiling while operating",
+    "field": "max_temp_c"
+  },
+  {
+    "id": "valid-ip_rating-0",
+    "label": "Enclosure ingress classification",
+    "field": "ip_rating"
+  },
+  {
+    "id": "valid-ip_rating-1",
+    "label": "Rated dust and moisture protection",
+    "field": "ip_rating"
+  },
+  {
+    "id": "valid-ip_rating-2",
+    "label": "Ingress resistance designation",
+    "field": "ip_rating"
+  },
+  {
+    "id": "valid-ip_rating-3",
+    "label": "International ingress protection code",
+    "field": "ip_rating"
+  },
+  {
+    "id": "valid-ignore-0",
+    "label": "Voltage delivered to the load",
+    "field": "ignore"
+  },
+  {
+    "id": "valid-ignore-1",
+    "label": "Current available at output",
+    "field": "ignore"
+  },
+  {
+    "id": "valid-ignore-2",
+    "label": "Transport crate gross weight",
+    "field": "ignore"
+  },
+  {
+    "id": "valid-ignore-3",
+    "label": "Maximum storage ambient",
+    "field": "ignore"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "name": "specledger-equipment-v1",
+  "scope": "Self-authored English equipment specification PDFs; same-author labels. No real manufacturer or independently reviewed benchmark.",
+  "cases": [
+    {"id":"dev-01","split":"dev","kind":"digital","model":"ALP-100","raw":["120 W","24 V","5 A","1200 g","60 C","IP65"],"expected":[120,24,5,1.2,60,"IP65"],"issues":[]},
+    {"id":"dev-02","split":"dev","kind":"scan","model":"ALP-200","raw":["0.25 kW","48 V","5 A","2.5 kg","140 F","IP54"],"expected":[250,48,5,2.5,60,"IP54"],"issues":[]},
+    {"id":"dev-03","split":"dev","kind":"digital","model":"ALP-300","raw":["150 VA","24 V","6 A","1500 g","65 C","IP67"],"expected":[null,24,6,1.5,65,"IP67"],"issues":[["power_w","unsupported_unit"]]},
+    {"id":"dev-04","split":"dev","kind":"scan","model":"ALP-400","raw":["90 W","12 V","7.5 A","N/A","122 F","IP44"],"expected":[90,12,7.5,null,50,"IP44"],"issues":[["mass_kg","missing_value"]]},
+    {"id":"test-01","split":"test","kind":"digital","model":"BETA-101","raw":["180 W","24 V DC","7.5 A","1800 g","70 C","IP65"],"expected":[180,24,7.5,1.8,70,"IP65"],"issues":[]},
+    {"id":"test-02","split":"test","kind":"scan","model":"BETA-202","raw":["0.4 kW","48 V","8 A","3200 g","158 F","IP67"],"expected":[400,48,8,3.2,70,"IP67"],"issues":[]},
+    {"id":"test-03","split":"test","kind":"digital","model":"BETA-303","raw":["75000 mW","0.024 kV","500 mA","2 kg","59 F","IP54"],"expected":[75,24,0.5,2,15,"IP54"],"issues":[]},
+    {"id":"test-04","split":"test","kind":"scan","degraded":true,"model":"BETA-404","raw":["210 W","24 V","9 A","2400 g","75 C","IP55"],"expected":[210,24,9,2.4,75,"IP55"],"issues":[]},
+    {"id":"test-05","split":"test","kind":"digital","model":"BETA-505","raw":["300 W","48 V","6 A","4 kg","80 C","IP65"],"expected":[null,48,6,4,80,"IP65"],"conflict_power":"400 W","issues":[["power_w","conflicting_values"]]},
+    {"id":"test-06","split":"test","kind":"scan","model":"BETA-606","raw":["0.5 hp","24 V","10 A","4500 g","95 F","IP66"],"expected":[null,24,10,4.5,35,"IP66"],"issues":[["power_w","unsupported_unit"]]},
+    {"id":"test-07","split":"test","kind":"digital","model":"BETA-707","raw":["100-150 W","12 V","10 A","3 kg","50 C","IP54"],"expected":[null,12,10,3,50,"IP54"],"issues":[["power_w","unparsed_value_or_unit"]]},
+    {"id":"test-08","split":"test","kind":"scan","model":"BETA-808","raw":["800 W","48 V","16 A","6000 g","176 F","N/A"],"expected":[800,48,16,6,80,null],"issues":[["ip_rating","missing_value"]]}
+  ]
+}

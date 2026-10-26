@@ -1,0 +1,5406 @@
+{
+  "document_manifest_sha256": "58f38fa3e8471fa6a20d9f0e7ddff78fe1b405f2f35bff449a386ce071311bc6",
+  "backend": {
+    "kind": "docling",
+    "pipeline_version": "specledger-fields-v2",
+    "model_manifest": "18814d9c5d2c2e36ea1ed08d9f30da99f8d46f6628abd26b2218f0759cc28346",
+    "models": [
+      {
+        "repo": "docling-project/docling-layout-heron",
+        "revision": "8f39ad3c0b4c58e9c2d2c84a38465abf757272d8"
+      },
+      {
+        "repo": "docling-project/docling-models",
+        "revision": "fc0f2d45e2218ea24bce5045f58a389aed16dc23"
+      }
+    ],
+    "ocr": true,
+    "note": "Docling + RapidOCR \u5b9e\u9645\u672c\u5730\u63a8\u7406\uff0c\u82f1\u6587\u8bbe\u5907\u8868"
+  },
+  "source_sha256": "5a21faf28f793d144a18c9a44c2aee1649a9730f1c5b80933ccfde4161c619f0",
+  "model_manifest_sha256": "40f765ba22c5f702fd46058e30f0b2326f026caedd8d7489f96ca297891585a3",
+  "parser_source_sha256": "65bf01e8abb282022aab00198e6eb95180700941b18966ac0af1b54a62fa56c8",
+  "records": [
+    {
+      "id": "valid-00",
+      "pdf_sha256": "2ccfb8a0baf715c3b7b85a862769fff8c991cda453af2a84e8b957a3f75ef9d7",
+      "error": null,
+      "pages": [
+        {
+          "number": 1,
+          "width": 595.0,
+          "height": 842.0,
+          "lines": [
+            {
+              "text": "SPECLEDGER / EQUIPMENT DATA",
+              "page": 1,
+              "bbox": [
+                0.06722689075630252,
+                0.0355368171021378,
+                0.6574857142857142,
+                0.058606888361045106
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "SELF-AUTHORED TEST FIXTURE - NOT A MANUFACTURER DOCUMENT",
+              "page": 1,
+              "bbox": [
+                0.06722689075630252,
+                0.07817102137767226,
+                0.6470756302521012,
+                0.08915676959619959
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "valid-00 / Electrical attributes",
+              "page": 1,
+              "bbox": [
+                0.06722689075630252,
+                0.15280997624703094,
+                0.3695915966386556,
+                0.16709144893111644
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Parameter | Value",
+              "page": 1,
+              "bbox": [
+                0.08235294117647059,
+                0.21712589073634211,
+                0.7503865546218488,
+                0.2281116389548694
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Commercial type reference | SL-VALID-200",
+              "page": 1,
+              "bbox": [
+                0.08235294117647059,
+                0.2693824228028504,
+                0.8138991596638656,
+                0.28036817102137773
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Equipment nominal power level | 850 W",
+              "page": 1,
+              "bbox": [
+                0.08235294117647059,
+                0.32163895486935873,
+                0.7541176470588236,
+                0.33262470308788605
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Required mains potential | 120 V AC",
+              "page": 1,
+              "bbox": [
+                0.08235294117647059,
+                0.37389548693586705,
+                0.7774789915966387,
+                0.3848812351543944
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Electrical input current demand | 600 mA AC",
+              "page": 1,
+              "bbox": [
+                0.08235294117647059,
+                0.4261520190023753,
+                0.7914789915966387,
+                0.4371377672209026
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Voltage delivered to the load | 12 V DC",
+              "page": 1,
+              "bbox": [
+                0.08235294117647059,
+                0.4784085510688836,
+                0.7690588235294118,
+                0.4893942992874109
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Current available at output | 4 A DC",
+              "page": 1,
+              "bbox": [
+                0.08235294117647059,
+                0.530665083135392,
+                0.7597142857142858,
+                0.5416508313539192
+              ],
+              "precision": "cell"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "width": 595.0,
+          "height": 842.0,
+          "lines": [
+            {
+              "text": "SPECLEDGER / EQUIPMENT DATA",
+              "page": 2,
+              "bbox": [
+                0.06722689075630252,
+                0.0355368171021378,
+                0.6574857142857142,
+                0.058606888361045106
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "SELF-AUTHORED TEST FIXTURE - NOT A MANUFACTURER DOCUMENT",
+              "page": 2,
+              "bbox": [
+                0.06722689075630252,
+                0.07817102137767226,
+                0.6470756302521012,
+                0.08915676959619959
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "valid-00 / Mechanical attributes",
+              "page": 2,
+              "bbox": [
+                0.06722689075630252,
+                0.15280997624703094,
+                0.3902168067226892,
+                0.16709144893111644
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Parameter | Value",
+              "page": 2,
+              "bbox": [
+                0.08235294117647059,
+                0.21712589073634211,
+                0.7503865546218488,
+                0.2281116389548694
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Equipment mass excluding crate | 1200 g",
+              "page": 2,
+              "bbox": [
+                0.08235294117647059,
+                0.2693824228028504,
+                0.7569411764705882,
+                0.28036817102137773
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Highest permissible working ambient | 70 C",
+              "page": 2,
+              "bbox": [
+                0.08235294117647059,
+                0.32163895486935873,
+                0.7410420168067228,
+                0.33262470308788605
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Ingress resistance designation | IP65",
+              "page": 2,
+              "bbox": [
+                0.08235294117647059,
+                0.37389548693586705,
+                0.7401176470588235,
+                0.3848812351543944
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Transport crate gross weight | 12 kg",
+              "page": 2,
+              "bbox": [
+                0.08235294117647059,
+                0.4261520190023753,
+                0.7466554621848739,
+                0.4371377672209026
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Maximum storage ambient | 95 C",
+              "page": 2,
+              "bbox": [
+                0.08235294117647059,
+                0.4784085510688836,
+                0.7410420168067228,
+                0.4893942992874109
+              ],
+              "precision": "cell"
+            }
+          ]
+        }
+      ],
+      "parse_ms": 1480.17
+    },
+    {
+      "id": "valid-01",
+      "pdf_sha256": "deb449d5d1bf7239da03226bf811cce689972fa0d731b8bfe6e7afd7ba408e16",
+      "error": null,
+      "pages": [
+        {
+          "number": 1,
+          "width": 595.0,
+          "height": 842.0,
+          "lines": [
+            {
+              "text": "SPECLEDGER / EQUIPMENT DATA",
+              "page": 1,
+              "bbox": [
+                0.061624649859943974,
+                0.029691211401425176,
+                0.6627450980392157,
+                0.05938242280285035
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "SELF-AUTHORED TEST FIXTURE - NOT A MANUFACTURER DOCUMENT",
+              "page": 1,
+              "bbox": [
+                0.06554621848739496,
+                0.07521773555027716,
+                0.6481792717086835,
+                0.08946951702296124
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "valid-01 Electrical attributes",
+              "page": 1,
+              "bbox": [
+                0.061624649859943974,
+                0.14568487727632617,
+                0.3742296918767507,
+                0.171021377672209
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Equipment designation code: SL-VALID-201",
+              "page": 1,
+              "bbox": [
+                0.0649859943977591,
+                0.21496437054631828,
+                0.39719887955182076,
+                0.2284243863816311
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Specified continuous wattage: 1.2 kW",
+              "page": 1,
+              "bbox": [
+                0.06554621848739496,
+                0.2672209026128266,
+                0.3495798319327731,
+                0.2814726840855107
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Rated incoming line voltage: 48000 mV DC",
+              "page": 1,
+              "bbox": [
+                0.06442577030812326,
+                0.3194774346793349,
+                0.3899159663865546,
+                0.3333333333333334
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Amperage taken from the supply: 850 mA DC",
+              "page": 1,
+              "bbox": [
+                0.0649859943977591,
+                0.37212984956452894,
+                0.4072829131652661,
+                0.386381631037213
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Current available at output: 4 A DC",
+              "page": 1,
+              "bbox": [
+                0.06610644257703081,
+                0.42399049881235157,
+                0.32829131652661064,
+                0.4366587490102929
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Transport crate gross weight: 12 kg",
+              "page": 1,
+              "bbox": [
+                0.0649859943977591,
+                0.47585114806017415,
+                0.3322128851540616,
+                0.49089469517022966
+              ],
+              "precision": "line"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "width": 595.0,
+          "height": 842.0,
+          "lines": [
+            {
+              "text": "SPECLEDGER / EQUIPMENT DATA",
+              "page": 2,
+              "bbox": [
+                0.061624649859943974,
+                0.029691211401425176,
+                0.6627450980392157,
+                0.05938242280285035
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "SELF-AUTHORED TEST FIXTURE - NOT A MANUFACTURER DOCUMENT",
+              "page": 2,
+              "bbox": [
+                0.06554621848739496,
+                0.07521773555027716,
+                0.6481792717086835,
+                0.08946951702296124
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "valid-01 1 / Mechanical attributes",
+              "page": 2,
+              "bbox": [
+                0.06106442577030813,
+                0.14489311163895488,
+                0.3949579831932773,
+                0.17220902612826602
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Unboxed unit mass: 2.5 kg",
+              "page": 2,
+              "bbox": [
+                0.06554621848739496,
+                0.21456848772763257,
+                0.2672268907563025,
+                0.22882026920031667
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Upper service ambient temperature: 158 F",
+              "page": 2,
+              "bbox": [
+                0.0649859943977591,
+                0.2672209026128266,
+                0.3859943977591036,
+                0.28028503562945367
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "International ingress protection code: IP54",
+              "page": 2,
+              "bbox": [
+                0.06554621848739496,
+                0.3198733174980205,
+                0.38375350140056025,
+                0.3333333333333334
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Maximum storage ambient: 95 C",
+              "page": 2,
+              "bbox": [
+                0.0649859943977591,
+                0.37212984956452894,
+                0.31204481792717087,
+                0.3855898653998416
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Voltage delivered to the load: 12 V DC",
+              "page": 2,
+              "bbox": [
+                0.0649859943977591,
+                0.42399049881235157,
+                0.3546218487394958,
+                0.4366587490102929
+              ],
+              "precision": "line"
+            }
+          ]
+        }
+      ],
+      "parse_ms": 3947.37
+    },
+    {
+      "id": "valid-02",
+      "pdf_sha256": "a4824e66980b68e6a6db77ca331e92e1fd2f5e40b91fa4ad1a66d4a0eb4d4b9b",
+      "error": null,
+      "pages": [
+        {
+          "number": 1,
+          "width": 595.0,
+          "height": 842.0,
+          "lines": [
+            {
+              "text": "SPECLEDGER / EQUIPMENT DATA",
+              "page": 1,
+              "bbox": [
+                0.06722689075630252,
+                0.0355368171021378,
+                0.6574857142857142,
+                0.058606888361045106
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "SELF-AUTHORED TEST FIXTURE - NOT A MANUFACTURER DOCUMENT",
+              "page": 1,
+              "bbox": [
+                0.06722689075630252,
+                0.07817102137767226,
+                0.6470756302521012,
+                0.08915676959619959
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "valid-02 / Electrical attributes",
+              "page": 1,
+              "bbox": [
+                0.06722689075630252,
+                0.15280997624703094,
+                0.3695915966386556,
+                0.16709144893111644
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Parameter | Value",
+              "page": 1,
+              "bbox": [
+                0.08235294117647059,
+                0.21712589073634211,
+                0.7503865546218488,
+                0.2281116389548694
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Ordering model reference | SL-VALID-202",
+              "page": 1,
+              "bbox": [
+                0.08235294117647059,
+                0.2693824228028504,
+                0.8138991596638656,
+                0.28036817102137773
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Nominal device power capacity | 900000 mW",
+              "page": 1,
+              "bbox": [
+                0.08235294117647059,
+                0.32163895486935873,
+                0.7961512605042016,
+                0.33262470308788605
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Voltage applied to supply terminals | 24 V DC",
+              "page": 1,
+              "bbox": [
+                0.08235294117647059,
+                0.37389548693586705,
+                0.7690588235294118,
+                0.3848812351543944
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Nominal current demand | 2 A AC",
+              "page": 1,
+              "bbox": [
+                0.08235294117647059,
+                0.4261520190023753,
+                0.7587899159663866,
+                0.4371377672209026
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Transport crate gross weight | 12 kg",
+              "page": 1,
+              "bbox": [
+                0.08235294117647059,
+                0.4784085510688836,
+                0.7466554621848739,
+                0.4893942992874109
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Maximum storage ambient | 95 C",
+              "page": 1,
+              "bbox": [
+                0.08235294117647059,
+                0.530665083135392,
+                0.7410420168067228,
+                0.5416508313539192
+              ],
+              "precision": "cell"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "width": 595.0,
+          "height": 842.0,
+          "lines": [
+            {
+              "text": "SPECLEDGER / EQUIPMENT DATA",
+              "page": 2,
+              "bbox": [
+                0.06722689075630252,
+                0.0355368171021378,
+                0.6574857142857142,
+                0.058606888361045106
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "SELF-AUTHORED TEST FIXTURE - NOT A MANUFACTURER DOCUMENT",
+              "page": 2,
+              "bbox": [
+                0.06722689075630252,
+                0.07817102137767226,
+                0.6470756302521012,
+                0.08915676959619959
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "valid-02 / Mechanical attributes",
+              "page": 2,
+              "bbox": [
+                0.06722689075630252,
+                0.15280997624703094,
+                0.3902168067226892,
+                0.16709144893111644
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Parameter | Value",
+              "page": 2,
+              "bbox": [
+                0.08235294117647059,
+                0.21712589073634211,
+                0.7503865546218488,
+                0.2281116389548694
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Device-only mass | 4 lb",
+              "page": 2,
+              "bbox": [
+                0.08235294117647059,
+                0.2693824228028504,
+                0.7326386554621849,
+                0.28036817102137773
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Thermal ceiling while operating | 65 C",
+              "page": 2,
+              "bbox": [
+                0.08235294117647059,
+                0.32163895486935873,
+                0.7410420168067228,
+                0.33262470308788605
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Enclosure ingress classification | IP65",
+              "page": 2,
+              "bbox": [
+                0.08235294117647059,
+                0.37389548693586705,
+                0.7401176470588235,
+                0.3848812351543944
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Voltage delivered to the load | 12 V DC",
+              "page": 2,
+              "bbox": [
+                0.08235294117647059,
+                0.4261520190023753,
+                0.7690588235294118,
+                0.4371377672209026
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Current available at output | 4 A DC",
+              "page": 2,
+              "bbox": [
+                0.08235294117647059,
+                0.4784085510688836,
+                0.7597142857142858,
+                0.4893942992874109
+              ],
+              "precision": "cell"
+            }
+          ]
+        }
+      ],
+      "parse_ms": 1295.79
+    },
+    {
+      "id": "valid-03",
+      "pdf_sha256": "8eb84e624657329391ed54b83ad8c1d7ce02c362ec3317168df91bdcdd130000",
+      "error": null,
+      "pages": [
+        {
+          "number": 1,
+          "width": 595.0,
+          "height": 842.0,
+          "lines": [
+            {
+              "text": "SPECLEDGER / EQUIPMENT DATA",
+              "page": 1,
+              "bbox": [
+                0.061624649859943974,
+                0.029691211401425176,
+                0.6627450980392157,
+                0.05938242280285035
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "SELF-AUTHORED TEST FIXTURE - NOT A MANUFACTURER DOCUMENT",
+              "page": 1,
+              "bbox": [
+                0.06554621848739496,
+                0.07521773555027716,
+                0.6481792717086835,
+                0.08946951702296124
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "valid-03 Electrical attributes",
+              "page": 1,
+              "bbox": [
+                0.06106442577030813,
+                0.14568487727632617,
+                0.3742296918767507,
+                0.171021377672209
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Product type identifier: SL-VALID-203",
+              "page": 1,
+              "bbox": [
+                0.0649859943977591,
+                0.21496437054631828,
+                0.34901960784313724,
+                0.22763262074425966
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Declared nominal electrical power: 0.72 kW",
+              "page": 1,
+              "bbox": [
+                0.0649859943977591,
+                0.2668250197941409,
+                0.3915966386554622,
+                0.2810768012668251
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Electrical supply potential: 0.23 kV AC",
+              "page": 1,
+              "bbox": [
+                0.06442577030812326,
+                0.3194774346793349,
+                0.35294117647058826,
+                0.333729216152019
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Current required at power inlet: 1.25 A DC",
+              "page": 1,
+              "bbox": [
+                0.0649859943977591,
+                0.37212984956452894,
+                0.3820728291316527,
+                0.3847980997624703
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Maximum storage ambient: 95 C",
+              "page": 1,
+              "bbox": [
+                0.0649859943977591,
+                0.42319873317498025,
+                0.311484593837535,
+                0.4374505146476643
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Voltage delivered to the load: 12 V DC",
+              "page": 1,
+              "bbox": [
+                0.0649859943977591,
+                0.47624703087885983,
+                0.3540616246498599,
+                0.48931116389548696
+              ],
+              "precision": "line"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "width": 595.0,
+          "height": 842.0,
+          "lines": [
+            {
+              "text": "SPECLEDGER / EQUIPMENT DATA",
+              "page": 2,
+              "bbox": [
+                0.061624649859943974,
+                0.029691211401425176,
+                0.6627450980392157,
+                0.05938242280285035
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "SELF-AUTHORED TEST FIXTURE - NOT A MANUFACTURER DOCUMENT",
+              "page": 2,
+              "bbox": [
+                0.06554621848739496,
+                0.07521773555027716,
+                0.6481792717086835,
+                0.08946951702296124
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "valid-03 I1 Mechanical attributes",
+              "page": 2,
+              "bbox": [
+                0.06050420168067227,
+                0.1452889944576406,
+                0.39439775910364144,
+                0.17141726049089473
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Net product mass without packing: 0.0001 g",
+              "page": 2,
+              "bbox": [
+                0.06442577030812326,
+                0.21377672209026127,
+                0.39663865546218485,
+                0.22921615201900236
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Operating ambient upper bound: 176 F",
+              "page": 2,
+              "bbox": [
+                0.0649859943977591,
+                0.2676167854315123,
+                0.35910364145658263,
+                0.28068091844813925
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Rated dust and moisture protection: IP54",
+              "page": 2,
+              "bbox": [
+                0.0649859943977591,
+                0.31908155186064935,
+                0.37366946778711485,
+                0.3333333333333334
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Current available at output: 4 A DC",
+              "page": 2,
+              "bbox": [
+                0.0649859943977591,
+                0.3713380839271575,
+                0.3288515406162465,
+                0.3855898653998416
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Transport crate gross weight: 12 kg",
+              "page": 2,
+              "bbox": [
+                0.06610644257703081,
+                0.42438638163103726,
+                0.3310924369747899,
+                0.4378463974663499
+              ],
+              "precision": "line"
+            }
+          ]
+        }
+      ],
+      "parse_ms": 3875.08
+    },
+    {
+      "id": "valid-04",
+      "pdf_sha256": "ee4189d5fde6d81e9f3376add6bfdfd27931b436b80085c453fe0a65c45c9b5a",
+      "error": null,
+      "pages": [
+        {
+          "number": 1,
+          "width": 595.0,
+          "height": 842.0,
+          "lines": [
+            {
+              "text": "SPECLEDGER / EQUIPMENT DATA",
+              "page": 1,
+              "bbox": [
+                0.06722689075630252,
+                0.0355368171021378,
+                0.6574857142857142,
+                0.058606888361045106
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "SELF-AUTHORED TEST FIXTURE - NOT A MANUFACTURER DOCUMENT",
+              "page": 1,
+              "bbox": [
+                0.06722689075630252,
+                0.07817102137767226,
+                0.6470756302521012,
+                0.08915676959619959
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "valid-04 / Electrical attributes",
+              "page": 1,
+              "bbox": [
+                0.06722689075630252,
+                0.15280997624703094,
+                0.3695915966386556,
+                0.16709144893111644
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Parameter | Value",
+              "page": 1,
+              "bbox": [
+                0.08235294117647059,
+                0.21712589073634211,
+                0.7503865546218488,
+                0.2281116389548694
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Commercial type reference | SL-VALID-204",
+              "page": 1,
+              "bbox": [
+                0.08235294117647059,
+                0.2693824228028504,
+                0.8138991596638656,
+                0.28036817102137773
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Equipment nominal power level | 850 W",
+              "page": 1,
+              "bbox": [
+                0.08235294117647059,
+                0.32163895486935873,
+                0.7541176470588236,
+                0.33262470308788605
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Required mains potential | 120 V AC",
+              "page": 1,
+              "bbox": [
+                0.08235294117647059,
+                0.37389548693586705,
+                0.7774789915966387,
+                0.3848812351543944
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Electrical input current demand | 600 mA AC",
+              "page": 1,
+              "bbox": [
+                0.08235294117647059,
+                0.4261520190023753,
+                0.7914789915966387,
+                0.4371377672209026
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Voltage delivered to the load | 12 V DC",
+              "page": 1,
+              "bbox": [
+                0.08235294117647059,
+                0.4784085510688836,
+                0.7690588235294118,
+                0.4893942992874109
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Current available at output | 4 A DC",
+              "page": 1,
+              "bbox": [
+                0.08235294117647059,
+                0.530665083135392,
+                0.7597142857142858,
+                0.5416508313539192
+              ],
+              "precision": "cell"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "width": 595.0,
+          "height": 842.0,
+          "lines": [
+            {
+              "text": "SPECLEDGER / EQUIPMENT DATA",
+              "page": 2,
+              "bbox": [
+                0.06722689075630252,
+                0.0355368171021378,
+                0.6574857142857142,
+                0.058606888361045106
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "SELF-AUTHORED TEST FIXTURE - NOT A MANUFACTURER DOCUMENT",
+              "page": 2,
+              "bbox": [
+                0.06722689075630252,
+                0.07817102137767226,
+                0.6470756302521012,
+                0.08915676959619959
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "valid-04 / Mechanical attributes",
+              "page": 2,
+              "bbox": [
+                0.06722689075630252,
+                0.15280997624703094,
+                0.3902168067226892,
+                0.16709144893111644
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Parameter | Value",
+              "page": 2,
+              "bbox": [
+                0.08235294117647059,
+                0.21712589073634211,
+                0.7503865546218488,
+                0.2281116389548694
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Equipment mass excluding crate | 1200 g",
+              "page": 2,
+              "bbox": [
+                0.08235294117647059,
+                0.2693824228028504,
+                0.7569411764705882,
+                0.28036817102137773
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Highest permissible working ambient | 70 C",
+              "page": 2,
+              "bbox": [
+                0.08235294117647059,
+                0.32163895486935873,
+                0.7410420168067228,
+                0.33262470308788605
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Ingress resistance designation | IP65",
+              "page": 2,
+              "bbox": [
+                0.08235294117647059,
+                0.37389548693586705,
+                0.7401176470588235,
+                0.3848812351543944
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Transport crate gross weight | 12 kg",
+              "page": 2,
+              "bbox": [
+                0.08235294117647059,
+                0.4261520190023753,
+                0.7466554621848739,
+                0.4371377672209026
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Maximum storage ambient | 95 C",
+              "page": 2,
+              "bbox": [
+                0.08235294117647059,
+                0.4784085510688836,
+                0.7410420168067228,
+                0.4893942992874109
+              ],
+              "precision": "cell"
+            }
+          ]
+        }
+      ],
+      "parse_ms": 1327.83
+    },
+    {
+      "id": "valid-05",
+      "pdf_sha256": "d844c6f60a3bef3beed36ee2957a14c73dfdc0e8ce1c8f5100ad5f446e115b76",
+      "error": null,
+      "pages": [
+        {
+          "number": 1,
+          "width": 595.0,
+          "height": 842.0,
+          "lines": [
+            {
+              "text": "SPECLEDGER / EQUIPMENT DATA",
+              "page": 1,
+              "bbox": [
+                0.061624649859943974,
+                0.029691211401425176,
+                0.6627450980392157,
+                0.05938242280285035
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "SELF-AUTHORED TEST FIXTURE - NOT A MANUFACTURER DOCUMENT",
+              "page": 1,
+              "bbox": [
+                0.06554621848739496,
+                0.07521773555027716,
+                0.6481792717086835,
+                0.08946951702296124
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "valid-05 Electrical attributes",
+              "page": 1,
+              "bbox": [
+                0.06050420168067227,
+                0.14568487727632617,
+                0.3742296918767507,
+                0.171021377672209
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Equipment designation code: SL-VALID-205",
+              "page": 1,
+              "bbox": [
+                0.0649859943977591,
+                0.21496437054631828,
+                0.3994397759103641,
+                0.2284243863816311
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Specified continuous wattage: 1.2 kW",
+              "page": 1,
+              "bbox": [
+                0.06554621848739496,
+                0.2672209026128266,
+                0.3495798319327731,
+                0.2814726840855107
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Rated incoming line voltage: 48000 mV DC",
+              "page": 1,
+              "bbox": [
+                0.06442577030812326,
+                0.3194774346793349,
+                0.3899159663865546,
+                0.3333333333333334
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Amperage taken from the supply: 850 mA DC",
+              "page": 1,
+              "bbox": [
+                0.0649859943977591,
+                0.37212984956452894,
+                0.4072829131652661,
+                0.386381631037213
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Current available at output: 4 A DC",
+              "page": 1,
+              "bbox": [
+                0.06610644257703081,
+                0.42438638163103726,
+                0.3288515406162465,
+                0.43705463182897863
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Transport crate gross weight: 12 kg",
+              "page": 1,
+              "bbox": [
+                0.0649859943977591,
+                0.47585114806017415,
+                0.3322128851540616,
+                0.49089469517022966
+              ],
+              "precision": "line"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "width": 595.0,
+          "height": 842.0,
+          "lines": [
+            {
+              "text": "SPECLEDGER / EQUIPMENT DATA",
+              "page": 2,
+              "bbox": [
+                0.061624649859943974,
+                0.029691211401425176,
+                0.6627450980392157,
+                0.05938242280285035
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "SELF-AUTHORED TEST FIXTURE - NOT A MANUFACTURER DOCUMENT",
+              "page": 2,
+              "bbox": [
+                0.06554621848739496,
+                0.07521773555027716,
+                0.6481792717086835,
+                0.08946951702296124
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "valid-05 Mechanical attributes",
+              "page": 2,
+              "bbox": [
+                0.06050420168067227,
+                0.1452889944576406,
+                0.39439775910364144,
+                0.17141726049089473
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Unboxed unit mass: 2.5 kg",
+              "page": 2,
+              "bbox": [
+                0.06554621848739496,
+                0.21456848772763257,
+                0.2672268907563025,
+                0.22882026920031667
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Upper service ambient temperature: 158 F",
+              "page": 2,
+              "bbox": [
+                0.0649859943977591,
+                0.2672209026128266,
+                0.3859943977591036,
+                0.28028503562945367
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "International ingress protection code: IP54",
+              "page": 2,
+              "bbox": [
+                0.06554621848739496,
+                0.3198733174980205,
+                0.38375350140056025,
+                0.3333333333333334
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Maximum storage ambient: 95 C",
+              "page": 2,
+              "bbox": [
+                0.0649859943977591,
+                0.37212984956452894,
+                0.31204481792717087,
+                0.3855898653998416
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Voltage delivered to the load: 12 V DC",
+              "page": 2,
+              "bbox": [
+                0.0649859943977591,
+                0.42399049881235157,
+                0.3546218487394958,
+                0.4366587490102929
+              ],
+              "precision": "line"
+            }
+          ]
+        }
+      ],
+      "parse_ms": 3935.59
+    },
+    {
+      "id": "valid-06",
+      "pdf_sha256": "350ee6d4ee6a6e2bc7952ca04f19a6297dfde2ef87a3b0cc449b5db621dc934b",
+      "error": null,
+      "pages": [
+        {
+          "number": 1,
+          "width": 595.0,
+          "height": 842.0,
+          "lines": [
+            {
+              "text": "SPECLEDGER / EQUIPMENT DATA",
+              "page": 1,
+              "bbox": [
+                0.06722689075630252,
+                0.0355368171021378,
+                0.6574857142857142,
+                0.058606888361045106
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "SELF-AUTHORED TEST FIXTURE - NOT A MANUFACTURER DOCUMENT",
+              "page": 1,
+              "bbox": [
+                0.06722689075630252,
+                0.07817102137767226,
+                0.6470756302521012,
+                0.08915676959619959
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "valid-06 / Electrical attributes",
+              "page": 1,
+              "bbox": [
+                0.06722689075630252,
+                0.15280997624703094,
+                0.3695915966386556,
+                0.16709144893111644
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Parameter | Value",
+              "page": 1,
+              "bbox": [
+                0.08235294117647059,
+                0.21712589073634211,
+                0.7503865546218488,
+                0.2281116389548694
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Ordering model reference | SL-VALID-206",
+              "page": 1,
+              "bbox": [
+                0.08235294117647059,
+                0.2693824228028504,
+                0.8138991596638656,
+                0.28036817102137773
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Nominal device power capacity | 900000 mW",
+              "page": 1,
+              "bbox": [
+                0.08235294117647059,
+                0.32163895486935873,
+                0.7961512605042016,
+                0.33262470308788605
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Voltage applied to supply terminals | 24 V DC",
+              "page": 1,
+              "bbox": [
+                0.08235294117647059,
+                0.37389548693586705,
+                0.7690588235294118,
+                0.3848812351543944
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Nominal current demand | 2 A AC",
+              "page": 1,
+              "bbox": [
+                0.08235294117647059,
+                0.4261520190023753,
+                0.7587899159663866,
+                0.4371377672209026
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Transport crate gross weight | 12 kg",
+              "page": 1,
+              "bbox": [
+                0.08235294117647059,
+                0.4784085510688836,
+                0.7466554621848739,
+                0.4893942992874109
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Maximum storage ambient | 95 C",
+              "page": 1,
+              "bbox": [
+                0.08235294117647059,
+                0.530665083135392,
+                0.7410420168067228,
+                0.5416508313539192
+              ],
+              "precision": "cell"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "width": 595.0,
+          "height": 842.0,
+          "lines": [
+            {
+              "text": "SPECLEDGER / EQUIPMENT DATA",
+              "page": 2,
+              "bbox": [
+                0.06722689075630252,
+                0.0355368171021378,
+                0.6574857142857142,
+                0.058606888361045106
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "SELF-AUTHORED TEST FIXTURE - NOT A MANUFACTURER DOCUMENT",
+              "page": 2,
+              "bbox": [
+                0.06722689075630252,
+                0.07817102137767226,
+                0.6470756302521012,
+                0.08915676959619959
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "valid-06 / Mechanical attributes",
+              "page": 2,
+              "bbox": [
+                0.06722689075630252,
+                0.15280997624703094,
+                0.3902168067226892,
+                0.16709144893111644
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Parameter | Value",
+              "page": 2,
+              "bbox": [
+                0.08235294117647059,
+                0.21712589073634211,
+                0.7503865546218488,
+                0.2281116389548694
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Device-only mass | 4 lb",
+              "page": 2,
+              "bbox": [
+                0.08235294117647059,
+                0.2693824228028504,
+                0.7326386554621849,
+                0.28036817102137773
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Thermal ceiling while operating | 65 C",
+              "page": 2,
+              "bbox": [
+                0.08235294117647059,
+                0.32163895486935873,
+                0.7410420168067228,
+                0.33262470308788605
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Enclosure ingress classification | IP65",
+              "page": 2,
+              "bbox": [
+                0.08235294117647059,
+                0.37389548693586705,
+                0.7401176470588235,
+                0.3848812351543944
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Voltage delivered to the load | 12 V DC",
+              "page": 2,
+              "bbox": [
+                0.08235294117647059,
+                0.4261520190023753,
+                0.7690588235294118,
+                0.4371377672209026
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Current available at output | 4 A DC",
+              "page": 2,
+              "bbox": [
+                0.08235294117647059,
+                0.4784085510688836,
+                0.7597142857142858,
+                0.4893942992874109
+              ],
+              "precision": "cell"
+            }
+          ]
+        }
+      ],
+      "parse_ms": 1321.64
+    },
+    {
+      "id": "valid-07",
+      "pdf_sha256": "42a65518876bad22c5bf60a9d03a2bc5fc81626f3ee03d2232112ec644c573b8",
+      "error": null,
+      "pages": [
+        {
+          "number": 1,
+          "width": 595.0,
+          "height": 842.0,
+          "lines": [
+            {
+              "text": "SPECLEDGER / EQUIPMENT DATA",
+              "page": 1,
+              "bbox": [
+                0.061624649859943974,
+                0.029691211401425176,
+                0.6627450980392157,
+                0.05938242280285035
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "SELF-AUTHORED TEST FIXTURE - NOT A MANUFACTURER DOCUMENT",
+              "page": 1,
+              "bbox": [
+                0.06554621848739496,
+                0.07521773555027716,
+                0.6481792717086835,
+                0.08946951702296124
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "valid-07 1 Electrical attributes",
+              "page": 1,
+              "bbox": [
+                0.06050420168067227,
+                0.14568487727632617,
+                0.3742296918767507,
+                0.171021377672209
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Product type identifier: SL-VALID-207",
+              "page": 1,
+              "bbox": [
+                0.0649859943977591,
+                0.21496437054631828,
+                0.34789915966386553,
+                0.22763262074425966
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Declared nominal electrical power: 0.72 kW",
+              "page": 1,
+              "bbox": [
+                0.0649859943977591,
+                0.2668250197941409,
+                0.3915966386554622,
+                0.2810768012668251
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Electrical supply potential: 0.23 kV AC",
+              "page": 1,
+              "bbox": [
+                0.06442577030812326,
+                0.3194774346793349,
+                0.35294117647058826,
+                0.333729216152019
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Current required at power inlet: 1.25 A DC",
+              "page": 1,
+              "bbox": [
+                0.0649859943977591,
+                0.37212984956452894,
+                0.3820728291316527,
+                0.3847980997624703
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Maximum storage ambient: 95 C",
+              "page": 1,
+              "bbox": [
+                0.0649859943977591,
+                0.42319873317498025,
+                0.311484593837535,
+                0.4374505146476643
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Voltage delivered to the load: 12 V DC",
+              "page": 1,
+              "bbox": [
+                0.0649859943977591,
+                0.47624703087885983,
+                0.3540616246498599,
+                0.48931116389548696
+              ],
+              "precision": "line"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "width": 595.0,
+          "height": 842.0,
+          "lines": [
+            {
+              "text": "SPECLEDGER / EQUIPMENT DATA",
+              "page": 2,
+              "bbox": [
+                0.061624649859943974,
+                0.029691211401425176,
+                0.6627450980392157,
+                0.05938242280285035
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "SELF-AUTHORED TEST FIXTURE - NOT A MANUFACTURER DOCUMENT",
+              "page": 2,
+              "bbox": [
+                0.06554621848739496,
+                0.07521773555027716,
+                0.6481792717086835,
+                0.08946951702296124
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "valid-07 Mechanical attributes",
+              "page": 2,
+              "bbox": [
+                0.06050420168067227,
+                0.1452889944576406,
+                0.39439775910364144,
+                0.17141726049089473
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Net product mass without packing: 0.0001 g",
+              "page": 2,
+              "bbox": [
+                0.06442577030812326,
+                0.21377672209026127,
+                0.39663865546218485,
+                0.22921615201900236
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Operating ambient upper bound: 176 F",
+              "page": 2,
+              "bbox": [
+                0.0649859943977591,
+                0.2676167854315123,
+                0.35910364145658263,
+                0.28068091844813925
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Rated dust and moisture protection: IP54",
+              "page": 2,
+              "bbox": [
+                0.0649859943977591,
+                0.31908155186064935,
+                0.37366946778711485,
+                0.3333333333333334
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Current available at output: 4 A DC",
+              "page": 2,
+              "bbox": [
+                0.0649859943977591,
+                0.3713380839271575,
+                0.3288515406162465,
+                0.3855898653998416
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Transport crate gross weight: 12 kg",
+              "page": 2,
+              "bbox": [
+                0.06610644257703081,
+                0.42438638163103726,
+                0.3310924369747899,
+                0.4378463974663499
+              ],
+              "precision": "line"
+            }
+          ]
+        }
+      ],
+      "parse_ms": 3854.13
+    },
+    {
+      "id": "test-00",
+      "pdf_sha256": "209145334a927f421da8bcf1ef50d248f06c92eaa2781c064617cc11b2c868cb",
+      "error": null,
+      "pages": [
+        {
+          "number": 1,
+          "width": 595.0,
+          "height": 842.0,
+          "lines": [
+            {
+              "text": "SPECLEDGER / EQUIPMENT DATA",
+              "page": 1,
+              "bbox": [
+                0.06722689075630252,
+                0.0355368171021378,
+                0.6574857142857142,
+                0.058606888361045106
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "SELF-AUTHORED TEST FIXTURE - NOT A MANUFACTURER DOCUMENT",
+              "page": 1,
+              "bbox": [
+                0.06722689075630252,
+                0.07817102137767226,
+                0.6470756302521012,
+                0.08915676959619959
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "test-00 / Electrical attributes",
+              "page": 1,
+              "bbox": [
+                0.06722689075630252,
+                0.15280997624703094,
+                0.35864537815126063,
+                0.16709144893111644
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Parameter | Value",
+              "page": 1,
+              "bbox": [
+                0.08235294117647059,
+                0.21712589073634211,
+                0.7503865546218488,
+                0.2281116389548694
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Catalog designation | SL-TEST-200",
+              "page": 1,
+              "bbox": [
+                0.08235294117647059,
+                0.2693824228028504,
+                0.8082857142857144,
+                0.28036817102137773
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Continuous electrical capacity | 850 W",
+              "page": 1,
+              "bbox": [
+                0.08235294117647059,
+                0.32163895486935873,
+                0.7541176470588236,
+                0.33262470308788605
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Voltage accepted by the unit | 120 V AC",
+              "page": 1,
+              "bbox": [
+                0.08235294117647059,
+                0.37389548693586705,
+                0.7774789915966387,
+                0.3848812351543944
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Incoming electrical amperage | 600 mA AC",
+              "page": 1,
+              "bbox": [
+                0.08235294117647059,
+                0.4261520190023753,
+                0.7914789915966387,
+                0.4371377672209026
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Voltage at the load terminals | 12 V DC",
+              "page": 1,
+              "bbox": [
+                0.08235294117647059,
+                0.4784085510688836,
+                0.7690588235294118,
+                0.4893942992874109
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Amperage supplied to connected equipment | 4 A DC",
+              "page": 1,
+              "bbox": [
+                0.08235294117647059,
+                0.530665083135392,
+                0.7597142857142858,
+                0.5416508313539192
+              ],
+              "precision": "cell"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "width": 595.0,
+          "height": 842.0,
+          "lines": [
+            {
+              "text": "SPECLEDGER / EQUIPMENT DATA",
+              "page": 2,
+              "bbox": [
+                0.06722689075630252,
+                0.0355368171021378,
+                0.6574857142857142,
+                0.058606888361045106
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "SELF-AUTHORED TEST FIXTURE - NOT A MANUFACTURER DOCUMENT",
+              "page": 2,
+              "bbox": [
+                0.06722689075630252,
+                0.07817102137767226,
+                0.6470756302521012,
+                0.08915676959619959
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "test-00 / Mechanical attributes",
+              "page": 2,
+              "bbox": [
+                0.06722689075630252,
+                0.15280997624703094,
+                0.3792705882352943,
+                0.16709144893111644
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Parameter | Value",
+              "page": 2,
+              "bbox": [
+                0.08235294117647059,
+                0.21712589073634211,
+                0.7503865546218488,
+                0.2281116389548694
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Uncrated product weight | 1200 g",
+              "page": 2,
+              "bbox": [
+                0.08235294117647059,
+                0.2693824228028504,
+                0.7569411764705882,
+                0.28036817102137773
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Maximum environment temperature during use | 70 C",
+              "page": 2,
+              "bbox": [
+                0.08235294117647059,
+                0.32163895486935873,
+                0.7410420168067228,
+                0.33262470308788605
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "IP degree of enclosure protection | IP65",
+              "page": 2,
+              "bbox": [
+                0.08235294117647059,
+                0.37389548693586705,
+                0.7401176470588235,
+                0.3848812351543944
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Total mass including shipping carton | 12 kg",
+              "page": 2,
+              "bbox": [
+                0.08235294117647059,
+                0.4261520190023753,
+                0.7466554621848739,
+                0.4371377672209026
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Permitted ambient during storage | 95 C",
+              "page": 2,
+              "bbox": [
+                0.08235294117647059,
+                0.4784085510688836,
+                0.7410420168067228,
+                0.4893942992874109
+              ],
+              "precision": "cell"
+            }
+          ]
+        }
+      ],
+      "parse_ms": 1366.37
+    },
+    {
+      "id": "test-01",
+      "pdf_sha256": "ccea5cc641b20a97173cfa42a3d347ea3f29d1e6336975747e9adebfd3864cc6",
+      "error": null,
+      "pages": [
+        {
+          "number": 1,
+          "width": 595.0,
+          "height": 842.0,
+          "lines": [
+            {
+              "text": "SPECLEDGER / EQUIPMENT DATA",
+              "page": 1,
+              "bbox": [
+                0.061624649859943974,
+                0.029691211401425176,
+                0.6627450980392157,
+                0.05938242280285035
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "SELF-AUTHORED TEST FIXTURE - NOT A MANUFACTURER DOCUMENT",
+              "page": 1,
+              "bbox": [
+                0.06554621848739496,
+                0.07521773555027716,
+                0.6481792717086835,
+                0.08946951702296124
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "test-01 Electrical attributes",
+              "page": 1,
+              "bbox": [
+                0.06218487394957983,
+                0.14647664291369758,
+                0.3630252100840336,
+                0.17062549485352332
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Device ordering code: SL-TEST-201",
+              "page": 1,
+              "bbox": [
+                0.06554621848739496,
+                0.21456848772763257,
+                0.3378151260504202,
+                0.2284243863816311
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Wattage at nominal duty: 1.2 kW",
+              "page": 1,
+              "bbox": [
+                0.06554621848739496,
+                0.2676167854315123,
+                0.31092436974789917,
+                0.28068091844813925
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Voltage for energizing the device: 48000 mV DC",
+              "page": 1,
+              "bbox": [
+                0.06554621848739496,
+                0.3194774346793349,
+                0.42857142857142855,
+                0.333729216152019
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Mains current requirement: 850 mA DC",
+              "page": 1,
+              "bbox": [
+                0.0649859943977591,
+                0.37212984956452894,
+                0.3607843137254902,
+                0.385193982581156
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Amperage supplied to connected equipment: 4 A DC",
+              "page": 1,
+              "bbox": [
+                0.0649859943977591,
+                0.42399049881235157,
+                0.4610644257703082,
+                0.43824228028503565
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Total mass including shipping carton: 12 kg",
+              "page": 1,
+              "bbox": [
+                0.0649859943977591,
+                0.47585114806017415,
+                0.39103641456582633,
+                0.49089469517022966
+              ],
+              "precision": "line"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "width": 595.0,
+          "height": 842.0,
+          "lines": [
+            {
+              "text": "SPECLEDGER / EQUIPMENT DATA",
+              "page": 2,
+              "bbox": [
+                0.061624649859943974,
+                0.029691211401425176,
+                0.6627450980392157,
+                0.05938242280285035
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "SELF-AUTHORED TEST FIXTURE - NOT A MANUFACTURER DOCUMENT",
+              "page": 2,
+              "bbox": [
+                0.06554621848739496,
+                0.07521773555027716,
+                0.6481792717086835,
+                0.08946951702296124
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "test-01 1 Mechanical attributes",
+              "page": 2,
+              "bbox": [
+                0.061624649859943974,
+                0.14489311163895488,
+                0.38375350140056025,
+                0.1718131433095803
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Weight excluding transport packaging: 2.5 kg",
+              "page": 2,
+              "bbox": [
+                0.0649859943977591,
+                0.214172604908947,
+                0.40448179271708684,
+                0.22961203483768808
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Maximum ambient for continuous use: 158 F",
+              "page": 2,
+              "bbox": [
+                0.06554621848739496,
+                0.2672209026128266,
+                0.4005602240896359,
+                0.28028503562945367
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Dust and water ingress marking: IP54",
+              "page": 2,
+              "bbox": [
+                0.06554621848739496,
+                0.31908155186064935,
+                0.34845938375350144,
+                0.3333333333333334
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Permitted ambient during storage: 95 C",
+              "page": 2,
+              "bbox": [
+                0.06554621848739496,
+                0.37212984956452894,
+                0.3619047619047619,
+                0.3855898653998416
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Minimum temperature for operation: -10 C",
+              "page": 2,
+              "bbox": [
+                0.06554621848739496,
+                0.42399049881235157,
+                0.3815126050420168,
+                0.4374505146476643
+              ],
+              "precision": "line"
+            }
+          ]
+        }
+      ],
+      "parse_ms": 4069.41
+    },
+    {
+      "id": "test-02",
+      "pdf_sha256": "1be89ec11daad60b5ccf185c6132d6eceee53c342ddad6c56a5269a480a25728",
+      "error": null,
+      "pages": [
+        {
+          "number": 1,
+          "width": 842.0,
+          "height": 595.0,
+          "lines": [
+            {
+              "text": "SPECLEDGER / EQUIPMENT DATA",
+              "page": 1,
+              "bbox": [
+                0.047505938242280284,
+                0.050289075630252145,
+                0.46461282660332537,
+                0.08293613445378148
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "SELF-AUTHORED TEST FIXTURE - NOT A MANUFACTURER DOCUMENT",
+              "page": 1,
+              "bbox": [
+                0.047505938242280284,
+                0.11062184873949588,
+                0.45725653206650857,
+                0.12616806722689083
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "test-02 / Electrical attributes",
+              "page": 1,
+              "bbox": [
+                0.047505938242280284,
+                0.2162453781512605,
+                0.2534370546318291,
+                0.2364554621848739
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Parameter | Value",
+              "page": 1,
+              "bbox": [
+                0.05819477434679335,
+                0.30726050420168066,
+                0.7414726840855105,
+                0.3228067226890756
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Article type reference | SL-TEST-202",
+              "page": 1,
+              "bbox": [
+                0.05819477434679335,
+                0.38121008403361345,
+                0.7823871733966743,
+                0.3967563025210084
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Power under rated operation | 900000 mW",
+              "page": 1,
+              "bbox": [
+                0.05819477434679335,
+                0.4551596638655462,
+                0.7738123515439427,
+                0.47070588235294114
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Power input potential | 24 V DC",
+              "page": 1,
+              "bbox": [
+                0.05819477434679335,
+                0.529109243697479,
+                0.7546674584323039,
+                0.5446554621848739
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Current taken from supply terminals | 2 A AC",
+              "page": 1,
+              "bbox": [
+                0.05819477434679335,
+                0.6030588235294118,
+                0.7474109263657955,
+                0.6186050420168067
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Total mass including shipping carton | 12 kg",
+              "page": 1,
+              "bbox": [
+                0.05819477434679335,
+                0.6770084033613445,
+                0.7388361045130639,
+                0.6925546218487395
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Permitted ambient during storage | 95 C",
+              "page": 1,
+              "bbox": [
+                0.05819477434679335,
+                0.7509579831932773,
+                0.7348693586698336,
+                0.7665042016806722
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Printed values and units are authoritative; unresolved fields require human review.",
+              "page": 1,
+              "bbox": [
+                0.047505938242280284,
+                0.9219126050420168,
+                0.43603444180522594,
+                0.9359042016806723
+              ],
+              "precision": "line"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "width": 842.0,
+          "height": 595.0,
+          "lines": [
+            {
+              "text": "SPECLEDGER / EQUIPMENT DATA",
+              "page": 2,
+              "bbox": [
+                0.047505938242280284,
+                0.050289075630252145,
+                0.46461282660332537,
+                0.08293613445378148
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "SELF-AUTHORED TEST FIXTURE - NOT A MANUFACTURER DOCUMENT",
+              "page": 2,
+              "bbox": [
+                0.047505938242280284,
+                0.11062184873949588,
+                0.45725653206650857,
+                0.12616806722689083
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "test-02 / Mechanical attributes",
+              "page": 2,
+              "bbox": [
+                0.047505938242280284,
+                0.2162453781512605,
+                0.2680118764845607,
+                0.2364554621848739
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Parameter | Value",
+              "page": 2,
+              "bbox": [
+                0.05819477434679335,
+                0.30726050420168066,
+                0.7414726840855105,
+                0.3228067226890756
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Weight of unpackaged equipment | 4 lb",
+              "page": 2,
+              "bbox": [
+                0.05819477434679335,
+                0.38121008403361345,
+                0.7289311163895486,
+                0.3967563025210084
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Highest temperature permitted in service | 65 C",
+              "page": 2,
+              "bbox": [
+                0.05819477434679335,
+                0.4551596638655462,
+                0.7348693586698336,
+                0.47070588235294114
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Enclosure sealing IP classification | IP65",
+              "page": 2,
+              "bbox": [
+                0.05819477434679335,
+                0.529109243697479,
+                0.7342161520190021,
+                0.5446554621848739
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Minimum temperature for operation | -10 C",
+              "page": 2,
+              "bbox": [
+                0.05819477434679335,
+                0.6030588235294118,
+                0.7388242280285034,
+                0.6186050420168067
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Serial identifier of individual unit | SN-TEST-991",
+              "page": 2,
+              "bbox": [
+                0.05819477434679335,
+                0.6770084033613445,
+                0.784358669833729,
+                0.6925546218487395
+              ],
+              "precision": "cell"
+            }
+          ]
+        }
+      ],
+      "parse_ms": 1376.26
+    },
+    {
+      "id": "test-03",
+      "pdf_sha256": "b5bd25f54bd7ab39ace3aad3fe8b8a72d2d7cc74d2ace9c90894ee2fe71c9b9a",
+      "error": null,
+      "pages": [
+        {
+          "number": 1,
+          "width": 595.0,
+          "height": 842.0,
+          "lines": [
+            {
+              "text": "SPECLEDGER/ EQUIPMENT DATA",
+              "page": 1,
+              "bbox": [
+                0.06106442577030813,
+                0.028899445764053885,
+                0.6638655462184874,
+                0.05977830562153607
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "SELF-AUTHORED TEST FIXTURE - NOT A MANUFACTURER DOCUMENT",
+              "page": 1,
+              "bbox": [
+                0.06554621848739496,
+                0.07521773555027716,
+                0.6487394957983194,
+                0.08907363420427554
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "test-03 1 Electrical attributes",
+              "page": 1,
+              "bbox": [
+                0.061624649859943974,
+                0.1476642913697546,
+                0.3630252100840336,
+                0.16864608076009502
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Parameter | Value",
+              "page": 1,
+              "bbox": [
+                0.07843137254901962,
+                0.2121931908155186,
+                0.7540616246498599,
+                0.2300079176563737
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Equipment type marking | SL-TEST-203",
+              "page": 1,
+              "bbox": [
+                0.07899159663865546,
+                0.26563737133808396,
+                0.8106442577030812,
+                0.2826603325415677
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Declared rated wattage | 0.72 kW",
+              "page": 1,
+              "bbox": [
+                0.07787114845938374,
+                0.31749802058590654,
+                0.7714285714285715,
+                0.33452098178939027
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Required voltage at mains connection | 0.23 kV AC",
+              "page": 1,
+              "bbox": [
+                0.07899159663865546,
+                0.37054631828978624,
+                0.7932773109243697,
+                0.386381631037213
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Amperage drawn by the device | 1.25 A DC",
+              "page": 1,
+              "bbox": [
+                0.07843137254901962,
+                0.42280285035629456,
+                0.7865546218487395,
+                0.43824228028503565
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Permitted ambient during storage | 95 C",
+              "page": 1,
+              "bbox": [
+                0.07787114845938374,
+                0.4734758511480601,
+                0.746218487394958,
+                0.4916864608076009
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Minimum temperature for operation | -10 C",
+              "page": 1,
+              "bbox": [
+                0.07843137254901962,
+                0.5257323832145685,
+                0.7512605042016807,
+                0.5431512272367379
+              ],
+              "precision": "cell"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "width": 595.0,
+          "height": 842.0,
+          "lines": [
+            {
+              "text": "SPECLEDGER/ EQUIPMENT DATA",
+              "page": 2,
+              "bbox": [
+                0.06106442577030813,
+                0.028899445764053885,
+                0.6638655462184874,
+                0.05977830562153607
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "SELF-AUTHORED TEST FIXTURE - NOT A MANUFACTURER DOCUMENT",
+              "page": 2,
+              "bbox": [
+                0.06554621848739496,
+                0.07521773555027716,
+                0.6487394957983194,
+                0.08907363420427554
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "test-03 1 Mechanical attributes",
+              "page": 2,
+              "bbox": [
+                0.06106442577030813,
+                0.14647664291369758,
+                0.38375350140056025,
+                0.16983372921615203
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Parameter | Value",
+              "page": 2,
+              "bbox": [
+                0.07787114845938374,
+                0.21258907363420426,
+                0.7546218487394958,
+                0.22961203483768805
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Mass excluding shipping materials | 0.0001 g",
+              "page": 2,
+              "bbox": [
+                0.07843137254901962,
+                0.2640538400633412,
+                0.7747899159663866,
+                0.2830562153602533
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Hot-end operating temperature limit | 176 F",
+              "page": 2,
+              "bbox": [
+                0.07843137254901962,
+                0.3171021377672209,
+                0.7535014005602241,
+                0.3341250989707047
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Protection against solid and liquid ingress | IP54",
+              "page": 2,
+              "bbox": [
+                0.07787114845938374,
+                0.3693586698337292,
+                0.7445378151260504,
+                0.3867775138558986
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Serial identifier of individual unit | SN-TEST-991",
+              "page": 2,
+              "bbox": [
+                0.07899159663865546,
+                0.42280285035629456,
+                0.8117647058823529,
+                0.4366587490102929
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Voltage at the load terminals | 12 V DC",
+              "page": 2,
+              "bbox": [
+                0.07843137254901962,
+                0.47426761678543156,
+                0.7725490196078432,
+                0.49049881235154397
+              ],
+              "precision": "cell"
+            }
+          ]
+        }
+      ],
+      "parse_ms": 4654.06
+    },
+    {
+      "id": "test-04",
+      "pdf_sha256": "0a4cee5fd698a5b0c2c9602fc32958d434c6e04d3a010cb3143eb8827a56613d",
+      "error": null,
+      "pages": [
+        {
+          "number": 1,
+          "width": 595.0,
+          "height": 842.0,
+          "lines": [
+            {
+              "text": "SPECLEDGER / EQUIPMENT DATA",
+              "page": 1,
+              "bbox": [
+                0.06722689075630252,
+                0.0355368171021378,
+                0.6574857142857142,
+                0.058606888361045106
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "SELF-AUTHORED TEST FIXTURE - NOT A MANUFACTURER DOCUMENT",
+              "page": 1,
+              "bbox": [
+                0.06722689075630252,
+                0.07817102137767226,
+                0.6470756302521012,
+                0.08915676959619959
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "test-04 / Electrical attributes",
+              "page": 1,
+              "bbox": [
+                0.06722689075630252,
+                0.15280997624703094,
+                0.35864537815126063,
+                0.16709144893111644
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Product family designation: SL-TEST-204",
+              "page": 1,
+              "bbox": [
+                0.06722689075630252,
+                0.21712589073634211,
+                0.37640336134453783,
+                0.2281116389548694
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Device electrical power rating: 850 W",
+              "page": 1,
+              "bbox": [
+                0.06722689075630252,
+                0.2693824228028504,
+                0.3446218487394959,
+                0.28036817102137773
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Incoming supply voltage: 120 V AC",
+              "page": 1,
+              "bbox": [
+                0.06722689075630252,
+                0.32163895486935873,
+                0.32878991596638657,
+                0.33262470308788605
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Current consumed at rated load: 600 mA AC",
+              "page": 1,
+              "bbox": [
+                0.06722689075630252,
+                0.37389548693586705,
+                0.39884033613445385,
+                0.3848812351543944
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Minimum temperature for operation: -10 C",
+              "page": 1,
+              "bbox": [
+                0.06722689075630252,
+                0.4261520190023753,
+                0.38011764705882367,
+                0.4371377672209026
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Serial identifier of individual unit: SN-TEST-991",
+              "page": 1,
+              "bbox": [
+                0.06722689075630252,
+                0.4784085510688836,
+                0.4184201680672269,
+                0.4893942992874109
+              ],
+              "precision": "line"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "width": 595.0,
+          "height": 842.0,
+          "lines": [
+            {
+              "text": "SPECLEDGER / EQUIPMENT DATA",
+              "page": 2,
+              "bbox": [
+                0.06722689075630252,
+                0.0355368171021378,
+                0.6574857142857142,
+                0.058606888361045106
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "SELF-AUTHORED TEST FIXTURE - NOT A MANUFACTURER DOCUMENT",
+              "page": 2,
+              "bbox": [
+                0.06722689075630252,
+                0.07817102137767226,
+                0.6470756302521012,
+                0.08915676959619959
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "test-04 / Mechanical attributes",
+              "page": 2,
+              "bbox": [
+                0.06722689075630252,
+                0.15280997624703094,
+                0.3792705882352943,
+                0.16709144893111644
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Bare unit mass: 1200 g",
+              "page": 2,
+              "bbox": [
+                0.06722689075630252,
+                0.21712589073634211,
+                0.24005042016806724,
+                0.2281116389548694
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Permitted ambient maximum in operation: 70 C",
+              "page": 2,
+              "bbox": [
+                0.06722689075630252,
+                0.2693824228028504,
+                0.41842016806722704,
+                0.28036817102137773
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Ingress protection marking on housing: IP65",
+              "page": 2,
+              "bbox": [
+                0.06722689075630252,
+                0.32163895486935873,
+                0.39605042016806735,
+                0.33262470308788605
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Voltage at the load terminals: 12 V DC",
+              "page": 2,
+              "bbox": [
+                0.06722689075630252,
+                0.37389548693586705,
+                0.3530756302521009,
+                0.3848812351543944
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Amperage supplied to connected equipment: 4 A DC",
+              "page": 2,
+              "bbox": [
+                0.06722689075630252,
+                0.4261520190023753,
+                0.4595798319327733,
+                0.4371377672209026
+              ],
+              "precision": "line"
+            }
+          ]
+        }
+      ],
+      "parse_ms": 451.7
+    },
+    {
+      "id": "test-05",
+      "pdf_sha256": "b7e23b03577a5878323aa90298dc72c15b6d478c0b9eb259e92c1122b041b069",
+      "error": null,
+      "pages": [
+        {
+          "number": 1,
+          "width": 842.0,
+          "height": 595.0,
+          "lines": [
+            {
+              "text": "SPECLEDGER/ EQUIPMENT DATA",
+              "page": 1,
+              "bbox": [
+                0.04354711005542359,
+                0.04145658263305316,
+                0.4687252573238322,
+                0.08459383753501407
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "SELF-AUTHORED TEST FIXTURE - NOT A MANUFACTURER DOCUMENT",
+              "page": 1,
+              "bbox": [
+                0.045922406967537605,
+                0.10644257703081239,
+                0.4580364212193191,
+                0.12661064425770316
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "test-05 1 Electrical attributes",
+              "page": 1,
+              "bbox": [
+                0.04315122723673793,
+                0.20840336134453782,
+                0.25653206650831356,
+                0.24033613445378152
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Parameter | Value",
+              "page": 1,
+              "bbox": [
+                0.05509156342640059,
+                0.29967679576713496,
+                0.7454504887451752,
+                0.32626050847585125
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Nameplate type code | SL-TEST-205",
+              "page": 1,
+              "bbox": [
+                0.056030188867806065,
+                0.3761049671333377,
+                0.7848727723859363,
+                0.398701122294621
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Nameplate wattage | 1.2 kW",
+              "page": 1,
+              "bbox": [
+                0.05509156342640059,
+                0.44921016746542364,
+                0.7506129611416271,
+                0.47380010353750884
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Potential across power inlet | 48000 mV DC",
+              "page": 1,
+              "bbox": [
+                0.05509156342640059,
+                0.522979975681679,
+                0.7867500262890934,
+                0.5469053295146182
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Supply-side current | 850 mA DC",
+              "page": 1,
+              "bbox": [
+                0.056030188867806065,
+                0.5960851674654237,
+                0.7740785866055523,
+                0.6206751206341912
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Serial identifier of individual unit | SN-TEST-991",
+              "page": 1,
+              "bbox": [
+                0.05509156342640059,
+                0.6711841572566527,
+                0.7862806886505345,
+                0.694444911753764
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Voltage at the load terminals | 12 V DC",
+              "page": 1,
+              "bbox": [
+                0.055560875392016776,
+                0.7442893661370799,
+                0.7581219284287163,
+                0.769543901544993
+              ],
+              "precision": "cell"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "width": 842.0,
+          "height": 595.0,
+          "lines": [
+            {
+              "text": "SPECLEDGER/ EQUIPMENT DATA",
+              "page": 2,
+              "bbox": [
+                0.04354711005542359,
+                0.04089635854341743,
+                0.4691211401425178,
+                0.0851540616246498
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "SELF-AUTHORED TEST FIXTURE - NOT A MANUFACTURER DOCUMENT",
+              "page": 2,
+              "bbox": [
+                0.04631828978622328,
+                0.10700280112044812,
+                0.4580364212193191,
+                0.12605042016806722
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "test-05 1 Mechanical attributes",
+              "page": 2,
+              "bbox": [
+                0.04315122723673793,
+                0.20616246498599444,
+                0.2711797307996833,
+                0.24145658263305317
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Parameter | Value",
+              "page": 2,
+              "bbox": [
+                0.05531544507918429,
+                0.29944510152693893,
+                0.7457312601290331,
+                0.32742966510334603
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Device weight without carton | 2.5 kg",
+              "page": 2,
+              "bbox": [
+                0.05531544507918429,
+                0.3729859338755034,
+                0.7457312601290331,
+                0.40292290011707804
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Upper working ambient rating | 158 F",
+              "page": 2,
+              "bbox": [
+                0.05578415901625052,
+                0.4471775599888393,
+                0.7447938413159393,
+                0.475162127839417
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "IP grade of equipment housing | IP54",
+              "page": 2,
+              "bbox": [
+                0.05437801720505184,
+                0.5213691946505163,
+                0.7377631518921961,
+                0.5474013384650736
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Amperage supplied to connected equipment | 4 A DC",
+              "page": 2,
+              "bbox": [
+                0.05531544507918429,
+                0.5955608122155112,
+                0.7513558696586747,
+                0.6215929731267507
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Total mass including shipping carton | 12 kg",
+              "page": 2,
+              "bbox": [
+                0.05531544507918429,
+                0.6671492376247374,
+                0.7419815848766578,
+                0.7003402239802171
+              ],
+              "precision": "cell"
+            }
+          ]
+        }
+      ],
+      "parse_ms": 4597.59
+    },
+    {
+      "id": "test-06",
+      "pdf_sha256": "09c894dc655aed3ca0d72f002274ac746e5e54b213c810d63c132af76a71030a",
+      "error": null,
+      "pages": [
+        {
+          "number": 1,
+          "width": 595.0,
+          "height": 842.0,
+          "lines": [
+            {
+              "text": "SPECLEDGER / EQUIPMENT DATA",
+              "page": 1,
+              "bbox": [
+                0.06722689075630252,
+                0.0355368171021378,
+                0.6574857142857142,
+                0.058606888361045106
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "SELF-AUTHORED TEST FIXTURE - NOT A MANUFACTURER DOCUMENT",
+              "page": 1,
+              "bbox": [
+                0.06722689075630252,
+                0.07817102137767226,
+                0.6470756302521012,
+                0.08915676959619959
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "test-06 / Electrical attributes",
+              "page": 1,
+              "bbox": [
+                0.06722689075630252,
+                0.15280997624703094,
+                0.35864537815126063,
+                0.16709144893111644
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Parameter | Value",
+              "page": 1,
+              "bbox": [
+                0.08235294117647059,
+                0.21712589073634211,
+                0.7503865546218488,
+                0.2281116389548694
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Catalog designation | SL-TEST-206",
+              "page": 1,
+              "bbox": [
+                0.08235294117647059,
+                0.2693824228028504,
+                0.8082857142857144,
+                0.28036817102137773
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Continuous electrical capacity | 900000 mW",
+              "page": 1,
+              "bbox": [
+                0.08235294117647059,
+                0.32163895486935873,
+                0.7961512605042016,
+                0.33262470308788605
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Voltage accepted by the unit | 24 V DC",
+              "page": 1,
+              "bbox": [
+                0.08235294117647059,
+                0.37389548693586705,
+                0.7690588235294118,
+                0.3848812351543944
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Incoming electrical amperage | 2 A AC",
+              "page": 1,
+              "bbox": [
+                0.08235294117647059,
+                0.4261520190023753,
+                0.7587899159663866,
+                0.4371377672209026
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Voltage at the load terminals | 12 V DC",
+              "page": 1,
+              "bbox": [
+                0.08235294117647059,
+                0.4784085510688836,
+                0.7690588235294118,
+                0.4893942992874109
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Amperage supplied to connected equipment | 4 A DC",
+              "page": 1,
+              "bbox": [
+                0.08235294117647059,
+                0.530665083135392,
+                0.7597142857142858,
+                0.5416508313539192
+              ],
+              "precision": "cell"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "width": 595.0,
+          "height": 842.0,
+          "lines": [
+            {
+              "text": "SPECLEDGER / EQUIPMENT DATA",
+              "page": 2,
+              "bbox": [
+                0.06722689075630252,
+                0.0355368171021378,
+                0.6574857142857142,
+                0.058606888361045106
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "SELF-AUTHORED TEST FIXTURE - NOT A MANUFACTURER DOCUMENT",
+              "page": 2,
+              "bbox": [
+                0.06722689075630252,
+                0.07817102137767226,
+                0.6470756302521012,
+                0.08915676959619959
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "test-06 / Mechanical attributes",
+              "page": 2,
+              "bbox": [
+                0.06722689075630252,
+                0.15280997624703094,
+                0.3792705882352943,
+                0.16709144893111644
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Parameter | Value",
+              "page": 2,
+              "bbox": [
+                0.08235294117647059,
+                0.21712589073634211,
+                0.7503865546218488,
+                0.2281116389548694
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Uncrated product weight | 4 lb",
+              "page": 2,
+              "bbox": [
+                0.08235294117647059,
+                0.2693824228028504,
+                0.7326386554621849,
+                0.28036817102137773
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Maximum environment temperature during use | 65 C",
+              "page": 2,
+              "bbox": [
+                0.08235294117647059,
+                0.32163895486935873,
+                0.7410420168067228,
+                0.33262470308788605
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "IP degree of enclosure protection | IP65",
+              "page": 2,
+              "bbox": [
+                0.08235294117647059,
+                0.37389548693586705,
+                0.7401176470588235,
+                0.3848812351543944
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Total mass including shipping carton | 12 kg",
+              "page": 2,
+              "bbox": [
+                0.08235294117647059,
+                0.4261520190023753,
+                0.7466554621848739,
+                0.4371377672209026
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Permitted ambient during storage | 95 C",
+              "page": 2,
+              "bbox": [
+                0.08235294117647059,
+                0.4784085510688836,
+                0.7410420168067228,
+                0.4893942992874109
+              ],
+              "precision": "cell"
+            }
+          ]
+        }
+      ],
+      "parse_ms": 1390.7
+    },
+    {
+      "id": "test-07",
+      "pdf_sha256": "31650b502d439872664d2f442c10d8ecfde4e69ec031206440b1cad755d5fcc9",
+      "error": null,
+      "pages": [
+        {
+          "number": 1,
+          "width": 595.0,
+          "height": 842.0,
+          "lines": [
+            {
+              "text": "SPECLEDGER / EQUIPMENT DATA",
+              "page": 1,
+              "bbox": [
+                0.061624649859943974,
+                0.029691211401425176,
+                0.6627450980392157,
+                0.05938242280285035
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "SELF-AUTHORED TEST FIXTURE - NOT A MANUFACTURER DOCUMENT",
+              "page": 1,
+              "bbox": [
+                0.06554621848739496,
+                0.07521773555027716,
+                0.6481792717086835,
+                0.08946951702296124
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "test-07 Electrical attributes",
+              "page": 1,
+              "bbox": [
+                0.06106442577030813,
+                0.14687252573238316,
+                0.3630252100840336,
+                0.17022961203483775
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Device ordering code: SL-TEST-207",
+              "page": 1,
+              "bbox": [
+                0.0649859943977591,
+                0.21456848772763257,
+                0.33893557422969184,
+                0.22882026920031667
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Wattage at nominal duty: 0.72 kW",
+              "page": 1,
+              "bbox": [
+                0.0649859943977591,
+                0.2672209026128266,
+                0.3215686274509804,
+                0.2814726840855107
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Voltage for energizing the device: 0.23 kV AC",
+              "page": 1,
+              "bbox": [
+                0.06554621848739496,
+                0.3194774346793349,
+                0.4084033613445378,
+                0.333729216152019
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Mains current requirement: 1.25 A DC",
+              "page": 1,
+              "bbox": [
+                0.06442577030812326,
+                0.37173396674584325,
+                0.35182072829131655,
+                0.3859857482185273
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Amperage supplied to connected equipment: 4 A DC",
+              "page": 1,
+              "bbox": [
+                0.0649859943977591,
+                0.42399049881235157,
+                0.4610644257703082,
+                0.43824228028503565
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Total mass including shipping carton: 12 kg",
+              "page": 1,
+              "bbox": [
+                0.0649859943977591,
+                0.47585114806017415,
+                0.39103641456582633,
+                0.49089469517022966
+              ],
+              "precision": "line"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "width": 595.0,
+          "height": 842.0,
+          "lines": [
+            {
+              "text": "SPECLEDGER / EQUIPMENT DATA",
+              "page": 2,
+              "bbox": [
+                0.061624649859943974,
+                0.029691211401425176,
+                0.6627450980392157,
+                0.05938242280285035
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "SELF-AUTHORED TEST FIXTURE - NOT A MANUFACTURER DOCUMENT",
+              "page": 2,
+              "bbox": [
+                0.06554621848739496,
+                0.07521773555027716,
+                0.6481792717086835,
+                0.08946951702296124
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "test-07 Mechanical attributes",
+              "page": 2,
+              "bbox": [
+                0.06106442577030813,
+                0.14568487727632617,
+                0.38375350140056025,
+                0.171021377672209
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Weight excluding transport packaging: 0.0001 g",
+              "page": 2,
+              "bbox": [
+                0.06442577030812326,
+                0.21456848772763257,
+                0.4246498599439776,
+                0.22921615201900236
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Maximum ambient for continuous use: 176 F",
+              "page": 2,
+              "bbox": [
+                0.06554621848739496,
+                0.2676167854315123,
+                0.40112044817927167,
+                0.28028503562945367
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Dust and water ingress marking: IP54",
+              "page": 2,
+              "bbox": [
+                0.06610644257703081,
+                0.3194774346793349,
+                0.3473389355742297,
+                0.33293745051464757
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Permitted ambient during storage: 95 C",
+              "page": 2,
+              "bbox": [
+                0.06442577030812326,
+                0.3713380839271575,
+                0.36246498599439775,
+                0.3859857482185273
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Minimum temperature for operation: -10 C",
+              "page": 2,
+              "bbox": [
+                0.06554621848739496,
+                0.42399049881235157,
+                0.3815126050420168,
+                0.4374505146476643
+              ],
+              "precision": "line"
+            }
+          ]
+        }
+      ],
+      "parse_ms": 3975.98
+    },
+    {
+      "id": "test-08",
+      "pdf_sha256": "b8ced3944e021c9419a67b4917d92cc1967c9bc5baa4623a3b4d47d167ca78fd",
+      "error": null,
+      "pages": [
+        {
+          "number": 1,
+          "width": 842.0,
+          "height": 595.0,
+          "lines": [
+            {
+              "text": "SPECLEDGER / EQUIPMENT DATA",
+              "page": 1,
+              "bbox": [
+                0.047505938242280284,
+                0.050289075630252145,
+                0.46461282660332537,
+                0.08293613445378148
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "SELF-AUTHORED TEST FIXTURE - NOT A MANUFACTURER DOCUMENT",
+              "page": 1,
+              "bbox": [
+                0.047505938242280284,
+                0.11062184873949588,
+                0.45725653206650857,
+                0.12616806722689083
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "test-08 / Electrical attributes",
+              "page": 1,
+              "bbox": [
+                0.047505938242280284,
+                0.2162453781512605,
+                0.2534370546318291,
+                0.2364554621848739
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Parameter | Value",
+              "page": 1,
+              "bbox": [
+                0.05819477434679335,
+                0.30726050420168066,
+                0.7414726840855105,
+                0.3228067226890756
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Article type reference | SL-TEST-208",
+              "page": 1,
+              "bbox": [
+                0.05819477434679335,
+                0.38121008403361345,
+                0.7823871733966743,
+                0.3967563025210084
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Power under rated operation | 850 W",
+              "page": 1,
+              "bbox": [
+                0.05819477434679335,
+                0.4551596638655462,
+                0.744109263657957,
+                0.47070588235294114
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Power input potential | 120 V AC",
+              "page": 1,
+              "bbox": [
+                0.05819477434679335,
+                0.529109243697479,
+                0.7606175771971493,
+                0.5446554621848739
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Current taken from supply terminals | 600 mA AC",
+              "page": 1,
+              "bbox": [
+                0.05819477434679335,
+                0.6030588235294118,
+                0.7705106888361042,
+                0.6186050420168067
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Total mass including shipping carton | 12 kg",
+              "page": 1,
+              "bbox": [
+                0.05819477434679335,
+                0.6770084033613445,
+                0.7388361045130639,
+                0.6925546218487395
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Permitted ambient during storage | 95 C",
+              "page": 1,
+              "bbox": [
+                0.05819477434679335,
+                0.7509579831932773,
+                0.7348693586698336,
+                0.7665042016806722
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Printed values and units are authoritative; unresolved fields require human review.",
+              "page": 1,
+              "bbox": [
+                0.047505938242280284,
+                0.9219126050420168,
+                0.43603444180522594,
+                0.9359042016806723
+              ],
+              "precision": "line"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "width": 842.0,
+          "height": 595.0,
+          "lines": [
+            {
+              "text": "SPECLEDGER / EQUIPMENT DATA",
+              "page": 2,
+              "bbox": [
+                0.047505938242280284,
+                0.050289075630252145,
+                0.46461282660332537,
+                0.08293613445378148
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "SELF-AUTHORED TEST FIXTURE - NOT A MANUFACTURER DOCUMENT",
+              "page": 2,
+              "bbox": [
+                0.047505938242280284,
+                0.11062184873949588,
+                0.45725653206650857,
+                0.12616806722689083
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "test-08 / Mechanical attributes",
+              "page": 2,
+              "bbox": [
+                0.047505938242280284,
+                0.2162453781512605,
+                0.2680118764845607,
+                0.2364554621848739
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Parameter | Value",
+              "page": 2,
+              "bbox": [
+                0.05819477434679335,
+                0.30726050420168066,
+                0.7414726840855105,
+                0.3228067226890756
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Weight of unpackaged equipment | 1200 g",
+              "page": 2,
+              "bbox": [
+                0.05819477434679335,
+                0.38121008403361345,
+                0.7461045130641326,
+                0.3967563025210084
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Highest temperature permitted in service | 70 C",
+              "page": 2,
+              "bbox": [
+                0.05819477434679335,
+                0.4551596638655462,
+                0.7348693586698336,
+                0.47070588235294114
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Enclosure sealing IP classification | IP65",
+              "page": 2,
+              "bbox": [
+                0.05819477434679335,
+                0.529109243697479,
+                0.7342161520190021,
+                0.5446554621848739
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Minimum temperature for operation | -10 C",
+              "page": 2,
+              "bbox": [
+                0.05819477434679335,
+                0.6030588235294118,
+                0.7388242280285034,
+                0.6186050420168067
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Serial identifier of individual unit | SN-TEST-991",
+              "page": 2,
+              "bbox": [
+                0.05819477434679335,
+                0.6770084033613445,
+                0.784358669833729,
+                0.6925546218487395
+              ],
+              "precision": "cell"
+            }
+          ]
+        }
+      ],
+      "parse_ms": 1482.42
+    },
+    {
+      "id": "test-09",
+      "pdf_sha256": "4537214adf9daf5fa6372c92db209d6a4c267fc2f141a27a344a9382ee64e5bd",
+      "error": null,
+      "pages": [
+        {
+          "number": 1,
+          "width": 595.0,
+          "height": 842.0,
+          "lines": [
+            {
+              "text": "SPECLEDGER/ EQUIPMENT DATA",
+              "page": 1,
+              "bbox": [
+                0.06106442577030813,
+                0.028899445764053885,
+                0.6638655462184874,
+                0.05977830562153607
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "SELF-AUTHORED TEST FIXTURE - NOT A MANUFACTURER DOCUMENT",
+              "page": 1,
+              "bbox": [
+                0.06554621848739496,
+                0.07521773555027716,
+                0.6487394957983194,
+                0.08907363420427554
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "test-09 1 Electrical attributes",
+              "page": 1,
+              "bbox": [
+                0.06106442577030813,
+                0.1476642913697546,
+                0.3630252100840336,
+                0.16864608076009502
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Parameter | Value",
+              "page": 1,
+              "bbox": [
+                0.07843137254901962,
+                0.2121931908155186,
+                0.7540616246498599,
+                0.2300079176563737
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Equipment type marking | SL-TEST-209",
+              "page": 1,
+              "bbox": [
+                0.07899159663865546,
+                0.26563737133808396,
+                0.8100840336134454,
+                0.2826603325415677
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Declared rated wattage | 1.2 kW",
+              "page": 1,
+              "bbox": [
+                0.07787114845938374,
+                0.3178939034045923,
+                0.7619047619047619,
+                0.33452098178939027
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Required voltage at mains connection | 48000 mV DC",
+              "page": 1,
+              "bbox": [
+                0.07899159663865546,
+                0.37054631828978624,
+                0.8140056022408964,
+                0.386381631037213
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Amperage drawn by the device | 850 mA DC",
+              "page": 1,
+              "bbox": [
+                0.07843137254901962,
+                0.4224069675376088,
+                0.7955182072829131,
+                0.43824228028503565
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Permitted ambient during storage | 95 C",
+              "page": 1,
+              "bbox": [
+                0.07787114845938374,
+                0.4734758511480601,
+                0.746218487394958,
+                0.4916864608076009
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Minimum temperature for operation | -10 C",
+              "page": 1,
+              "bbox": [
+                0.07843137254901962,
+                0.5257323832145685,
+                0.7512605042016807,
+                0.5431512272367379
+              ],
+              "precision": "cell"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "width": 595.0,
+          "height": 842.0,
+          "lines": [
+            {
+              "text": "SPECLEDGER/ EQUIPMENT DATA",
+              "page": 2,
+              "bbox": [
+                0.06106442577030813,
+                0.028899445764053885,
+                0.6638655462184874,
+                0.05977830562153607
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "SELF-AUTHORED TEST FIXTURE - NOT A MANUFACTURER DOCUMENT",
+              "page": 2,
+              "bbox": [
+                0.06554621848739496,
+                0.07521773555027716,
+                0.6487394957983194,
+                0.08907363420427554
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "test-09 1 Mechanical attributes",
+              "page": 2,
+              "bbox": [
+                0.06106442577030813,
+                0.1452889944576406,
+                0.38375350140056025,
+                0.17141726049089473
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Parameter | Value",
+              "page": 2,
+              "bbox": [
+                0.07787114845938374,
+                0.21258907363420426,
+                0.7546218487394958,
+                0.22961203483768805
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Mass excluding shipping materials | 2.5 kg",
+              "page": 2,
+              "bbox": [
+                0.07843137254901962,
+                0.26365795724465557,
+                0.7546218487394958,
+                0.28424386381631034
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Hot-end operating temperature limit | 158 F",
+              "page": 2,
+              "bbox": [
+                0.07843137254901962,
+                0.3171021377672209,
+                0.7529411764705882,
+                0.333729216152019
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Protection against solid and liquid ingress | IP54",
+              "page": 2,
+              "bbox": [
+                0.07787114845938374,
+                0.3693586698337292,
+                0.7445378151260504,
+                0.3867775138558986
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Serial identifier of individual unit | SN-TEST-991",
+              "page": 2,
+              "bbox": [
+                0.07899159663865546,
+                0.42280285035629456,
+                0.8117647058823529,
+                0.4366587490102929
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Voltage at the load terminals | 12 V DC",
+              "page": 2,
+              "bbox": [
+                0.07843137254901962,
+                0.47387173396674587,
+                0.7719887955182072,
+                0.49049881235154397
+              ],
+              "precision": "cell"
+            }
+          ]
+        }
+      ],
+      "parse_ms": 4809.51
+    },
+    {
+      "id": "test-10",
+      "pdf_sha256": "d6b30397a5db54e055c99ff53ff4435301a95d59f29cb01c6766c30ab8573803",
+      "error": null,
+      "pages": [
+        {
+          "number": 1,
+          "width": 595.0,
+          "height": 842.0,
+          "lines": [
+            {
+              "text": "SPECLEDGER / EQUIPMENT DATA",
+              "page": 1,
+              "bbox": [
+                0.06722689075630252,
+                0.0355368171021378,
+                0.6574857142857142,
+                0.058606888361045106
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "SELF-AUTHORED TEST FIXTURE - NOT A MANUFACTURER DOCUMENT",
+              "page": 1,
+              "bbox": [
+                0.06722689075630252,
+                0.07817102137767226,
+                0.6470756302521012,
+                0.08915676959619959
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "test-10 / Electrical attributes",
+              "page": 1,
+              "bbox": [
+                0.06722689075630252,
+                0.15280997624703094,
+                0.35864537815126063,
+                0.16709144893111644
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Product family designation: SL-TEST-210",
+              "page": 1,
+              "bbox": [
+                0.06722689075630252,
+                0.21712589073634211,
+                0.37640336134453783,
+                0.2281116389548694
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Device electrical power rating: 900000 mW",
+              "page": 1,
+              "bbox": [
+                0.06722689075630252,
+                0.2693824228028504,
+                0.3866554621848741,
+                0.28036817102137773
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Incoming supply voltage: 24 V DC",
+              "page": 1,
+              "bbox": [
+                0.06722689075630252,
+                0.32163895486935873,
+                0.3203697478991597,
+                0.33262470308788605
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Current consumed at rated load: 2 A AC",
+              "page": 1,
+              "bbox": [
+                0.06722689075630252,
+                0.37389548693586705,
+                0.3661512605042017,
+                0.3848812351543944
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Minimum temperature for operation: -10 C",
+              "page": 1,
+              "bbox": [
+                0.06722689075630252,
+                0.4261520190023753,
+                0.38011764705882367,
+                0.4371377672209026
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Serial identifier of individual unit: SN-TEST-991",
+              "page": 1,
+              "bbox": [
+                0.06722689075630252,
+                0.4784085510688836,
+                0.4184201680672269,
+                0.4893942992874109
+              ],
+              "precision": "line"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "width": 595.0,
+          "height": 842.0,
+          "lines": [
+            {
+              "text": "SPECLEDGER / EQUIPMENT DATA",
+              "page": 2,
+              "bbox": [
+                0.06722689075630252,
+                0.0355368171021378,
+                0.6574857142857142,
+                0.058606888361045106
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "SELF-AUTHORED TEST FIXTURE - NOT A MANUFACTURER DOCUMENT",
+              "page": 2,
+              "bbox": [
+                0.06722689075630252,
+                0.07817102137767226,
+                0.6470756302521012,
+                0.08915676959619959
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "test-10 / Mechanical attributes",
+              "page": 2,
+              "bbox": [
+                0.06722689075630252,
+                0.15280997624703094,
+                0.3792705882352943,
+                0.16709144893111644
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Bare unit mass: 4 lb",
+              "page": 2,
+              "bbox": [
+                0.06722689075630252,
+                0.21712589073634211,
+                0.2157478991596639,
+                0.2281116389548694
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Permitted ambient maximum in operation: 65 C",
+              "page": 2,
+              "bbox": [
+                0.06722689075630252,
+                0.2693824228028504,
+                0.41842016806722704,
+                0.28036817102137773
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Ingress protection marking on housing: IP65",
+              "page": 2,
+              "bbox": [
+                0.06722689075630252,
+                0.32163895486935873,
+                0.39605042016806735,
+                0.33262470308788605
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Voltage at the load terminals: 12 V DC",
+              "page": 2,
+              "bbox": [
+                0.06722689075630252,
+                0.37389548693586705,
+                0.3530756302521009,
+                0.3848812351543944
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Amperage supplied to connected equipment: 4 A DC",
+              "page": 2,
+              "bbox": [
+                0.06722689075630252,
+                0.4261520190023753,
+                0.4595798319327733,
+                0.4371377672209026
+              ],
+              "precision": "line"
+            }
+          ]
+        }
+      ],
+      "parse_ms": 457.37
+    },
+    {
+      "id": "test-11",
+      "pdf_sha256": "e5eda69ed1751f69b02239061e3a961adb17aa16be4d32ae764b7e4edd3da334",
+      "error": null,
+      "pages": [
+        {
+          "number": 1,
+          "width": 842.0,
+          "height": 595.0,
+          "lines": [
+            {
+              "text": "SPECLEDGER/ EQUIPMENT DATA",
+              "page": 1,
+              "bbox": [
+                0.041171813143309574,
+                0.0453781512605042,
+                0.46714172604908943,
+                0.0851540616246498
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "SELF-AUTHORED TEST FIXTURE - NOT A MANUFACTURER DOCUMENT",
+              "page": 1,
+              "bbox": [
+                0.04433887569279493,
+                0.11036414565826325,
+                0.4564528899445764,
+                0.12661064425770316
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "test-11 / Electrical attributes",
+              "page": 1,
+              "bbox": [
+                0.04288943344321595,
+                0.21486525762648812,
+                0.25408012529072643,
+                0.23859750870563062
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Parameter | Value",
+              "page": 1,
+              "bbox": [
+                0.05415293798499512,
+                0.2966096851338192,
+                0.7449811994321556,
+                0.3282526865726759
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Nameplate type code | SL-TEST-211",
+              "page": 1,
+              "bbox": [
+                0.0546222499506113,
+                0.37373949579831933,
+                0.7834648561213381,
+                0.40208635944612214
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Nameplate wattage | 0.72 kW",
+              "page": 1,
+              "bbox": [
+                0.05415293798499512,
+                0.4462547152650122,
+                0.7567140121641182,
+                0.47723850282300423
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Potential across power inlet | 0.23 kV AC",
+              "page": 1,
+              "bbox": [
+                0.055560875392016776,
+                0.5200883966867997,
+                0.7731399596539738,
+                0.5497537051930147
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Supply-side current | 1.25 A DC",
+              "page": 1,
+              "bbox": [
+                0.05509156342640059,
+                0.5939220610119048,
+                0.7684468248960807,
+                0.6242466175923493
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Serial identifier of individual unit | SN-TEST-991",
+              "page": 1,
+              "bbox": [
+                0.056030188867806065,
+                0.6690741872921043,
+                0.7867500262890934,
+                0.6961026060814951
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Voltage at the load terminals | 12 V DC",
+              "page": 1,
+              "bbox": [
+                0.05649950083342225,
+                0.7422486377363445,
+                0.7585912660672753,
+                0.7705955184808299
+              ],
+              "precision": "cell"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "width": 842.0,
+          "height": 595.0,
+          "lines": [
+            {
+              "text": "SPECLEDGER/ EQUIPMENT DATA",
+              "page": 2,
+              "bbox": [
+                0.041171813143309574,
+                0.0453781512605042,
+                0.46714172604908943,
+                0.0851540616246498
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "SELF-AUTHORED TEST FIXTURE - NOT A MANUFACTURER DOCUMENT",
+              "page": 2,
+              "bbox": [
+                0.04433887569279493,
+                0.11036414565826325,
+                0.4564528899445764,
+                0.12661064425770316
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "test-11 / Mechanical attributes",
+              "page": 2,
+              "bbox": [
+                0.04335874616391868,
+                0.21575420176615576,
+                0.2686288188774248,
+                0.2385399142567184
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Parameter | Value",
+              "page": 2,
+              "bbox": [
+                0.0546222499506113,
+                0.298184870872177,
+                0.7449811994321556,
+                0.3270020984468006
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Device weight without carton | 0.0001 g",
+              "page": 2,
+              "bbox": [
+                0.05509156342640059,
+                0.3698928448332458,
+                0.7590605553802949,
+                0.4013907467283789
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Upper working ambient rating | 176 F",
+              "page": 2,
+              "bbox": [
+                0.05509156342640059,
+                0.44562184737176114,
+                0.7445118617935966,
+                0.47711973217021175
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "IP grade of equipment housing | IP54",
+              "page": 2,
+              "bbox": [
+                0.0546222499506113,
+                0.5180000027354691,
+                0.7384108107711056,
+                0.5501680603882179
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Amperage supplied to connected equipment | 4 A DC",
+              "page": 2,
+              "bbox": [
+                0.05509156342640059,
+                0.5930588153230042,
+                0.7520208774062253,
+                0.6232163715095413
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Total mass including shipping carton | 12 kg",
+              "page": 2,
+              "bbox": [
+                0.055560875392016776,
+                0.6647667807357318,
+                0.7431039455289984,
+                0.6982751840970763
+              ],
+              "precision": "cell"
+            }
+          ]
+        }
+      ],
+      "parse_ms": 3603.61
+    },
+    {
+      "id": "test-12",
+      "pdf_sha256": "e77ddc2f1e50e5773eb5a889ac58ade6900b9721b57bdfd8fa180b62a5899004",
+      "error": null,
+      "pages": [
+        {
+          "number": 1,
+          "width": 595.0,
+          "height": 842.0,
+          "lines": [
+            {
+              "text": "SPECLEDGER / EQUIPMENT DATA",
+              "page": 1,
+              "bbox": [
+                0.06722689075630252,
+                0.0355368171021378,
+                0.6574857142857142,
+                0.058606888361045106
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "SELF-AUTHORED TEST FIXTURE - NOT A MANUFACTURER DOCUMENT",
+              "page": 1,
+              "bbox": [
+                0.06722689075630252,
+                0.07817102137767226,
+                0.6470756302521012,
+                0.08915676959619959
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "test-12 / Electrical attributes",
+              "page": 1,
+              "bbox": [
+                0.06722689075630252,
+                0.15280997624703094,
+                0.35864537815126063,
+                0.16709144893111644
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Parameter | Value",
+              "page": 1,
+              "bbox": [
+                0.08235294117647059,
+                0.21712589073634211,
+                0.7503865546218488,
+                0.2281116389548694
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Catalog designation | SL-TEST-212",
+              "page": 1,
+              "bbox": [
+                0.08235294117647059,
+                0.2693824228028504,
+                0.8082857142857144,
+                0.28036817102137773
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Continuous electrical capacity | 18 hp",
+              "page": 1,
+              "bbox": [
+                0.08235294117647059,
+                0.32163895486935873,
+                0.7475966386554622,
+                0.33262470308788605
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Voltage accepted by the unit | 120 V AC",
+              "page": 1,
+              "bbox": [
+                0.08235294117647059,
+                0.37389548693586705,
+                0.7774789915966387,
+                0.3848812351543944
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Incoming electrical amperage | 600 mA AC",
+              "page": 1,
+              "bbox": [
+                0.08235294117647059,
+                0.4261520190023753,
+                0.7914789915966387,
+                0.4371377672209026
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Voltage at the load terminals | 12 V DC",
+              "page": 1,
+              "bbox": [
+                0.08235294117647059,
+                0.4784085510688836,
+                0.7690588235294118,
+                0.4893942992874109
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Amperage supplied to connected equipment | 4 A DC",
+              "page": 1,
+              "bbox": [
+                0.08235294117647059,
+                0.530665083135392,
+                0.7597142857142858,
+                0.5416508313539192
+              ],
+              "precision": "cell"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "width": 595.0,
+          "height": 842.0,
+          "lines": [
+            {
+              "text": "SPECLEDGER / EQUIPMENT DATA",
+              "page": 2,
+              "bbox": [
+                0.06722689075630252,
+                0.0355368171021378,
+                0.6574857142857142,
+                0.058606888361045106
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "SELF-AUTHORED TEST FIXTURE - NOT A MANUFACTURER DOCUMENT",
+              "page": 2,
+              "bbox": [
+                0.06722689075630252,
+                0.07817102137767226,
+                0.6470756302521012,
+                0.08915676959619959
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "test-12 / Mechanical attributes",
+              "page": 2,
+              "bbox": [
+                0.06722689075630252,
+                0.15280997624703094,
+                0.3792705882352943,
+                0.16709144893111644
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Parameter | Value",
+              "page": 2,
+              "bbox": [
+                0.08235294117647059,
+                0.21712589073634211,
+                0.7503865546218488,
+                0.2281116389548694
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Uncrated product weight | 1200 g",
+              "page": 2,
+              "bbox": [
+                0.08235294117647059,
+                0.2693824228028504,
+                0.7569411764705882,
+                0.28036817102137773
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Maximum environment temperature during use | 70 C",
+              "page": 2,
+              "bbox": [
+                0.08235294117647059,
+                0.32163895486935873,
+                0.7410420168067228,
+                0.33262470308788605
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "IP degree of enclosure protection | IP65",
+              "page": 2,
+              "bbox": [
+                0.08235294117647059,
+                0.37389548693586705,
+                0.7401176470588235,
+                0.3848812351543944
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Total mass including shipping carton | 12 kg",
+              "page": 2,
+              "bbox": [
+                0.08235294117647059,
+                0.4261520190023753,
+                0.7466554621848739,
+                0.4371377672209026
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Permitted ambient during storage | 95 C",
+              "page": 2,
+              "bbox": [
+                0.08235294117647059,
+                0.4784085510688836,
+                0.7410420168067228,
+                0.4893942992874109
+              ],
+              "precision": "cell"
+            }
+          ]
+        }
+      ],
+      "parse_ms": 1391.39
+    },
+    {
+      "id": "test-13",
+      "pdf_sha256": "0332b5e482ffd3e3eac8c957f2dd12aaa42e8acac7319ca90617ff673f1347f7",
+      "error": null,
+      "pages": [
+        {
+          "number": 1,
+          "width": 595.0,
+          "height": 842.0,
+          "lines": [
+            {
+              "text": "SPECLEDGER / EQUIPMENT DATA",
+              "page": 1,
+              "bbox": [
+                0.061624649859943974,
+                0.029691211401425176,
+                0.6627450980392157,
+                0.05938242280285035
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "SELF-AUTHORED TEST FIXTURE - NOT A MANUFACTURER DOCUMENT",
+              "page": 1,
+              "bbox": [
+                0.06554621848739496,
+                0.07521773555027716,
+                0.6481792717086835,
+                0.08946951702296124
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "test-13 Electrical attributes",
+              "page": 1,
+              "bbox": [
+                0.06218487394957983,
+                0.14726840855106887,
+                0.3630252100840336,
+                0.16983372921615203
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Device ordering code: SL-TEST-213",
+              "page": 1,
+              "bbox": [
+                0.0649859943977591,
+                0.21456848772763257,
+                0.3400560224089636,
+                0.22882026920031667
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Wattage at nominal duty: 1.2 kW",
+              "page": 1,
+              "bbox": [
+                0.06554621848739496,
+                0.2672209026128266,
+                0.31092436974789917,
+                0.28028503562945367
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Voltage for energizing the device: 220-240 V AC",
+              "page": 1,
+              "bbox": [
+                0.06554621848739496,
+                0.3194774346793349,
+                0.42857142857142855,
+                0.333729216152019
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Mains current requirement: 850 mA DC",
+              "page": 1,
+              "bbox": [
+                0.0649859943977591,
+                0.37212984956452894,
+                0.36022408963585434,
+                0.385193982581156
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Amperage supplied to connected equipment: 4 A DC",
+              "page": 1,
+              "bbox": [
+                0.0649859943977591,
+                0.42399049881235157,
+                0.4610644257703082,
+                0.43824228028503565
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Total mass including shipping carton: 12 kg",
+              "page": 1,
+              "bbox": [
+                0.0649859943977591,
+                0.47585114806017415,
+                0.39103641456582633,
+                0.49089469517022966
+              ],
+              "precision": "line"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "width": 595.0,
+          "height": 842.0,
+          "lines": [
+            {
+              "text": "SPECLEDGER / EQUIPMENT DATA",
+              "page": 2,
+              "bbox": [
+                0.061624649859943974,
+                0.029691211401425176,
+                0.6627450980392157,
+                0.05938242280285035
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "SELF-AUTHORED TEST FIXTURE - NOT A MANUFACTURER DOCUMENT",
+              "page": 2,
+              "bbox": [
+                0.06554621848739496,
+                0.07521773555027716,
+                0.6481792717086835,
+                0.08946951702296124
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "test-13 Mechanical attributes",
+              "page": 2,
+              "bbox": [
+                0.06218487394957983,
+                0.14568487727632617,
+                0.38375350140056025,
+                0.171021377672209
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Weight excluding transport packaging: 2.5 kg",
+              "page": 2,
+              "bbox": [
+                0.0649859943977591,
+                0.214172604908947,
+                0.40448179271708684,
+                0.22961203483768808
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Maximum ambient for continuous use: 158 F",
+              "page": 2,
+              "bbox": [
+                0.06554621848739496,
+                0.2672209026128266,
+                0.4005602240896359,
+                0.28028503562945367
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Dust and water ingress marking: IP54",
+              "page": 2,
+              "bbox": [
+                0.06554621848739496,
+                0.31908155186064935,
+                0.34845938375350144,
+                0.3333333333333334
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Permitted ambient during storage: 95 C",
+              "page": 2,
+              "bbox": [
+                0.06554621848739496,
+                0.37212984956452894,
+                0.3619047619047619,
+                0.3855898653998416
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Minimum temperature for operation: -10 C",
+              "page": 2,
+              "bbox": [
+                0.06554621848739496,
+                0.42399049881235157,
+                0.3815126050420168,
+                0.4374505146476643
+              ],
+              "precision": "line"
+            }
+          ]
+        }
+      ],
+      "parse_ms": 4236.89
+    },
+    {
+      "id": "test-14",
+      "pdf_sha256": "f8d7eec404ce81147133f4269f98760f4890512bad47393947dde5621b467115",
+      "error": null,
+      "pages": [
+        {
+          "number": 1,
+          "width": 842.0,
+          "height": 595.0,
+          "lines": [
+            {
+              "text": "SPECLEDGER / EQUIPMENT DATA",
+              "page": 1,
+              "bbox": [
+                0.047505938242280284,
+                0.050289075630252145,
+                0.46461282660332537,
+                0.08293613445378148
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "SELF-AUTHORED TEST FIXTURE - NOT A MANUFACTURER DOCUMENT",
+              "page": 1,
+              "bbox": [
+                0.047505938242280284,
+                0.11062184873949588,
+                0.45725653206650857,
+                0.12616806722689083
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "test-14 / Electrical attributes",
+              "page": 1,
+              "bbox": [
+                0.047505938242280284,
+                0.2162453781512605,
+                0.2534370546318291,
+                0.2364554621848739
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Parameter | Value",
+              "page": 1,
+              "bbox": [
+                0.05819477434679335,
+                0.30726050420168066,
+                0.7414726840855105,
+                0.3228067226890756
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Article type reference | SL-TEST-214",
+              "page": 1,
+              "bbox": [
+                0.05819477434679335,
+                0.38121008403361345,
+                0.7823871733966743,
+                0.3967563025210084
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Power under rated operation | 900000 mW",
+              "page": 1,
+              "bbox": [
+                0.05819477434679335,
+                0.4551596638655462,
+                0.7738123515439427,
+                0.47070588235294114
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Power input potential | 24 V DC",
+              "page": 1,
+              "bbox": [
+                0.05819477434679335,
+                0.529109243697479,
+                0.7546674584323039,
+                0.5446554621848739
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Current taken from supply terminals | 2 A AC",
+              "page": 1,
+              "bbox": [
+                0.05819477434679335,
+                0.6030588235294118,
+                0.7474109263657955,
+                0.6186050420168067
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Total mass including shipping carton | 12 kg",
+              "page": 1,
+              "bbox": [
+                0.05819477434679335,
+                0.6770084033613445,
+                0.7388361045130639,
+                0.6925546218487395
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Permitted ambient during storage | 95 C",
+              "page": 1,
+              "bbox": [
+                0.05819477434679335,
+                0.7509579831932773,
+                0.7348693586698336,
+                0.7665042016806722
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Printed values and units are authoritative; unresolved fields require human review.",
+              "page": 1,
+              "bbox": [
+                0.047505938242280284,
+                0.9219126050420168,
+                0.43603444180522594,
+                0.9359042016806723
+              ],
+              "precision": "line"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "width": 842.0,
+          "height": 595.0,
+          "lines": [
+            {
+              "text": "SPECLEDGER / EQUIPMENT DATA",
+              "page": 2,
+              "bbox": [
+                0.047505938242280284,
+                0.050289075630252145,
+                0.46461282660332537,
+                0.08293613445378148
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "SELF-AUTHORED TEST FIXTURE - NOT A MANUFACTURER DOCUMENT",
+              "page": 2,
+              "bbox": [
+                0.047505938242280284,
+                0.11062184873949588,
+                0.45725653206650857,
+                0.12616806722689083
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "test-14 / Mechanical attributes",
+              "page": 2,
+              "bbox": [
+                0.047505938242280284,
+                0.2162453781512605,
+                0.2680118764845607,
+                0.2364554621848739
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Parameter | Value",
+              "page": 2,
+              "bbox": [
+                0.05819477434679335,
+                0.30726050420168066,
+                0.7414726840855105,
+                0.3228067226890756
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Weight of unpackaged equipment | 4 lb",
+              "page": 2,
+              "bbox": [
+                0.05819477434679335,
+                0.38121008403361345,
+                0.7289311163895486,
+                0.3967563025210084
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Highest temperature permitted in service | 65 C",
+              "page": 2,
+              "bbox": [
+                0.05819477434679335,
+                0.4551596638655462,
+                0.7348693586698336,
+                0.47070588235294114
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Enclosure sealing IP classification | IP65",
+              "page": 2,
+              "bbox": [
+                0.05819477434679335,
+                0.529109243697479,
+                0.7342161520190021,
+                0.5446554621848739
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Current taken from supply terminals | 2 A DC",
+              "page": 2,
+              "bbox": [
+                0.05819477434679335,
+                0.6030588235294118,
+                0.748064133016627,
+                0.6186050420168067
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Minimum temperature for operation | -10 C",
+              "page": 2,
+              "bbox": [
+                0.05819477434679335,
+                0.6770084033613445,
+                0.7388242280285034,
+                0.6925546218487395
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Serial identifier of individual unit | SN-TEST-991",
+              "page": 2,
+              "bbox": [
+                0.05819477434679335,
+                0.7509579831932773,
+                0.784358669833729,
+                0.7665042016806722
+              ],
+              "precision": "cell"
+            }
+          ]
+        }
+      ],
+      "parse_ms": 1531.25
+    },
+    {
+      "id": "test-15",
+      "pdf_sha256": "99b0435ded29a497f13e19a006725f6afff96b9562393e3e8ceab91be45a1fee",
+      "error": null,
+      "pages": [
+        {
+          "number": 1,
+          "width": 595.0,
+          "height": 842.0,
+          "lines": [
+            {
+              "text": "SPECLEDGER / EQUIPMENT DATA",
+              "page": 1,
+              "bbox": [
+                0.06106442577030813,
+                0.029295328582739463,
+                0.6638655462184874,
+                0.05977830562153607
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "SELF-AUTHORED TEST FIXTURE - NOT A MANUFACTURER DOCUMENT",
+              "page": 1,
+              "bbox": [
+                0.06554621848739496,
+                0.07561361836896274,
+                0.6481792717086835,
+                0.08907363420427554
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "test-15 1 Electrical attributes",
+              "page": 1,
+              "bbox": [
+                0.06218487394957983,
+                0.14726840855106887,
+                0.3630252100840336,
+                0.16864608076009502
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Parameter | Value",
+              "page": 1,
+              "bbox": [
+                0.07787114845938374,
+                0.21258907363420426,
+                0.7546218487394958,
+                0.22961203483768805
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Declared rated wattage | 0.72 kW",
+              "page": 1,
+              "bbox": [
+                0.07843137254901962,
+                0.2652414885193982,
+                0.7714285714285715,
+                0.28226444972288206
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Required voltage at mains connection | 0.23 kV AC",
+              "page": 1,
+              "bbox": [
+                0.07899159663865546,
+                0.31868566904196355,
+                0.7932773109243697,
+                0.333729216152019
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Amperage drawn by the device | 1.25 A DC",
+              "page": 1,
+              "bbox": [
+                0.07787114845938374,
+                0.3709422011084719,
+                0.7865546218487395,
+                0.3855898653998416
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Permitted ambient during storage | 95 C",
+              "page": 1,
+              "bbox": [
+                0.07787114845938374,
+                0.4212193190815518,
+                0.746218487394958,
+                0.4390340459224069
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Minimum temperature for operation | -10 C",
+              "page": 1,
+              "bbox": [
+                0.07787114845938374,
+                0.4734758511480601,
+                0.7512605042016807,
+                0.4912905779889153
+              ],
+              "precision": "cell"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "width": 595.0,
+          "height": 842.0,
+          "lines": [
+            {
+              "text": "SPECLEDGER/ EQUIPMENT DATA",
+              "page": 2,
+              "bbox": [
+                0.06106442577030813,
+                0.028899445764053885,
+                0.6638655462184874,
+                0.05977830562153607
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "SELF-AUTHORED TEST FIXTURE - NOT A MANUFACTURER DOCUMENT",
+              "page": 2,
+              "bbox": [
+                0.06554621848739496,
+                0.07521773555027716,
+                0.6487394957983194,
+                0.08907363420427554
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "test-15 Mechanical attributes",
+              "page": 2,
+              "bbox": [
+                0.061624649859943974,
+                0.14647664291369758,
+                0.38375350140056025,
+                0.16983372921615203
+              ],
+              "precision": "line"
+            },
+            {
+              "text": "Parameter | Value",
+              "page": 2,
+              "bbox": [
+                0.07787114845938374,
+                0.21258907363420426,
+                0.7546218487394958,
+                0.22961203483768805
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Mass excluding shipping materials | 0.0001 g",
+              "page": 2,
+              "bbox": [
+                0.07843137254901962,
+                0.2640538400633412,
+                0.7747899159663866,
+                0.2830562153602533
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Hot-end operating temperature limit | 176 F",
+              "page": 2,
+              "bbox": [
+                0.07843137254901962,
+                0.3171021377672209,
+                0.7535014005602241,
+                0.3341250989707047
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Protection against solid and liquid ingress | IP54",
+              "page": 2,
+              "bbox": [
+                0.07787114845938374,
+                0.3693586698337292,
+                0.7445378151260504,
+                0.3867775138558986
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Serial identifier of individual unit | SN-TEST-991",
+              "page": 2,
+              "bbox": [
+                0.07899159663865546,
+                0.42280285035629456,
+                0.8117647058823529,
+                0.4366587490102929
+              ],
+              "precision": "cell"
+            },
+            {
+              "text": "Voltage at the load terminals | 12 V DC",
+              "page": 2,
+              "bbox": [
+                0.07843137254901962,
+                0.47426761678543156,
+                0.7725490196078432,
+                0.49049881235154397
+              ],
+              "precision": "cell"
+            }
+          ]
+        }
+      ],
+      "parse_ms": 5207.26
+    }
+  ],
+  "startup_ms": 4821.49,
+  "scope": "Same actual uncached Docling/RapidOCR output reused by every mapper. One separate validation document warms models; no test-based label correction or retries."
+}

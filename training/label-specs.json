@@ -1,0 +1,42 @@
+{
+  "model": {
+    "train": ["Model", "Model number", "Product code", "Equipment model", "Type designation", "Model identifier", "Device type", "Unit model code", "Manufacturer part number", "Product identifier", "Model no.", "MPN"],
+    "valid": ["Commercial type reference", "Equipment designation code", "Ordering model reference", "Product type identifier"],
+    "test": ["Catalog designation", "Device ordering code", "Article type reference", "Equipment type marking", "Product family designation", "Nameplate type code"]
+  },
+  "power_w": {
+    "train": ["Rated power", "Power rating", "Nominal power", "Rated electrical power", "Nominal wattage", "Power capacity", "Device rated wattage", "Continuous power rating", "Nameplate power", "Electrical power", "P rated", "Pnom"],
+    "valid": ["Declared nominal electrical power", "Equipment nominal power level", "Specified continuous wattage", "Nominal device power capacity"],
+    "test": ["Nameplate wattage", "Continuous electrical capacity", "Wattage at nominal duty", "Power under rated operation", "Declared rated wattage", "Device electrical power rating"]
+  },
+  "voltage_v": {
+    "train": ["Input voltage", "Supply voltage", "Rated voltage", "Mains input voltage", "Nominal input voltage", "Operating supply voltage", "Voltage required at input", "Line voltage", "Vin", "Uin", "Input V", "Supply potential"],
+    "valid": ["Voltage applied to supply terminals", "Electrical supply potential", "Required mains potential", "Rated incoming line voltage"],
+    "test": ["Incoming supply voltage", "Potential across power inlet", "Voltage accepted by the unit", "Voltage for energizing the device", "Power input potential", "Required voltage at mains connection"]
+  },
+  "current_a": {
+    "train": ["Input current", "Rated current", "Current draw", "Supply current", "Nominal input current", "Operating input current", "Current drawn from mains", "Iin", "Input amperage", "Required supply current", "Line input current", "Rated incoming current"],
+    "valid": ["Amperage taken from the supply", "Nominal current demand", "Current required at power inlet", "Electrical input current demand"],
+    "test": ["Amperage drawn by the device", "Current consumed at rated load", "Supply-side current", "Incoming electrical amperage", "Mains current requirement", "Current taken from supply terminals"]
+  },
+  "mass_kg": {
+    "train": ["Net mass", "Weight", "Mass", "Net weight", "Device weight", "Equipment mass", "Weight without packaging", "Unpacked weight", "Unit net mass", "Bare equipment weight", "Product net weight", "Mass of device alone"],
+    "valid": ["Equipment mass excluding crate", "Unboxed unit mass", "Device-only mass", "Net product mass without packing"],
+    "test": ["Weight of unpackaged equipment", "Mass excluding shipping materials", "Bare unit mass", "Device weight without carton", "Uncrated product weight", "Weight excluding transport packaging"]
+  },
+  "max_temp_c": {
+    "train": ["Max operating temperature", "Maximum temperature", "Temperature limit", "Maximum operating ambient", "Upper operating temperature", "Max ambient operating temperature", "Highest working temperature", "Operating temperature ceiling", "Tmax operating", "Maximum service temperature", "Upper ambient limit in operation", "Maximum temperature during operation"],
+    "valid": ["Operating ambient upper bound", "Highest permissible working ambient", "Upper service ambient temperature", "Thermal ceiling while operating"],
+    "test": ["Maximum ambient for continuous use", "Highest temperature permitted in service", "Hot-end operating temperature limit", "Permitted ambient maximum in operation", "Upper working ambient rating", "Maximum environment temperature during use"]
+  },
+  "ip_rating": {
+    "train": ["Ingress protection", "IP rating", "Protection class", "Ingress protection code", "Enclosure IP code", "Dust and water protection", "IP protection grade", "Enclosure protection rating", "IP code", "International protection marking", "Dust water ingress class", "IEC 60529 rating"],
+    "valid": ["Enclosure ingress classification", "Rated dust and moisture protection", "Ingress resistance designation", "International ingress protection code"],
+    "test": ["IP degree of enclosure protection", "Dust and water ingress marking", "Enclosure sealing IP classification", "Protection against solid and liquid ingress", "Ingress protection marking on housing", "IP grade of equipment housing"]
+  },
+  "ignore": {
+    "train": ["Output voltage", "Output current", "Shipping weight", "Gross packed mass", "Storage temperature", "Minimum operating temperature", "Power factor", "Mains frequency", "Package dimensions", "Serial number", "Production lot code", "Storage temperature range"],
+    "valid": ["Voltage delivered to the load", "Current available at output", "Transport crate gross weight", "Maximum storage ambient"],
+    "test": ["Voltage at the load terminals", "Amperage supplied to connected equipment", "Total mass including shipping carton", "Permitted ambient during storage", "Minimum temperature for operation", "Serial identifier of individual unit"]
+  }
+}

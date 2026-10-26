@@ -1,0 +1,20 @@
+{
+  "python": "3.12.14",
+  "machine": "arm64",
+  "packages": {
+    "torch": "2.14.1",
+    "transformers": "5.20.2",
+    "tokenizers": "0.23.3",
+    "safetensors": "0.8.0",
+    "docling": "2.142.1",
+    "rapidocr": "3.10.0",
+    "reportlab": "4.5.1",
+    "pdfplumber": "0.11.10",
+    "pypdfium2": "5.14.0"
+  },
+  "device": "cpu",
+  "torch_threads": 2,
+  "cloud_api_requests": 0,
+  "matches_uv_lock": true,
+  "uv_lock_sha256": "bce69c9d49cae7f08eafb59768bdc9ebe3c6de67891232e17885582b59960aea"
+}

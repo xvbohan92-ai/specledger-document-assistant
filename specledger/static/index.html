@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#143c43"><title>SpecLedger · 文档数据审阅台</title>
+  <link rel="icon" href="/static/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/static/style.css"><script type="module" src="/static/app.js"></script>
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="brand" href="/"><span>▧</span> specledger<span class="brand-dot">.</span></a>
+    <p class="nav-label">DOCUMENT INTELLIGENCE</p>
+    <nav aria-label="主导航">
+      <button id="nav-review" class="nav active"><span>▤</span> 文档审阅 <small>01</small></button>
+      <button id="nav-query" class="nav"><span>⌕</span> 条件查询 <small>02</small></button>
+      <button id="nav-evaluation" class="nav"><span>▥</span> 评测与来源 <small>03</small></button>
+    </nav>
+    <div class="sidebar-note"><span class="dot"></span> LOCAL PROCESSING<p>从原文到字段。<br>每一次入库，都有依据。</p></div>
+    <div class="sidebar-footer"><span>SPECLEDGER</span><span>v0.3</span></div>
+  </aside>
+  <main>
+    <header><span class="breadcrumb">工作空间 <b>/</b> 文档数据审阅台</span><span class="header-right"><span class="dot"></span><span id="backend-label">读取后端…</span><select id="mobile-view" aria-label="页面导航"><option value="review">文档审阅</option><option value="query">条件查询</option><option value="evaluation">评测与来源</option></select><span class="avatar">SL</span></span></header>
+    <div id="error" class="error" role="alert" hidden></div>
+    <section class="page" id="review-page">
+      <div class="hero"><div><p class="eyebrow">EXTRACT. VALIDATE. TRACE.</p><h1>让文档里的数字，<span>成为可靠的数据。</span></h1><p class="subtitle">提取设备规格，核对单位与原文，审核后入库。页码和来源始终同行。</p></div><div class="hero-mark"><span>▧</span><div><strong>PDF → DATA</strong><small>LOCAL DOCUMENT WORKFLOW</small></div></div></div>
+      <div class="notice"><span>i</span><p>内置文档为自制英文设备表，不是真实厂商数据。扫描件实际使用 Docling + RapidOCR 解析；尚未验证中文和复杂任意文档。</p></div>
+      <div class="stats"><article><span>文档 / 页面</span><strong id="stat-documents">—</strong><small>保留原文件与页码</small></article><article><span>已审核入库</span><strong id="stat-approved">—</strong><small>仅这些记录可用于查询</small></article><article><span>需要复核</span><strong id="stat-review">—</strong><small>缺失、未知单位或冲突</small></article><article><span>固定字段</span><strong>07</strong><small>功率 · 电压 · 电流等</small></article></div>
+      <div class="workspace">
+        <section class="document-panel panel"><div class="panel-heading"><h2>文档队列</h2><span id="document-count" class="mono">—</span></div><div id="document-list" class="document-list"></div><details class="import-details"><summary>导入文档</summary><form id="upload-form"><label>PDF 文件<input id="pdf-file" type="file" accept="application/pdf,.pdf" required></label><label>来源说明<input id="upload-source" type="text" maxlength="1000" placeholder="来源、用途与版本说明" required></label><p class="muted">最多 20 页 / 32MB。文档在本机处理。</p><button type="submit" class="primary">上传并解析 ↗</button></form><div class="example-import"><label>或选择自制演示文档<select id="example-select" aria-label="选择演示文档"></select></label><button id="import-example" class="secondary">载入演示</button></div></details></section>
+        <section class="review-panel panel"><div class="panel-heading"><div><span class="eyebrow">FIELD REVIEW</span><h2 id="document-title">选择一份文档</h2></div><span id="document-status" class="badge">等待选择</span></div><p id="document-description" class="document-description">字段、原值与来源将显示在这里。</p><div id="processing" class="processing" role="status" hidden>正在处理文档… 首次解析需要加载本地模型。</div><div id="field-content"><div class="empty">载入文档后开始审阅。</div></div><div class="review-footer"><span id="review-note">保留原值，不自动猜测缺失数据。</span><div class="review-actions"><button id="reparse" class="secondary" disabled>重新解析</button><button id="approve" class="primary" disabled>确认并入库 ↗</button></div></div><details id="audit-details"><summary>修订与审阅记录</summary><div id="audit-content"></div></details><details id="versions-details"><summary>解析与审阅版本</summary><p class="muted">历史快照只读；重新解析生成待审版本，旧结果和人工修订保留在历史中。</p><div id="history-content"></div></details></section>
+      </div>
+      <section class="source-panel panel"><div class="panel-heading"><div><span class="eyebrow">SOURCE EVIDENCE</span><h2 id="source-title">原始文档</h2></div><div class="page-controls"><button id="previous-page" aria-label="上一页" disabled>←</button><span id="page-label">—</span><button id="next-page" aria-label="下一页" disabled>→</button></div></div><p id="evidence-description" class="document-description">点击字段查看对应页和原文位置。人工修订会单独标注。</p><div class="source-layout"><div id="page-sheet" class="page-sheet" hidden><img id="page-image" alt="原始 PDF 页面"><div id="evidence-box" class="evidence-box" hidden></div></div><div class="evidence-notes"><h3>原文与修订值</h3><div id="evidence-lines"><p class="muted">选择一个字段，检查每个原始候选值。</p></div><a id="open-pdf" class="text-link" href="#" target="_blank" rel="noopener" hidden>下载原始 PDF ↗</a></div></div></section>
+      <footer>自制语料 · 原文可追溯 · 审阅留痕 <span>DOCLING / SQLITE</span></footer>
+    </section>
+    <section class="page secondary-page" id="query-page" hidden><p class="eyebrow">QUERY VERIFIED RECORDS</p><h1>先确认数据，<span>再回答问题。</span></h1><p class="subtitle">使用带单位的条件，查询已审核入库的设备记录。每个字段均可返回原文。电压和电流可写 24 V DC；不写 AC/DC 时不限定类型。</p><section class="panel query-panel"><form id="query-form"><label>字段<select id="query-field"></select></label><label>条件<select id="query-op"><option value="<=">不超过 ≤</option><option value=">=">不低于 ≥</option><option value="=">等于 =</option></select></label><label>数值与单位<input id="query-value" value="250 W" required maxlength="100"></label><button class="primary" type="submit">查询已审核记录 ↗</button></form><div class="query-examples"><span>试着查询</span><button data-field="power_w" data-value="250 W">功率 ≤ 250 W</button><button data-field="mass_kg" data-value="3 kg">净重 ≤ 3 kg</button><button data-field="ip_rating" data-value="IP65">防护等级 IP65</button></div></section><div id="query-results" aria-live="polite"><div class="empty">先审核一份文档，再查询它的数据。</div></div></section>
+    <section class="page secondary-page" id="evaluation-page" hidden><p class="eyebrow">MEASURE WITH ITS LIMITS</p><h1>提取效果，<span>与证据一起看。</span></h1><p class="subtitle">比较文本解析与真实 OCR，保留单位错误、缺失和冲突的处理结果。</p><div id="evaluation-content"></div><section class="panel provenance"><h2>实际后端与开源来源</h2><div id="backend-details"></div><p>文档解析使用 <a href="https://github.com/docling-project/docling" target="_blank" rel="noopener">Docling</a>，本项目实现字段映射、单位归一化、校验、审阅事务、来源定位和评测。未训练或微调 OCR 模型。</p></section></section>
+  </main>
+  <dialog id="correction-dialog"><form id="correction-form"><p class="eyebrow">REVIEWED CORRECTION</p><h2 id="correction-title">修订字段</h2><p id="correction-error" class="dialog-error" role="alert" hidden></p><p class="muted">修订值将标记为人工输入，原始提取结果仍然保留。</p><label>原文值与单位<input id="correction-value" required maxlength="150" placeholder="例如 0.25 kW"></label><label>核查页码<input id="correction-page" type="number" min="1" max="20" value="1" required></label><label>修订理由<textarea id="correction-reason" required minlength="3" maxlength="500" placeholder="说明依据与修订原因"></textarea></label><div class="dialog-actions"><button id="cancel-correction" type="button" class="secondary">取消</button><button type="submit" class="primary">保存修订</button></div></form></dialog>
+<dialog id="reparse-dialog"><form id="reparse-form"><p class="eyebrow">REPROCESS ORIGINAL PDF</p><h2>使用当前后端重新解析</h2><p class="muted">旧结果和审批记录保留在历史中。新版需要重新审阅；在再次确认入库前，该文档暂不出现在当前查询中。旧人工修订不会自动覆盖新的提取结果。</p><p id="reparse-error" class="dialog-error" role="alert" hidden></p><p id="reparse-progress" class="muted" role="status" hidden>正在解析原始 PDF… 完成后将生成新的待审版本。</p><label>重新解析理由<textarea id="reparse-reason" required minlength="3" maxlength="500" placeholder="例如：切换 OCR 后重新提取扫描文档"></textarea></label><div class="dialog-actions"><button type="button" id="cancel-reparse" class="secondary">取消</button><button type="submit" class="primary">开始重新解析</button></div></form></dialog>
+<dialog id="history-dialog"><p class="eyebrow">READ-ONLY HISTORY</p><h2 id="history-title">历史版本</h2><p id="history-description" class="muted"></p><div id="history-fields"></div><div class="dialog-actions"><button id="close-history" class="primary">关闭历史版本</button></div></dialog>
+</body></html>

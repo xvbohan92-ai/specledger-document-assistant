@@ -1,0 +1,141 @@
+{
+  "training_sha256": "ff15c09cc3c5e1c96787b1caccf3ae78892a32fbca798ecddb437c7b1e77fc64",
+  "evaluation_sha256": "e1a55983b1e594fc92df5afaf3dd1f62d003b2110edc6a81750c074b104bb1c1",
+  "scope_diagnostics_sha256": "d88df94979742d5f200f509e43d253cdea41d7adf0c0b6d2c185daa33f3154ad",
+  "ocr_evidence_sha256": "f1c9786942644acd2dfdd9595bb7a728595c70c08d62d0e4970bbdee6c644ed9",
+  "csv_sha256": "8517d5502c5c581178fb3e95187faab7b7e08175d6c69c6e6ee369e82f734483",
+  "raw_summary": {
+    "rules": {
+      "documents": 16,
+      "field_correct": 1,
+      "field_total": 112,
+      "source_bound_correct": 1,
+      "accuracy": 0.008928571428571428,
+      "all_fields_correct_documents": 0,
+      "invalid_documents": 4,
+      "invalid_ready": 0,
+      "clean_documents": 12,
+      "clean_blocked": 12,
+      "ocr_errors": 0,
+      "p50_shared_parse_ms": 2567.4300000000003,
+      "p50_mapping_ms": 0.2435,
+      "digital_correct": 0,
+      "scan_correct": 1
+    },
+    "base": {
+      "documents": 16,
+      "field_correct": 54,
+      "field_total": 112,
+      "source_bound_correct": 54,
+      "accuracy": 0.48214285714285715,
+      "all_fields_correct_documents": 0,
+      "invalid_documents": 4,
+      "invalid_ready": 0,
+      "clean_documents": 12,
+      "clean_blocked": 12,
+      "ocr_errors": 0,
+      "p50_shared_parse_ms": 2567.4300000000003,
+      "p50_mapping_ms": 0.3485,
+      "digital_correct": 26,
+      "scan_correct": 28
+    },
+    "finetuned": {
+      "documents": 16,
+      "field_correct": 62,
+      "field_total": 112,
+      "source_bound_correct": 62,
+      "accuracy": 0.5535714285714286,
+      "all_fields_correct_documents": 0,
+      "invalid_documents": 4,
+      "invalid_ready": 0,
+      "clean_documents": 12,
+      "clean_blocked": 12,
+      "ocr_errors": 0,
+      "p50_shared_parse_ms": 2567.4300000000003,
+      "p50_mapping_ms": 0.3415,
+      "digital_correct": 29,
+      "scan_correct": 33
+    }
+  },
+  "component_summary": {
+    "base": {
+      "correct": 37,
+      "rows": 48,
+      "accuracy": 0.7708333333333334,
+      "macro_f1": 0.7339348151848152,
+      "distractor_false_accepts": 6
+    },
+    "finetuned": {
+      "correct": 40,
+      "rows": 48,
+      "accuracy": 0.8333333333333334,
+      "macro_f1": 0.7955794205794205,
+      "distractor_false_accepts": 6
+    }
+  },
+  "scope_summary": {
+    "valid": {
+      "rules": {
+        "documents": 8,
+        "correct": 0,
+        "total": 56,
+        "all_fields_correct": 0,
+        "invalid_ready": 0,
+        "clean_blocked": 8
+      },
+      "base": {
+        "documents": 8,
+        "correct": 42,
+        "total": 56,
+        "all_fields_correct": 0,
+        "invalid_ready": 0,
+        "clean_blocked": 8
+      },
+      "finetuned": {
+        "documents": 8,
+        "correct": 54,
+        "total": 56,
+        "all_fields_correct": 6,
+        "invalid_ready": 0,
+        "clean_blocked": 2
+      }
+    },
+    "test": {
+      "rules": {
+        "documents": 16,
+        "correct": 1,
+        "total": 112,
+        "all_fields_correct": 0,
+        "invalid_ready": 0,
+        "clean_blocked": 12
+      },
+      "base": {
+        "documents": 16,
+        "correct": 89,
+        "total": 112,
+        "all_fields_correct": 3,
+        "invalid_ready": 0,
+        "clean_blocked": 10
+      },
+      "finetuned": {
+        "documents": 16,
+        "correct": 104,
+        "total": 112,
+        "all_fields_correct": 8,
+        "invalid_ready": 0,
+        "clean_blocked": 6
+      }
+    }
+  },
+  "raw_field_delta_pp": 7.142857142857142,
+  "limits": [
+    "24 same-author synthetic 2-page PDFs, three simple layouts. 8 validation, 16 test; each balanced digital/scanned. Labels repeat across documents and vocabulary overlaps. One mildly degraded scan and four semantic/unit/missing-field problem documents. This is not an independent manufacturer-document or general OCR benchmark.",
+    "Same-author synthetic English field labels, eight closed classes. Exact label strings are disjoint, but vocabulary and schema concepts overlap; no independent annotation or unseen-vendor/OCR generalization claim. Input is label text only, never values or units.",
+    "Closed-class field mapping weights only; OCR/layout weights are unchanged.",
+    "State correctness requires the expected error type, not just any blocked or missing value.",
+    "Source-bound metric checks values/states and expected pages, not bbox accuracy.",
+    "Readiness is not approval: no record is automatically approved or published to the query table.",
+    "Mapping timing includes repeated-label caching. Shared OCR was measured once; no speedup claim."
+  ],
+  "diagnostic_limits": "Scope exclusions added after inspecting initial test failures, derived from the finite schema and validation distractors. Same guard applied to base and fine-tuned models. This is post-hoc engineering diagnosis on reused test data, not an independent held-out model gain, new training, or proof of broad safety/generalization."
+}

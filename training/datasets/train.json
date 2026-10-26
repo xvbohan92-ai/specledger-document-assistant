@@ -1,0 +1,482 @@
+[
+  {
+    "id": "train-model-0",
+    "label": "Model",
+    "field": "model"
+  },
+  {
+    "id": "train-model-1",
+    "label": "Model number",
+    "field": "model"
+  },
+  {
+    "id": "train-model-2",
+    "label": "Product code",
+    "field": "model"
+  },
+  {
+    "id": "train-model-3",
+    "label": "Equipment model",
+    "field": "model"
+  },
+  {
+    "id": "train-model-4",
+    "label": "Type designation",
+    "field": "model"
+  },
+  {
+    "id": "train-model-5",
+    "label": "Model identifier",
+    "field": "model"
+  },
+  {
+    "id": "train-model-6",
+    "label": "Device type",
+    "field": "model"
+  },
+  {
+    "id": "train-model-7",
+    "label": "Unit model code",
+    "field": "model"
+  },
+  {
+    "id": "train-model-8",
+    "label": "Manufacturer part number",
+    "field": "model"
+  },
+  {
+    "id": "train-model-9",
+    "label": "Product identifier",
+    "field": "model"
+  },
+  {
+    "id": "train-model-10",
+    "label": "Model no.",
+    "field": "model"
+  },
+  {
+    "id": "train-model-11",
+    "label": "MPN",
+    "field": "model"
+  },
+  {
+    "id": "train-power_w-0",
+    "label": "Rated power",
+    "field": "power_w"
+  },
+  {
+    "id": "train-power_w-1",
+    "label": "Power rating",
+    "field": "power_w"
+  },
+  {
+    "id": "train-power_w-2",
+    "label": "Nominal power",
+    "field": "power_w"
+  },
+  {
+    "id": "train-power_w-3",
+    "label": "Rated electrical power",
+    "field": "power_w"
+  },
+  {
+    "id": "train-power_w-4",
+    "label": "Nominal wattage",
+    "field": "power_w"
+  },
+  {
+    "id": "train-power_w-5",
+    "label": "Power capacity",
+    "field": "power_w"
+  },
+  {
+    "id": "train-power_w-6",
+    "label": "Device rated wattage",
+    "field": "power_w"
+  },
+  {
+    "id": "train-power_w-7",
+    "label": "Continuous power rating",
+    "field": "power_w"
+  },
+  {
+    "id": "train-power_w-8",
+    "label": "Nameplate power",
+    "field": "power_w"
+  },
+  {
+    "id": "train-power_w-9",
+    "label": "Electrical power",
+    "field": "power_w"
+  },
+  {
+    "id": "train-power_w-10",
+    "label": "P rated",
+    "field": "power_w"
+  },
+  {
+    "id": "train-power_w-11",
+    "label": "Pnom",
+    "field": "power_w"
+  },
+  {
+    "id": "train-voltage_v-0",
+    "label": "Input voltage",
+    "field": "voltage_v"
+  },
+  {
+    "id": "train-voltage_v-1",
+    "label": "Supply voltage",
+    "field": "voltage_v"
+  },
+  {
+    "id": "train-voltage_v-2",
+    "label": "Rated voltage",
+    "field": "voltage_v"
+  },
+  {
+    "id": "train-voltage_v-3",
+    "label": "Mains input voltage",
+    "field": "voltage_v"
+  },
+  {
+    "id": "train-voltage_v-4",
+    "label": "Nominal input voltage",
+    "field": "voltage_v"
+  },
+  {
+    "id": "train-voltage_v-5",
+    "label": "Operating supply voltage",
+    "field": "voltage_v"
+  },
+  {
+    "id": "train-voltage_v-6",
+    "label": "Voltage required at input",
+    "field": "voltage_v"
+  },
+  {
+    "id": "train-voltage_v-7",
+    "label": "Line voltage",
+    "field": "voltage_v"
+  },
+  {
+    "id": "train-voltage_v-8",
+    "label": "Vin",
+    "field": "voltage_v"
+  },
+  {
+    "id": "train-voltage_v-9",
+    "label": "Uin",
+    "field": "voltage_v"
+  },
+  {
+    "id": "train-voltage_v-10",
+    "label": "Input V",
+    "field": "voltage_v"
+  },
+  {
+    "id": "train-voltage_v-11",
+    "label": "Supply potential",
+    "field": "voltage_v"
+  },
+  {
+    "id": "train-current_a-0",
+    "label": "Input current",
+    "field": "current_a"
+  },
+  {
+    "id": "train-current_a-1",
+    "label": "Rated current",
+    "field": "current_a"
+  },
+  {
+    "id": "train-current_a-2",
+    "label": "Current draw",
+    "field": "current_a"
+  },
+  {
+    "id": "train-current_a-3",
+    "label": "Supply current",
+    "field": "current_a"
+  },
+  {
+    "id": "train-current_a-4",
+    "label": "Nominal input current",
+    "field": "current_a"
+  },
+  {
+    "id": "train-current_a-5",
+    "label": "Operating input current",
+    "field": "current_a"
+  },
+  {
+    "id": "train-current_a-6",
+    "label": "Current drawn from mains",
+    "field": "current_a"
+  },
+  {
+    "id": "train-current_a-7",
+    "label": "Iin",
+    "field": "current_a"
+  },
+  {
+    "id": "train-current_a-8",
+    "label": "Input amperage",
+    "field": "current_a"
+  },
+  {
+    "id": "train-current_a-9",
+    "label": "Required supply current",
+    "field": "current_a"
+  },
+  {
+    "id": "train-current_a-10",
+    "label": "Line input current",
+    "field": "current_a"
+  },
+  {
+    "id": "train-current_a-11",
+    "label": "Rated incoming current",
+    "field": "current_a"
+  },
+  {
+    "id": "train-mass_kg-0",
+    "label": "Net mass",
+    "field": "mass_kg"
+  },
+  {
+    "id": "train-mass_kg-1",
+    "label": "Weight",
+    "field": "mass_kg"
+  },
+  {
+    "id": "train-mass_kg-2",
+    "label": "Mass",
+    "field": "mass_kg"
+  },
+  {
+    "id": "train-mass_kg-3",
+    "label": "Net weight",
+    "field": "mass_kg"
+  },
+  {
+    "id": "train-mass_kg-4",
+    "label": "Device weight",
+    "field": "mass_kg"
+  },
+  {
+    "id": "train-mass_kg-5",
+    "label": "Equipment mass",
+    "field": "mass_kg"
+  },
+  {
+    "id": "train-mass_kg-6",
+    "label": "Weight without packaging",
+    "field": "mass_kg"
+  },
+  {
+    "id": "train-mass_kg-7",
+    "label": "Unpacked weight",
+    "field": "mass_kg"
+  },
+  {
+    "id": "train-mass_kg-8",
+    "label": "Unit net mass",
+    "field": "mass_kg"
+  },
+  {
+    "id": "train-mass_kg-9",
+    "label": "Bare equipment weight",
+    "field": "mass_kg"
+  },
+  {
+    "id": "train-mass_kg-10",
+    "label": "Product net weight",
+    "field": "mass_kg"
+  },
+  {
+    "id": "train-mass_kg-11",
+    "label": "Mass of device alone",
+    "field": "mass_kg"
+  },
+  {
+    "id": "train-max_temp_c-0",
+    "label": "Max operating temperature",
+    "field": "max_temp_c"
+  },
+  {
+    "id": "train-max_temp_c-1",
+    "label": "Maximum temperature",
+    "field": "max_temp_c"
+  },
+  {
+    "id": "train-max_temp_c-2",
+    "label": "Temperature limit",
+    "field": "max_temp_c"
+  },
+  {
+    "id": "train-max_temp_c-3",
+    "label": "Maximum operating ambient",
+    "field": "max_temp_c"
+  },
+  {
+    "id": "train-max_temp_c-4",
+    "label": "Upper operating temperature",
+    "field": "max_temp_c"
+  },
+  {
+    "id": "train-max_temp_c-5",
+    "label": "Max ambient operating temperature",
+    "field": "max_temp_c"
+  },
+  {
+    "id": "train-max_temp_c-6",
+    "label": "Highest working temperature",
+    "field": "max_temp_c"
+  },
+  {
+    "id": "train-max_temp_c-7",
+    "label": "Operating temperature ceiling",
+    "field": "max_temp_c"
+  },
+  {
+    "id": "train-max_temp_c-8",
+    "label": "Tmax operating",
+    "field": "max_temp_c"
+  },
+  {
+    "id": "train-max_temp_c-9",
+    "label": "Maximum service temperature",
+    "field": "max_temp_c"
+  },
+  {
+    "id": "train-max_temp_c-10",
+    "label": "Upper ambient limit in operation",
+    "field": "max_temp_c"
+  },
+  {
+    "id": "train-max_temp_c-11",
+    "label": "Maximum temperature during operation",
+    "field": "max_temp_c"
+  },
+  {
+    "id": "train-ip_rating-0",
+    "label": "Ingress protection",
+    "field": "ip_rating"
+  },
+  {
+    "id": "train-ip_rating-1",
+    "label": "IP rating",
+    "field": "ip_rating"
+  },
+  {
+    "id": "train-ip_rating-2",
+    "label": "Protection class",
+    "field": "ip_rating"
+  },
+  {
+    "id": "train-ip_rating-3",
+    "label": "Ingress protection code",
+    "field": "ip_rating"
+  },
+  {
+    "id": "train-ip_rating-4",
+    "label": "Enclosure IP code",
+    "field": "ip_rating"
+  },
+  {
+    "id": "train-ip_rating-5",
+    "label": "Dust and water protection",
+    "field": "ip_rating"
+  },
+  {
+    "id": "train-ip_rating-6",
+    "label": "IP protection grade",
+    "field": "ip_rating"
+  },
+  {
+    "id": "train-ip_rating-7",
+    "label": "Enclosure protection rating",
+    "field": "ip_rating"
+  },
+  {
+    "id": "train-ip_rating-8",
+    "label": "IP code",
+    "field": "ip_rating"
+  },
+  {
+    "id": "train-ip_rating-9",
+    "label": "International protection marking",
+    "field": "ip_rating"
+  },
+  {
+    "id": "train-ip_rating-10",
+    "label": "Dust water ingress class",
+    "field": "ip_rating"
+  },
+  {
+    "id": "train-ip_rating-11",
+    "label": "IEC 60529 rating",
+    "field": "ip_rating"
+  },
+  {
+    "id": "train-ignore-0",
+    "label": "Output voltage",
+    "field": "ignore"
+  },
+  {
+    "id": "train-ignore-1",
+    "label": "Output current",
+    "field": "ignore"
+  },
+  {
+    "id": "train-ignore-2",
+    "label": "Shipping weight",
+    "field": "ignore"
+  },
+  {
+    "id": "train-ignore-3",
+    "label": "Gross packed mass",
+    "field": "ignore"
+  },
+  {
+    "id": "train-ignore-4",
+    "label": "Storage temperature",
+    "field": "ignore"
+  },
+  {
+    "id": "train-ignore-5",
+    "label": "Minimum operating temperature",
+    "field": "ignore"
+  },
+  {
+    "id": "train-ignore-6",
+    "label": "Power factor",
+    "field": "ignore"
+  },
+  {
+    "id": "train-ignore-7",
+    "label": "Mains frequency",
+    "field": "ignore"
+  },
+  {
+    "id": "train-ignore-8",
+    "label": "Package dimensions",
+    "field": "ignore"
+  },
+  {
+    "id": "train-ignore-9",
+    "label": "Serial number",
+    "field": "ignore"
+  },
+  {
+    "id": "train-ignore-10",
+    "label": "Production lot code",
+    "field": "ignore"
+  },
+  {
+    "id": "train-ignore-11",
+    "label": "Storage temperature range",
+    "field": "ignore"
+  }
+]

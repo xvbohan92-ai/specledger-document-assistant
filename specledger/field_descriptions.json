@@ -1,0 +1,10 @@
+{
+  "model": "The device model identifier or equipment product part number, not a serial number or lot code.",
+  "power_w": "The equipment rated or nominal electrical power in watts, not power factor or energy consumption.",
+  "voltage_v": "The electrical input or supply voltage required to power this equipment, not output voltage.",
+  "current_a": "The electrical input or supply current drawn by this equipment, not output current.",
+  "mass_kg": "The net mass or weight of the equipment alone, excluding shipping packaging and accessories.",
+  "max_temp_c": "The maximum permitted operating ambient temperature, not storage temperature, a minimum, or a range.",
+  "ip_rating": "The equipment ingress protection IP code against dust and water, not certification or electrical insulation.",
+  "ignore": "Another specification: output electrical ratings, shipping gross weight, package size, serial number, frequency, power factor, or storage temperature."
+}

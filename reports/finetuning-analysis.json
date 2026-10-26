@@ -1,0 +1,164 @@
+{
+  "evaluation_sha256": "e1a55983b1e594fc92df5afaf3dd1f62d003b2110edc6a81750c074b104bb1c1",
+  "post_hoc_scope_sha256": "d88df94979742d5f200f509e43d253cdea41d7adf0c0b6d2c185daa33f3154ad",
+  "raw_paired": {
+    "improved": 8,
+    "regressed": 0,
+    "unchanged": 8
+  },
+  "remaining_diagnostic_field_errors": [
+    {
+      "document": "test-00",
+      "field": "model",
+      "expected": {
+        "value": "SL-TEST-200",
+        "signal": null,
+        "page": 1
+      },
+      "actual": null,
+      "correct": false,
+      "value_or_state_and_page_correct": false,
+      "issues": [
+        {
+          "field": "model",
+          "code": "missing_field",
+          "message": "\u7f3a\u5c11\u578b\u53f7"
+        }
+      ]
+    },
+    {
+      "document": "test-02",
+      "field": "model",
+      "expected": {
+        "value": "SL-TEST-202",
+        "signal": null,
+        "page": 1
+      },
+      "actual": null,
+      "correct": false,
+      "value_or_state_and_page_correct": false,
+      "issues": [
+        {
+          "field": "model",
+          "code": "missing_field",
+          "message": "\u7f3a\u5c11\u578b\u53f7"
+        }
+      ]
+    },
+    {
+      "document": "test-04",
+      "field": "current_a",
+      "expected": {
+        "exact_value": "0.6",
+        "signal": "AC",
+        "page": 1
+      },
+      "actual": null,
+      "correct": false,
+      "value_or_state_and_page_correct": false,
+      "issues": [
+        {
+          "field": "current_a",
+          "code": "missing_field",
+          "message": "\u7f3a\u5c11\u8f93\u5165\u7535\u6d41"
+        }
+      ]
+    },
+    {
+      "document": "test-06",
+      "field": "model",
+      "expected": {
+        "value": "SL-TEST-206",
+        "signal": null,
+        "page": 1
+      },
+      "actual": null,
+      "correct": false,
+      "value_or_state_and_page_correct": false,
+      "issues": [
+        {
+          "field": "model",
+          "code": "missing_field",
+          "message": "\u7f3a\u5c11\u578b\u53f7"
+        }
+      ]
+    },
+    {
+      "document": "test-08",
+      "field": "model",
+      "expected": {
+        "value": "SL-TEST-208",
+        "signal": null,
+        "page": 1
+      },
+      "actual": null,
+      "correct": false,
+      "value_or_state_and_page_correct": false,
+      "issues": [
+        {
+          "field": "model",
+          "code": "missing_field",
+          "message": "\u7f3a\u5c11\u578b\u53f7"
+        }
+      ]
+    },
+    {
+      "document": "test-10",
+      "field": "current_a",
+      "expected": {
+        "exact_value": "2",
+        "signal": "AC",
+        "page": 1
+      },
+      "actual": null,
+      "correct": false,
+      "value_or_state_and_page_correct": false,
+      "issues": [
+        {
+          "field": "current_a",
+          "code": "missing_field",
+          "message": "\u7f3a\u5c11\u8f93\u5165\u7535\u6d41"
+        }
+      ]
+    },
+    {
+      "document": "test-12",
+      "field": "model",
+      "expected": {
+        "value": "SL-TEST-212",
+        "signal": null,
+        "page": 1
+      },
+      "actual": null,
+      "correct": false,
+      "value_or_state_and_page_correct": false,
+      "issues": [
+        {
+          "field": "model",
+          "code": "missing_field",
+          "message": "\u7f3a\u5c11\u578b\u53f7"
+        }
+      ]
+    },
+    {
+      "document": "test-14",
+      "field": "model",
+      "expected": {
+        "value": "SL-TEST-214",
+        "signal": null,
+        "page": 1
+      },
+      "actual": null,
+      "correct": false,
+      "value_or_state_and_page_correct": false,
+      "issues": [
+        {
+          "field": "model",
+          "code": "missing_field",
+          "message": "\u7f3a\u5c11\u578b\u53f7"
+        }
+      ]
+    }
+  ],
+  "conclusion": "Raw SFT gains are modest and distractor rejection remains weak. Explicit scope rules help on reused data, but six normal PDFs still require review. Collect independent real documents and a new holdout before further tuning."
+}

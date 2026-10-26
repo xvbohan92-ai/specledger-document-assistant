@@ -1,0 +1,242 @@
+[
+  {
+    "id": "test-model-0",
+    "label": "Catalog designation",
+    "field": "model"
+  },
+  {
+    "id": "test-model-1",
+    "label": "Device ordering code",
+    "field": "model"
+  },
+  {
+    "id": "test-model-2",
+    "label": "Article type reference",
+    "field": "model"
+  },
+  {
+    "id": "test-model-3",
+    "label": "Equipment type marking",
+    "field": "model"
+  },
+  {
+    "id": "test-model-4",
+    "label": "Product family designation",
+    "field": "model"
+  },
+  {
+    "id": "test-model-5",
+    "label": "Nameplate type code",
+    "field": "model"
+  },
+  {
+    "id": "test-power_w-0",
+    "label": "Nameplate wattage",
+    "field": "power_w"
+  },
+  {
+    "id": "test-power_w-1",
+    "label": "Continuous electrical capacity",
+    "field": "power_w"
+  },
+  {
+    "id": "test-power_w-2",
+    "label": "Wattage at nominal duty",
+    "field": "power_w"
+  },
+  {
+    "id": "test-power_w-3",
+    "label": "Power under rated operation",
+    "field": "power_w"
+  },
+  {
+    "id": "test-power_w-4",
+    "label": "Declared rated wattage",
+    "field": "power_w"
+  },
+  {
+    "id": "test-power_w-5",
+    "label": "Device electrical power rating",
+    "field": "power_w"
+  },
+  {
+    "id": "test-voltage_v-0",
+    "label": "Incoming supply voltage",
+    "field": "voltage_v"
+  },
+  {
+    "id": "test-voltage_v-1",
+    "label": "Potential across power inlet",
+    "field": "voltage_v"
+  },
+  {
+    "id": "test-voltage_v-2",
+    "label": "Voltage accepted by the unit",
+    "field": "voltage_v"
+  },
+  {
+    "id": "test-voltage_v-3",
+    "label": "Voltage for energizing the device",
+    "field": "voltage_v"
+  },
+  {
+    "id": "test-voltage_v-4",
+    "label": "Power input potential",
+    "field": "voltage_v"
+  },
+  {
+    "id": "test-voltage_v-5",
+    "label": "Required voltage at mains connection",
+    "field": "voltage_v"
+  },
+  {
+    "id": "test-current_a-0",
+    "label": "Amperage drawn by the device",
+    "field": "current_a"
+  },
+  {
+    "id": "test-current_a-1",
+    "label": "Current consumed at rated load",
+    "field": "current_a"
+  },
+  {
+    "id": "test-current_a-2",
+    "label": "Supply-side current",
+    "field": "current_a"
+  },
+  {
+    "id": "test-current_a-3",
+    "label": "Incoming electrical amperage",
+    "field": "current_a"
+  },
+  {
+    "id": "test-current_a-4",
+    "label": "Mains current requirement",
+    "field": "current_a"
+  },
+  {
+    "id": "test-current_a-5",
+    "label": "Current taken from supply terminals",
+    "field": "current_a"
+  },
+  {
+    "id": "test-mass_kg-0",
+    "label": "Weight of unpackaged equipment",
+    "field": "mass_kg"
+  },
+  {
+    "id": "test-mass_kg-1",
+    "label": "Mass excluding shipping materials",
+    "field": "mass_kg"
+  },
+  {
+    "id": "test-mass_kg-2",
+    "label": "Bare unit mass",
+    "field": "mass_kg"
+  },
+  {
+    "id": "test-mass_kg-3",
+    "label": "Device weight without carton",
+    "field": "mass_kg"
+  },
+  {
+    "id": "test-mass_kg-4",
+    "label": "Uncrated product weight",
+    "field": "mass_kg"
+  },
+  {
+    "id": "test-mass_kg-5",
+    "label": "Weight excluding transport packaging",
+    "field": "mass_kg"
+  },
+  {
+    "id": "test-max_temp_c-0",
+    "label": "Maximum ambient for continuous use",
+    "field": "max_temp_c"
+  },
+  {
+    "id": "test-max_temp_c-1",
+    "label": "Highest temperature permitted in service",
+    "field": "max_temp_c"
+  },
+  {
+    "id": "test-max_temp_c-2",
+    "label": "Hot-end operating temperature limit",
+    "field": "max_temp_c"
+  },
+  {
+    "id": "test-max_temp_c-3",
+    "label": "Permitted ambient maximum in operation",
+    "field": "max_temp_c"
+  },
+  {
+    "id": "test-max_temp_c-4",
+    "label": "Upper working ambient rating",
+    "field": "max_temp_c"
+  },
+  {
+    "id": "test-max_temp_c-5",
+    "label": "Maximum environment temperature during use",
+    "field": "max_temp_c"
+  },
+  {
+    "id": "test-ip_rating-0",
+    "label": "IP degree of enclosure protection",
+    "field": "ip_rating"
+  },
+  {
+    "id": "test-ip_rating-1",
+    "label": "Dust and water ingress marking",
+    "field": "ip_rating"
+  },
+  {
+    "id": "test-ip_rating-2",
+    "label": "Enclosure sealing IP classification",
+    "field": "ip_rating"
+  },
+  {
+    "id": "test-ip_rating-3",
+    "label": "Protection against solid and liquid ingress",
+    "field": "ip_rating"
+  },
+  {
+    "id": "test-ip_rating-4",
+    "label": "Ingress protection marking on housing",
+    "field": "ip_rating"
+  },
+  {
+    "id": "test-ip_rating-5",
+    "label": "IP grade of equipment housing",
+    "field": "ip_rating"
+  },
+  {
+    "id": "test-ignore-0",
+    "label": "Voltage at the load terminals",
+    "field": "ignore"
+  },
+  {
+    "id": "test-ignore-1",
+    "label": "Amperage supplied to connected equipment",
+    "field": "ignore"
+  },
+  {
+    "id": "test-ignore-2",
+    "label": "Total mass including shipping carton",
+    "field": "ignore"
+  },
+  {
+    "id": "test-ignore-3",
+    "label": "Permitted ambient during storage",
+    "field": "ignore"
+  },
+  {
+    "id": "test-ignore-4",
+    "label": "Minimum temperature for operation",
+    "field": "ignore"
+  },
+  {
+    "id": "test-ignore-5",
+    "label": "Serial identifier of individual unit",
+    "field": "ignore"
+  }
+]

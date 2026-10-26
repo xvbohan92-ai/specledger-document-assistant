@@ -1,0 +1,14 @@
+name: specledger-tests
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@07a047e608db84b3d8c06cd9a7c7dcc9c355c18e
+      - run: uv python install 3.12
+      - run: uv sync --frozen --python 3.12
+      - run: uv run ruff check specledger tests training
+      - run: uv run pytest -q
+      - run: node --check --input-type=module < specledger/static/app.js
+      - run: node --test tests/value-format.test.mjs
